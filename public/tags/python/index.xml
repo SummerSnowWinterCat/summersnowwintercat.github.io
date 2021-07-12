@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on WinterCat&#39;s blog</title>
+    <link>summersnowwintercat.github.io/tags/python/</link>
+    <description>Recent content in Python on WinterCat&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 10 Sep 2018 01:20:37 +0900</lastBuildDate><atom:link href="summersnowwintercat.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python File Calculation</title>
+      <link>summersnowwintercat.github.io/post/python_file_calculation/</link>
+      <pubDate>Mon, 10 Sep 2018 01:20:37 +0900</pubDate>
+      
+      <guid>summersnowwintercat.github.io/post/python_file_calculation/</guid>
+      <description>&lt;h3 id=&#34;python-file-count-and-file-size-&#34;&gt;Python File Count and File Size ~&lt;/h3&gt;
+&lt;p&gt;変なファイルサイズと数を数えるFunctionです〜&lt;/p&gt;
+&lt;p&gt;缶GET+1だぜ！&lt;/p&gt;
+&lt;p&gt;缶GET+1だぜ！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Python MyQR Module</title>
+      <link>summersnowwintercat.github.io/post/python_myqr/</link>
+      <pubDate>Fri, 17 Aug 2018 10:30:37 +0900</pubDate>
+      
+      <guid>summersnowwintercat.github.io/post/python_myqr/</guid>
+      <description>&lt;h3 id=&#34;python-myqr-module-and-how--to-use-it-&#34;&gt;Python MyQR Module and how  to use it ~&lt;/h3&gt;
+&lt;p&gt;PythonでQRコードを作る方法〜&lt;/p&gt;
+&lt;p&gt;install MyQR!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
