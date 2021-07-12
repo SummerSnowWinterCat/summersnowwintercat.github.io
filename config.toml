@@ -1,0 +1,28 @@
+baseURL = "summersnowwintercat.github.io"
+languageCode = "ja-jp"
+title = "WinterCat's blog"
+theme = "github-style"
+googleAnalytics = ""
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "WinterCat"
+  description = "WinterCat is a cue cat in the Winter OwO"
+  github = "SummerSnowWinterCat"
+  twitter = "MovePosition"
+  #instagram = "null"
+  email = "summersnowwintercat@gmail.com"
+  url = "summersnowwintercat.github.io"
+  keywords = "blog, wintercat,japan,code,se"
+  rss = true
+  lastmod = true
+  favicon = "/images/github.png"
+  location = "Japan"
+
+  [[params.links]]
+    title = "Link"
+    href = "https://github.com/SummerSnowWinterCat"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
