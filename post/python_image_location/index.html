@@ -10,26 +10,24 @@
     <link rel="stylesheet" href='https://summersnowwintercat.github.io/css/light.css' />
     <link rel="stylesheet" href='https://summersnowwintercat.github.io/css/dark.css' />
     <link rel="stylesheet" href='https://summersnowwintercat.github.io/css/syntax.css' />
-    <title>Python MyQR Module - WinterCat&#39;s blog</title>
+    <title>Python Opencv LocationFunc-01 - WinterCat&#39;s blog</title>
     <link rel="icon" type="image/x-icon" href='https://summersnowwintercat.github.io/images/favicon.ico'>
     <meta name="theme-color" content="#1e2327">
 
     
     <meta name="description"
-  content="Python MyQR Module and how to use it ~ PythonでQRコードを作る方法〜
-install MyQR!
+  content="Python Opencv Image Location こちらの方法はいずれかもOpenCVを使用し、目標の位置を表示するためのFunctionである。
 " />
 <meta name="keywords"
   content='blog, wintercat,japan,code,se' />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="https://summersnowwintercat.github.io/post/mysql_install/" />
+<link rel="canonical" href="https://summersnowwintercat.github.io/post/python_image_location/" />
 
 
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Python MyQR Module - WinterCat&#39;s blog" />
+<meta name="twitter:title" content="Python Opencv LocationFunc-01 - WinterCat&#39;s blog" />
 <meta name="twitter:description"
-  content="Python MyQR Module and how to use it ~ PythonでQRコードを作る方法〜
-install MyQR!
+  content="Python Opencv Image Location こちらの方法はいずれかもOpenCVを使用し、目標の位置を表示するためのFunctionである。
 " />
 <meta name="twitter:site" content="https://summersnowwintercat.github.io" />
 <meta name="twitter:creator" content="" />
@@ -38,19 +36,18 @@ install MyQR!
 
 
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Python MyQR Module - WinterCat&#39;s blog">
+<meta property="og:title" content="Python Opencv LocationFunc-01 - WinterCat&#39;s blog">
 <meta property="og:description"
-  content="Python MyQR Module and how to use it ~ PythonでQRコードを作る方法〜
-install MyQR!
+  content="Python Opencv Image Location こちらの方法はいずれかもOpenCVを使用し、目標の位置を表示するためのFunctionである。
 " />
-<meta property="og:url" content="https://summersnowwintercat.github.io/post/mysql_install/" />
-<meta property="og:site_name" content="Python MyQR Module" />
+<meta property="og:url" content="https://summersnowwintercat.github.io/post/python_image_location/" />
+<meta property="og:site_name" content="Python Opencv LocationFunc-01" />
 <meta property="og:image"
   content="https://summersnowwintercat.github.io">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
 
-<meta property="article:published_time" content="2019-11-10 09:30:37 &#43;0900 JST" />
+<meta property="article:published_time" content="2021-06-29 20:31:37 &#43;0900 JST" />
 
 
 
@@ -144,18 +141,18 @@ install MyQR!
                   <span class="author">
                     <a href="https://summersnowwintercat.github.io">WinterCat</a></span><span
                     class="path-divider">/</span><strong class="css-truncate-target mr-1" style="max-width: 410px"><a
-                      href="https://summersnowwintercat.github.io/post/mysql_install/">Python MyQR Module</a></strong>
+                      href="https://summersnowwintercat.github.io/post/python_image_location/">Python Opencv LocationFunc-01</a></strong>
                 </h1>
                 <div class="note m-0">
-                  Created <relative-time datetime="Sun, 10 Nov 2019 09:30:37 &#43;0900"
+                  Created <relative-time datetime="Tue, 29 Jun 2021 20:31:37 &#43;0900"
                     class="no-wrap">
-                    Sun, 10 Nov 2019 09:30:37 &#43;0900</relative-time>
+                    Tue, 29 Jun 2021 20:31:37 &#43;0900</relative-time>
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Tue, 13 Jul 2021 02:01:56 &#43;0900"
+                  Modified <relative-time datetime="Tue, 13 Jul 2021 12:54:29 &#43;0900"
                     class="no-wrap">
-                    Tue, 13 Jul 2021 02:01:56 &#43;0900</relative-time>
+                    Tue, 13 Jul 2021 12:54:29 &#43;0900</relative-time>
                   
                 </div>
               </div>
@@ -173,20 +170,38 @@ install MyQR!
               <div class="file-header d-flex flex-md-items-center flex-items-start">
                 <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
                   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                    297 Words
+                    280 Words
                     
 
                   </div>
                   <div class="file-actions flex-order-2 pt-0">
                     
                     
-                    <a class="muted-link mr-3" href="/tags/mysql">
+                    <a class="muted-link mr-3" href="/tags/python">
                       <svg class="octicon octicon-tag" viewBox="0 0 16 16" version="1.1" width="16" height="16">
                         <path fill-rule="evenodd"
                           d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z">
                         </path>
                       </svg>
-                      MySQL
+                      Python
+                    </a>
+                    
+                    <a class="muted-link mr-3" href="/tags/opencv">
+                      <svg class="octicon octicon-tag" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+                        <path fill-rule="evenodd"
+                          d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z">
+                        </path>
+                      </svg>
+                      OpenCV
+                    </a>
+                    
+                    <a class="muted-link mr-3" href="/tags/image">
+                      <svg class="octicon octicon-tag" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+                        <path fill-rule="evenodd"
+                          d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z">
+                        </path>
+                      </svg>
+                      Image
                     </a>
                     
                     
@@ -196,32 +211,70 @@ install MyQR!
 
 
               <div class="Box-body px-5 pb-5">
-                <article class="markdown-body entry-content container-lg"><h3 id="python-myqr-module-and-how--to-use-it-">Python MyQR Module and how  to use it ~</h3>
-<p>PythonでQRコードを作る方法〜</p>
-<p>install MyQR!</p>
-<ol>
-<li>install MyQR</li>
-</ol>
-<p><code>pip install MyQR</code> or
-<code>pip3 install MyQR</code></p>
-<ol start="2">
-<li>use MyQR</li>
-</ol>
-<pre><code>from MyQR import myqr
-import os # this  import is os path support 
-		myqr.run(words='--&gt;Text input!&lt;--', # input link or text
-             version=1, # 设置容错率为最高默认边长是取决于你输入的信息的长度和使用的纠错等级；而默认纠错等级是最高级的H
-    				 level='H', # 控制纠错水平，范围是L、M、Q、H，从左到右依次升高
-   					 picture='--&gt;IMG location&lt;--',
-   					 colorized=True,#可以使产生的图片由黑白(False)变为彩色(True)的	
-             contrast=1.0,#用以调节图片的对比度，1.0 表示原始图片，更小的值表示更低对比度，更大反之。默认为1.0
-             brightness=1.0,#用来调节图片的亮度，其余用法和取值与 -con 相同
-             save_name='--&gt;save img path&lt;--', #格式 jpg bmp png gif
-             save_dir=os.getcwd() # save path control
-) ```
-</code></pre><ol start="3">
-<li>run.py</li>
-</ol></article>
+                <article class="markdown-body entry-content container-lg"><h3 id="python-opencv-image-location">Python Opencv Image Location</h3>
+<p>こちらの方法はいずれかもOpenCVを使用し、目標の位置を表示するためのFunctionである。</p>
+<blockquote>
+<p>必要とされるモジュール</p>
+</blockquote>
+<pre><code>import cv2 
+import numpy
+import pyautogui
+from matplotlib import pyplot as plt
+from PIL import Image
+import time
+import random 
+</code></pre><h4 id="func--get-multi-position">Func = get multi position</h4>
+<blockquote>
+<p>こちらの方法は目標の位置を見つけるためのFuncである</p>
+</blockquote>
+<h4 id="target--target-image-type--list-">Target = target image( type = list )</h4>
+<h4 id="screenshot---base-image-type--image-path-">Screenshot  = base image( type = image path )</h4>
+<h4 id="return--position-xy-and-base-image-marking">Return : position (x,y) and base image marking</h4>
+<pre><code># get target from screenshot or image
+
+def get_multi_position(target,screenshot):
+    screenshot_im = cv2.imread(screenshot,1)
+    # target count &gt; 1  ( if )
+    if len(target)&gt;1:
+        position = []
+        for t in target:
+            target_im = cv2.imread(t,1)
+            h,w=target_im.shape[:2]
+            result = cv2.matchTemplate(screenshot_im,target_im,cv2.TM_CCOEFF_NORMED)
+            loc = numpy.where(result&gt;0.98)
+            for i in zip(*loc[::-1]):
+                position.append(i)
+                cv2.rectangle(screenshot_im,i,(i[0]+w,i[1]+h),(0,255,255),2)
+        return position,screenshot_im
+        
+    else:
+        target_im = cv2.imread(target[0])
+        screenshot_im = cv2.imread(screenshot,1)
+        h,w=target_im.shape[:2]
+        result = cv2.matchTemplate(screenshot_im,target_im,cv2.TM_CCOEFF_NORMED)
+        loc = numpy.where(result&gt;0.98)
+        position = []
+        for i in zip(*loc[::-1]):
+            position.append(i)
+            cv2.rectangle(screenshot_im,i,(i[0]+w,i[1]+h),(0,255,255),2)
+            
+        return position,screenshot_im
+
+</code></pre><h4 id="func--absoulte-position">Func = absoulte position</h4>
+<blockquote>
+<p>こちらの方法は相対的位置から絶対的位置への転換</p>
+</blockquote>
+<h4 id="monitor--monitor-size--position--xy">monitor = monitor size , position = x,y</h4>
+<h4 id="screenshot-size--screenshot-image-size--w--h-">screenshot size = screenshot image size ( w , h )</h4>
+<pre><code>
+# position for absoulte
+def absoulte_position(monitor,position,screenshotsize):
+    # location x * screen.width / screenshot width
+     x = int(position[0]*monitor[0])/screenshotsize[0]
+     y = int(position[1]*monitor[1])/screenshotsize[1]
+     return x,y
+
+</code></pre></article>
               </div>
             </div>
           </div>

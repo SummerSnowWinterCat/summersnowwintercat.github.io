@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenCV on WinterCat&#39;s blog</title>
+    <link>https://summersnowwintercat.github.io/tags/opencv/</link>
+    <description>Recent content in OpenCV on WinterCat&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 29 Jun 2021 20:31:37 +0900</lastBuildDate><atom:link href="https://summersnowwintercat.github.io/tags/opencv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Opencv LocationFunc-01</title>
+      <link>https://summersnowwintercat.github.io/post/python_image_location/</link>
+      <pubDate>Tue, 29 Jun 2021 20:31:37 +0900</pubDate>
+      
+      <guid>https://summersnowwintercat.github.io/post/python_image_location/</guid>
+      <description>&lt;h3 id=&#34;python-opencv-image-location&#34;&gt;Python Opencv Image Location&lt;/h3&gt;
+&lt;p&gt;こちらの方法はいずれかもOpenCVを使用し、目標の位置を表示するためのFunctionである。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
