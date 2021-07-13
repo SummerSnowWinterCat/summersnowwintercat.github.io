@@ -1,0 +1,37 @@
+---
+title: "Python Opencv LocationFunc-01"
+date: 2021-06-29T20:31:37+09:00
+tags: ['Python', 'OpenCV','Image']
+---
+
+### Python Opencv Image Location
+
+<!--more-->
+
+```
+# get target from screenshot or image
+def get_multi_position(target,screenshot):
+    screenshot_im = cv2.imread(screenshot,1)
+    if len(target)>1:
+        position = []
+        for t in target:
+            target_im = cv2.imread(t,1)
+            h,w=target_im.shape[:2]
+            result = cv2.matchTemplate(screenshot_im,target_im,cv2.TM_CCOEFF_NORMED)
+            loc = numpy.where(result>0.98)
+            for i in zip(*loc[::-1]):
+                position.append(i)
+                cv2.rectangle(screenshot_im,i,(i[0]+w,i[1]+h),(0,255,255),2)
+        return position,screenshot_im
+    else:
+        target_im = cv2.imread(target[0])
+        screenshot_im = cv2.imread(screenshot,1)
+        h,w=target_im.shape[:2]
+        result = cv2.matchTemplate(screenshot_im,target_im,cv2.TM_CCOEFF_NORMED)
+        loc = numpy.where(result>0.98)
+        position = []
+        for i in zip(*loc[::-1]):
+            position.append(i)
+            cv2.rectangle(screenshot_im,i,(i[0]+w,i[1]+h),(0,255,255),2)
+        return position,screenshot_im
+```

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MySQL on WinterCat&#39;s blog</title>
+    <link>https://summersnowwintercat.github.io/tags/mysql/</link>
+    <description>Recent content in MySQL on WinterCat&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 10 Nov 2019 09:30:37 +0900</lastBuildDate><atom:link href="https://summersnowwintercat.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python MyQR Module</title>
+      <link>https://summersnowwintercat.github.io/post/mysql_install/</link>
+      <pubDate>Sun, 10 Nov 2019 09:30:37 +0900</pubDate>
+      
+      <guid>https://summersnowwintercat.github.io/post/mysql_install/</guid>
+      <description>&lt;h3 id=&#34;python-myqr-module-and-how--to-use-it-&#34;&gt;Python MyQR Module and how  to use it ~&lt;/h3&gt;
+&lt;p&gt;PythonでQRコードを作る方法〜&lt;/p&gt;
+&lt;p&gt;install MyQR!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
