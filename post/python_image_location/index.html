@@ -16,7 +16,8 @@
 
     
     <meta name="description"
-  content="Python Opencv Image Location こちらの方法はいずれかもOpenCVを使用し、目標の位置を表示するためのFunctionである。
+  content="opencv location use &amp;gt; match Template
+こちらの方法はいずれかもOpenCVを使用し、目標の位置を表示するためのFunctionである。
 " />
 <meta name="keywords"
   content='blog, wintercat,japan,code,se' />
@@ -27,7 +28,8 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Python Opencv LocationFunc-01 - WinterCat&#39;s blog" />
 <meta name="twitter:description"
-  content="Python Opencv Image Location こちらの方法はいずれかもOpenCVを使用し、目標の位置を表示するためのFunctionである。
+  content="opencv location use &amp;gt; match Template
+こちらの方法はいずれかもOpenCVを使用し、目標の位置を表示するためのFunctionである。
 " />
 <meta name="twitter:site" content="https://summersnowwintercat.github.io" />
 <meta name="twitter:creator" content="" />
@@ -38,7 +40,8 @@
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Python Opencv LocationFunc-01 - WinterCat&#39;s blog">
 <meta property="og:description"
-  content="Python Opencv Image Location こちらの方法はいずれかもOpenCVを使用し、目標の位置を表示するためのFunctionである。
+  content="opencv location use &amp;gt; match Template
+こちらの方法はいずれかもOpenCVを使用し、目標の位置を表示するためのFunctionである。
 " />
 <meta property="og:url" content="https://summersnowwintercat.github.io/post/python_image_location/" />
 <meta property="og:site_name" content="Python Opencv LocationFunc-01" />
@@ -150,9 +153,9 @@
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Tue, 13 Jul 2021 12:54:29 &#43;0900"
+                  Modified <relative-time datetime="Wed, 14 Jul 2021 02:26:41 &#43;0900"
                     class="no-wrap">
-                    Tue, 13 Jul 2021 12:54:29 &#43;0900</relative-time>
+                    Wed, 14 Jul 2021 02:26:41 &#43;0900</relative-time>
                   
                 </div>
               </div>
@@ -170,7 +173,7 @@
               <div class="file-header d-flex flex-md-items-center flex-items-start">
                 <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
                   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                    280 Words
+                    229 Words
                     
 
                   </div>
@@ -211,7 +214,7 @@
 
 
               <div class="Box-body px-5 pb-5">
-                <article class="markdown-body entry-content container-lg"><h3 id="python-opencv-image-location">Python Opencv Image Location</h3>
+                <article class="markdown-body entry-content container-lg"><p>opencv location use &gt;  match Template</p>
 <p>こちらの方法はいずれかもOpenCVを使用し、目標の位置を表示するためのFunctionである。</p>
 <blockquote>
 <p>必要とされるモジュール</p>
@@ -223,58 +226,50 @@ from matplotlib import pyplot as plt
 from PIL import Image
 import time
 import random 
-</code></pre><h4 id="func--get-multi-position">Func = get multi position</h4>
-<blockquote>
+</code></pre><blockquote>
 <p>こちらの方法は目標の位置を見つけるためのFuncである</p>
 </blockquote>
-<h4 id="target--target-image-type--list-">Target = target image( type = list )</h4>
-<h4 id="screenshot---base-image-type--image-path-">Screenshot  = base image( type = image path )</h4>
-<h4 id="return--position-xy-and-base-image-marking">Return : position (x,y) and base image marking</h4>
-<pre><code># get target from screenshot or image
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># get target from screenshot or image</span>
 
-def get_multi_position(target,screenshot):
-    screenshot_im = cv2.imread(screenshot,1)
-    # target count &gt; 1  ( if )
-    if len(target)&gt;1:
-        position = []
-        for t in target:
-            target_im = cv2.imread(t,1)
-            h,w=target_im.shape[:2]
-            result = cv2.matchTemplate(screenshot_im,target_im,cv2.TM_CCOEFF_NORMED)
-            loc = numpy.where(result&gt;0.98)
-            for i in zip(*loc[::-1]):
-                position.append(i)
-                cv2.rectangle(screenshot_im,i,(i[0]+w,i[1]+h),(0,255,255),2)
-        return position,screenshot_im
+<span class="k">def</span> <span class="nf">get_multi_position</span><span class="p">(</span><span class="n">target</span><span class="p">,</span><span class="n">screenshot</span><span class="p">):</span>
+    <span class="n">screenshot_im</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="n">screenshot</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+    <span class="c1"># target count &gt; 1  ( if )</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">target</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">1</span><span class="p">:</span>
+        <span class="n">position</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">target</span><span class="p">:</span>
+            <span class="n">target_im</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="n">t</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+            <span class="n">h</span><span class="p">,</span><span class="n">w</span><span class="o">=</span><span class="n">target_im</span><span class="o">.</span><span class="n">shape</span><span class="p">[:</span><span class="mi">2</span><span class="p">]</span>
+            <span class="n">result</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">matchTemplate</span><span class="p">(</span><span class="n">screenshot_im</span><span class="p">,</span><span class="n">target_im</span><span class="p">,</span><span class="n">cv2</span><span class="o">.</span><span class="n">TM_CCOEFF_NORMED</span><span class="p">)</span>
+            <span class="n">loc</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">result</span><span class="o">&gt;</span><span class="mf">0.98</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="n">loc</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]):</span>
+                <span class="n">position</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+                <span class="n">cv2</span><span class="o">.</span><span class="n">rectangle</span><span class="p">(</span><span class="n">screenshot_im</span><span class="p">,</span><span class="n">i</span><span class="p">,(</span><span class="n">i</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">+</span><span class="n">w</span><span class="p">,</span><span class="n">i</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span><span class="n">h</span><span class="p">),(</span><span class="mi">0</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">),</span><span class="mi">2</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">position</span><span class="p">,</span><span class="n">screenshot_im</span>
         
-    else:
-        target_im = cv2.imread(target[0])
-        screenshot_im = cv2.imread(screenshot,1)
-        h,w=target_im.shape[:2]
-        result = cv2.matchTemplate(screenshot_im,target_im,cv2.TM_CCOEFF_NORMED)
-        loc = numpy.where(result&gt;0.98)
-        position = []
-        for i in zip(*loc[::-1]):
-            position.append(i)
-            cv2.rectangle(screenshot_im,i,(i[0]+w,i[1]+h),(0,255,255),2)
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">target_im</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="n">target</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="n">screenshot_im</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="n">screenshot</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+        <span class="n">h</span><span class="p">,</span><span class="n">w</span><span class="o">=</span><span class="n">target_im</span><span class="o">.</span><span class="n">shape</span><span class="p">[:</span><span class="mi">2</span><span class="p">]</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">matchTemplate</span><span class="p">(</span><span class="n">screenshot_im</span><span class="p">,</span><span class="n">target_im</span><span class="p">,</span><span class="n">cv2</span><span class="o">.</span><span class="n">TM_CCOEFF_NORMED</span><span class="p">)</span>
+        <span class="n">loc</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">result</span><span class="o">&gt;</span><span class="mf">0.98</span><span class="p">)</span>
+        <span class="n">position</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="n">loc</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]):</span>
+            <span class="n">position</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+            <span class="n">cv2</span><span class="o">.</span><span class="n">rectangle</span><span class="p">(</span><span class="n">screenshot_im</span><span class="p">,</span><span class="n">i</span><span class="p">,(</span><span class="n">i</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">+</span><span class="n">w</span><span class="p">,</span><span class="n">i</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span><span class="n">h</span><span class="p">),(</span><span class="mi">0</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">),</span><span class="mi">2</span><span class="p">)</span>
             
-        return position,screenshot_im
+        <span class="k">return</span> <span class="n">position</span><span class="p">,</span><span class="n">screenshot_im</span>
 
-</code></pre><h4 id="func--absoulte-position">Func = absoulte position</h4>
-<blockquote>
+</code></pre></div><blockquote>
 <p>こちらの方法は相対的位置から絶対的位置への転換</p>
 </blockquote>
-<h4 id="monitor--monitor-size--position--xy">monitor = monitor size , position = x,y</h4>
-<h4 id="screenshot-size--screenshot-image-size--w--h-">screenshot size = screenshot image size ( w , h )</h4>
-<pre><code>
-# position for absoulte
-def absoulte_position(monitor,position,screenshotsize):
-    # location x * screen.width / screenshot width
-     x = int(position[0]*monitor[0])/screenshotsize[0]
-     y = int(position[1]*monitor[1])/screenshotsize[1]
-     return x,y
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># position for absoulte</span>
+<span class="k">def</span> <span class="nf">absoulte_position</span><span class="p">(</span><span class="n">monitor</span><span class="p">,</span><span class="n">position</span><span class="p">,</span><span class="n">screenshotsize</span><span class="p">):</span>
+    <span class="c1"># location x * screen.width / screenshot width</span>
+     <span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">position</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">monitor</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">/</span><span class="n">screenshotsize</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+     <span class="n">y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">position</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">*</span><span class="n">monitor</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span><span class="o">/</span><span class="n">screenshotsize</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+     <span class="k">return</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span>
 
-</code></pre></article>
+</code></pre></div></article>
               </div>
             </div>
           </div>

@@ -16,7 +16,7 @@
 
     
     <meta name="description"
-  content="Python MyQR Module and how to use it ~ PythonでQRコードを作る方法〜
+  content="PythonでQRコードを作る方法〜
 install MyQR!
 " />
 <meta name="keywords"
@@ -28,7 +28,7 @@ install MyQR!
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Python MyQR Module - WinterCat&#39;s blog" />
 <meta name="twitter:description"
-  content="Python MyQR Module and how to use it ~ PythonでQRコードを作る方法〜
+  content="PythonでQRコードを作る方法〜
 install MyQR!
 " />
 <meta name="twitter:site" content="https://summersnowwintercat.github.io" />
@@ -40,7 +40,7 @@ install MyQR!
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Python MyQR Module - WinterCat&#39;s blog">
 <meta property="og:description"
-  content="Python MyQR Module and how to use it ~ PythonでQRコードを作る方法〜
+  content="PythonでQRコードを作る方法〜
 install MyQR!
 " />
 <meta property="og:url" content="https://summersnowwintercat.github.io/post/python_myqr/" />
@@ -153,9 +153,9 @@ install MyQR!
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Tue, 13 Jul 2021 01:22:08 &#43;0900"
+                  Modified <relative-time datetime="Wed, 14 Jul 2021 02:27:12 &#43;0900"
                     class="no-wrap">
-                    Tue, 13 Jul 2021 01:22:08 &#43;0900</relative-time>
+                    Wed, 14 Jul 2021 02:27:12 &#43;0900</relative-time>
                   
                 </div>
               </div>
@@ -173,7 +173,7 @@ install MyQR!
               <div class="file-header d-flex flex-md-items-center flex-items-start">
                 <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
                   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                    297 Words
+                    288 Words
                     
 
                   </div>
@@ -205,32 +205,37 @@ install MyQR!
 
 
               <div class="Box-body px-5 pb-5">
-                <article class="markdown-body entry-content container-lg"><h3 id="python-myqr-module-and-how--to-use-it-">Python MyQR Module and how  to use it ~</h3>
-<p>PythonでQRコードを作る方法〜</p>
+                <article class="markdown-body entry-content container-lg"><p>PythonでQRコードを作る方法〜</p>
 <p>install MyQR!</p>
+<blockquote>
 <ol>
 <li>install MyQR</li>
 </ol>
+</blockquote>
 <p><code>pip install MyQR</code> or
 <code>pip3 install MyQR</code></p>
+<blockquote>
 <ol start="2">
 <li>use MyQR</li>
 </ol>
-<pre><code>from MyQR import myqr
-import os # this  import is os path support 
-		myqr.run(words='--&gt;Text input!&lt;--', # input link or text
-             version=1, # 设置容错率为最高默认边长是取决于你输入的信息的长度和使用的纠错等级；而默认纠错等级是最高级的H
-    				 level='H', # 控制纠错水平，范围是L、M、Q、H，从左到右依次升高
-   					 picture='--&gt;IMG location&lt;--',
-   					 colorized=True,#可以使产生的图片由黑白(False)变为彩色(True)的	
-             contrast=1.0,#用以调节图片的对比度，1.0 表示原始图片，更小的值表示更低对比度，更大反之。默认为1.0
-             brightness=1.0,#用来调节图片的亮度，其余用法和取值与 -con 相同
-             save_name='--&gt;save img path&lt;--', #格式 jpg bmp png gif
-             save_dir=os.getcwd() # save path control
-) ```
-</code></pre><ol start="3">
+</blockquote>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">MyQR</span> <span class="kn">import</span> <span class="n">myqr</span>
+<span class="kn">import</span> <span class="nn">os</span> <span class="c1"># this  import is os path support </span>
+		<span class="n">myqr</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">words</span><span class="o">=</span><span class="s1">&#39;--&gt;Text input!&lt;--&#39;</span><span class="p">,</span> <span class="c1"># input link or text</span>
+             <span class="n">version</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="c1"># 设置容错率为最高默认边长是取决于你输入的信息的长度和使用的纠错等级；而默认纠错等级是最高级的H</span>
+    				 <span class="n">level</span><span class="o">=</span><span class="s1">&#39;H&#39;</span><span class="p">,</span> <span class="c1"># 控制纠错水平，范围是L、M、Q、H，从左到右依次升高</span>
+   					 <span class="n">picture</span><span class="o">=</span><span class="s1">&#39;--&gt;IMG location&lt;--&#39;</span><span class="p">,</span>
+   					 <span class="n">colorized</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="c1">#可以使产生的图片由黑白(False)变为彩色(True)的	</span>
+             <span class="n">contrast</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span><span class="c1">#用以调节图片的对比度，1.0 表示原始图片，更小的值表示更低对比度，更大反之。默认为1.0</span>
+             <span class="n">brightness</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span><span class="c1">#用来调节图片的亮度，其余用法和取值与 -con 相同</span>
+             <span class="n">save_name</span><span class="o">=</span><span class="s1">&#39;--&gt;save img path&lt;--&#39;</span><span class="p">,</span> <span class="c1">#格式 jpg bmp png gif</span>
+             <span class="n">save_dir</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span> <span class="c1"># save path control</span>
+<span class="p">)</span> <span class="err">```</span>
+</code></pre></div><blockquote>
+<ol start="3">
 <li>run.py</li>
-</ol></article>
+</ol>
+</blockquote></article>
               </div>
             </div>
           </div>

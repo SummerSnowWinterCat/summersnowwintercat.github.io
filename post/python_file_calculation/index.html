@@ -16,7 +16,8 @@
 
     
     <meta name="description"
-  content="Python File Count and File Size ~ 変なファイルサイズと数を数えるFunctionです〜
+  content="File Calculation ( ファイル缶詰　計算　)
+変なファイルサイズと数を数えるFunctionです〜
 缶GET&#43;1だぜ！
 缶GET&#43;1だぜ！
 " />
@@ -29,7 +30,8 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="Python File Calculation - WinterCat&#39;s blog" />
 <meta name="twitter:description"
-  content="Python File Count and File Size ~ 変なファイルサイズと数を数えるFunctionです〜
+  content="File Calculation ( ファイル缶詰　計算　)
+変なファイルサイズと数を数えるFunctionです〜
 缶GET&#43;1だぜ！
 缶GET&#43;1だぜ！
 " />
@@ -42,7 +44,8 @@
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Python File Calculation - WinterCat&#39;s blog">
 <meta property="og:description"
-  content="Python File Count and File Size ~ 変なファイルサイズと数を数えるFunctionです〜
+  content="File Calculation ( ファイル缶詰　計算　)
+変なファイルサイズと数を数えるFunctionです〜
 缶GET&#43;1だぜ！
 缶GET&#43;1だぜ！
 " />
@@ -156,9 +159,9 @@
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Tue, 13 Jul 2021 01:21:30 &#43;0900"
+                  Modified <relative-time datetime="Wed, 14 Jul 2021 02:26:48 &#43;0900"
                     class="no-wrap">
-                    Tue, 13 Jul 2021 01:21:30 &#43;0900</relative-time>
+                    Wed, 14 Jul 2021 02:26:48 &#43;0900</relative-time>
                   
                 </div>
               </div>
@@ -176,7 +179,7 @@
               <div class="file-header d-flex flex-md-items-center flex-items-start">
                 <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
                   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                    489 Words
+                    502 Words
                     
 
                   </div>
@@ -217,95 +220,95 @@
 
 
               <div class="Box-body px-5 pb-5">
-                <article class="markdown-body entry-content container-lg"><h3 id="python-file-count-and-file-size-">Python File Count and File Size ~</h3>
+                <article class="markdown-body entry-content container-lg"><p>File Calculation ( ファイル缶詰　計算　)</p>
 <p>変なファイルサイズと数を数えるFunctionです〜</p>
 <p>缶GET+1だぜ！</p>
 <p>缶GET+1だぜ！</p>
-<pre><code>import os
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">os</span>
 
-# 罐头的重量(总容量)
-tin_Weight = 0
-# 种类的数量(文件)
-type_Num = 0
-# 夹层的数量（文件夹)
-mezzanine_Num = 0
-
-
-# 罐头搜查者
-# 缶の追跡者　by ふゆねこ！
-def winter_cat_tray(tray_path):
-    global tin_Weight
-    global type_Num
-    global mezzanine_Num
-    if len(os.listdir(tray_path)) == 0:
-        print('Winter Cat Tins is empty!!!')
-    else:
-        # 冬喵获得了可能获得了一堆罐头!
-        # ふゆねこは多分たくさんの缶を手に入れた！
-        for cat_food_tins in os.listdir(tray_path):
-            cat_tins_path = os.path.join(tray_path, cat_food_tins)
-            # 每个罐头 的具体位置
-            # 缶の具体的な位置を示されてる場所
-            # print('缶の位置はこちらですよ！:' + cat_tins_path)
-            if os.path.isfile(cat_tins_path):
-                type_Num = type_Num + 1  # 罐头+1　缶＋１
-                tin_Weight = tin_Weight + os.path.getsize(cat_tins_path)
-                # 罐头重量　缶の重量
-            elif os.path.isdir(cat_tins_path):  # 是罐头并不是罐头里的肉肉(冬喵撬动ing)
-                # 　そちらに置いた缶は缶だけだぜ！中身はまだ判明できてない
-                mezzanine_Num = mezzanine_Num + 1  # 罐头Get+1!
-                # 　缶GET+1だぜ！
-                winter_cat_tray(cat_tins_path)  # 撬开Get到的罐头 缶を開いた
-    show_all_tins()
-
-def is_tins_clean(tins_path):
-    if not os.path.isdir(tins_path):
-        print('Error!Tins is dangerous!leaving the computer!')
-        return
-    winter_cat_tray(tins_path)
+<span class="c1"># 罐头的重量(总容量)</span>
+<span class="n">tin_Weight</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="c1"># 种类的数量(文件)</span>
+<span class="n">type_Num</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="c1"># 夹层的数量（文件夹)</span>
+<span class="n">mezzanine_Num</span> <span class="o">=</span> <span class="mi">0</span>
 
 
-# 罐头称重
-def str_tins_size_turn(tin):
-    k, m, g = 1024, 1024 ** 2, 1024 ** 3
-    if tin &gt;= g:
-        return str(tin / g) + 'GBytes'
-    elif tin &gt;= m:
-        return str(tin / m) + 'MBytes'
-    elif tin &gt;= k:
-        return str(tin / k) + 'KBytes'
-    else:
-        return str(tin) + 'Bytes'
+<span class="c1"># 罐头搜查者</span>
+<span class="c1"># 缶の追跡者　by ふゆねこ！</span>
+<span class="k">def</span> <span class="nf">winter_cat_tray</span><span class="p">(</span><span class="n">tray_path</span><span class="p">):</span>
+    <span class="k">global</span> <span class="n">tin_Weight</span>
+    <span class="k">global</span> <span class="n">type_Num</span>
+    <span class="k">global</span> <span class="n">mezzanine_Num</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">tray_path</span><span class="p">))</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Winter Cat Tins is empty!!!&#39;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># 冬喵获得了可能获得了一堆罐头!</span>
+        <span class="c1"># ふゆねこは多分たくさんの缶を手に入れた！</span>
+        <span class="k">for</span> <span class="n">cat_food_tins</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">tray_path</span><span class="p">):</span>
+            <span class="n">cat_tins_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">tray_path</span><span class="p">,</span> <span class="n">cat_food_tins</span><span class="p">)</span>
+            <span class="c1"># 每个罐头 的具体位置</span>
+            <span class="c1"># 缶の具体的な位置を示されてる場所</span>
+            <span class="c1"># print(&#39;缶の位置はこちらですよ！:&#39; + cat_tins_path)</span>
+            <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="n">cat_tins_path</span><span class="p">):</span>
+                <span class="n">type_Num</span> <span class="o">=</span> <span class="n">type_Num</span> <span class="o">+</span> <span class="mi">1</span>  <span class="c1"># 罐头+1　缶＋１</span>
+                <span class="n">tin_Weight</span> <span class="o">=</span> <span class="n">tin_Weight</span> <span class="o">+</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">getsize</span><span class="p">(</span><span class="n">cat_tins_path</span><span class="p">)</span>
+                <span class="c1"># 罐头重量　缶の重量</span>
+            <span class="k">elif</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">cat_tins_path</span><span class="p">):</span>  <span class="c1"># 是罐头并不是罐头里的肉肉(冬喵撬动ing)</span>
+                <span class="c1"># 　そちらに置いた缶は缶だけだぜ！中身はまだ判明できてない</span>
+                <span class="n">mezzanine_Num</span> <span class="o">=</span> <span class="n">mezzanine_Num</span> <span class="o">+</span> <span class="mi">1</span>  <span class="c1"># 罐头Get+1!</span>
+                <span class="c1"># 　缶GET+1だぜ！</span>
+                <span class="n">winter_cat_tray</span><span class="p">(</span><span class="n">cat_tins_path</span><span class="p">)</span>  <span class="c1"># 撬开Get到的罐头 缶を開いた</span>
+    <span class="n">show_all_tins</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">is_tins_clean</span><span class="p">(</span><span class="n">tins_path</span><span class="p">):</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">tins_path</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Error!Tins is dangerous!leaving the computer!&#39;</span><span class="p">)</span>
+        <span class="k">return</span>
+    <span class="n">winter_cat_tray</span><span class="p">(</span><span class="n">tins_path</span><span class="p">)</span>
 
 
-# 罐头称重 int
-def tins_size_turn(tin):
-    k, m, g = 1024, 1024 ** 2, 1024 ** 3
-    if tin &gt;= g:
-        return tin / g
-    elif tin &gt;= m:
-        return tin / m
-    elif tin &gt;= k:
-        return tin / k
-    else:
-        return tin
+<span class="c1"># 罐头称重</span>
+<span class="k">def</span> <span class="nf">str_tins_size_turn</span><span class="p">(</span><span class="n">tin</span><span class="p">):</span>
+    <span class="n">k</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">g</span> <span class="o">=</span> <span class="mi">1024</span><span class="p">,</span> <span class="mi">1024</span> <span class="o">**</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1024</span> <span class="o">**</span> <span class="mi">3</span>
+    <span class="k">if</span> <span class="n">tin</span> <span class="o">&gt;=</span> <span class="n">g</span><span class="p">:</span>
+        <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="n">tin</span> <span class="o">/</span> <span class="n">g</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;GBytes&#39;</span>
+    <span class="k">elif</span> <span class="n">tin</span> <span class="o">&gt;=</span> <span class="n">m</span><span class="p">:</span>
+        <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="n">tin</span> <span class="o">/</span> <span class="n">m</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;MBytes&#39;</span>
+    <span class="k">elif</span> <span class="n">tin</span> <span class="o">&gt;=</span> <span class="n">k</span><span class="p">:</span>
+        <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="n">tin</span> <span class="o">/</span> <span class="n">k</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;KBytes&#39;</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="n">tin</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39;Bytes&#39;</span>
 
 
-def show_all_tins():
-    if not type_Num == 0:
-        print('all tins weight is:' + str_tins_size_turn(tin_Weight))
-        print('tin count:%d' % type_Num)
-        print('tin location count:', mezzanine_Num)
+<span class="c1"># 罐头称重 int</span>
+<span class="k">def</span> <span class="nf">tins_size_turn</span><span class="p">(</span><span class="n">tin</span><span class="p">):</span>
+    <span class="n">k</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">g</span> <span class="o">=</span> <span class="mi">1024</span><span class="p">,</span> <span class="mi">1024</span> <span class="o">**</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1024</span> <span class="o">**</span> <span class="mi">3</span>
+    <span class="k">if</span> <span class="n">tin</span> <span class="o">&gt;=</span> <span class="n">g</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">tin</span> <span class="o">/</span> <span class="n">g</span>
+    <span class="k">elif</span> <span class="n">tin</span> <span class="o">&gt;=</span> <span class="n">m</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">tin</span> <span class="o">/</span> <span class="n">m</span>
+    <span class="k">elif</span> <span class="n">tin</span> <span class="o">&gt;=</span> <span class="n">k</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">tin</span> <span class="o">/</span> <span class="n">k</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">tin</span>
 
 
-def get_tins_weight():
-    return type_Num
+<span class="k">def</span> <span class="nf">show_all_tins</span><span class="p">():</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">type_Num</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;all tins weight is:&#39;</span> <span class="o">+</span> <span class="n">str_tins_size_turn</span><span class="p">(</span><span class="n">tin_Weight</span><span class="p">))</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;tin count:</span><span class="si">%d</span><span class="s1">&#39;</span> <span class="o">%</span> <span class="n">type_Num</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;tin location count:&#39;</span><span class="p">,</span> <span class="n">mezzanine_Num</span><span class="p">)</span>
 
 
-def get_all_tins_weight():
-    return tins_size_turn(tin_Weight)
+<span class="k">def</span> <span class="nf">get_tins_weight</span><span class="p">():</span>
+    <span class="k">return</span> <span class="n">type_Num</span>
+
+
+<span class="k">def</span> <span class="nf">get_all_tins_weight</span><span class="p">():</span>
+    <span class="k">return</span> <span class="n">tins_size_turn</span><span class="p">(</span><span class="n">tin_Weight</span><span class="p">)</span>
     
-</code></pre><h3 id="end">End</h3></article>
+</code></pre></div><h3 id="end">End</h3></article>
               </div>
             </div>
           </div>
