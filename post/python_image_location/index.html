@@ -153,9 +153,9 @@
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Wed, 14 Jul 2021 15:53:10 &#43;0900"
+                  Modified <relative-time datetime="Wed, 14 Jul 2021 21:48:57 &#43;0900"
                     class="no-wrap">
-                    Wed, 14 Jul 2021 15:53:10 &#43;0900</relative-time>
+                    Wed, 14 Jul 2021 21:48:57 &#43;0900</relative-time>
                   
                 </div>
               </div>
@@ -173,7 +173,7 @@
               <div class="file-header d-flex flex-md-items-center flex-items-start">
                 <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
                   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                    229 Words
+                    254 Words
                     
 
                   </div>
@@ -219,14 +219,14 @@
 <blockquote>
 <p>必要とされるモジュール</p>
 </blockquote>
-<pre><code>import cv2 
-import numpy
-import pyautogui
-from matplotlib import pyplot as plt
-from PIL import Image
-import time
-import random 
-</code></pre><blockquote>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">cv2</span> 
+<span class="kn">import</span> <span class="nn">numpy</span>
+<span class="kn">import</span> <span class="nn">pyautogui</span>
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">from</span> <span class="nn">PIL</span> <span class="kn">import</span> <span class="n">Image</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">random</span> 
+</code></pre></div><blockquote>
 <p>こちらの方法は目標の位置を見つけるためのFuncである</p>
 </blockquote>
 <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># get target from screenshot or image</span>
@@ -269,7 +269,15 @@ import random
      <span class="n">y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">position</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">*</span><span class="n">monitor</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span><span class="o">/</span><span class="n">screenshotsize</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
      <span class="k">return</span> <span class="n">x</span><span class="p">,</span><span class="n">y</span>
 
-</code></pre></div></article>
+</code></pre></div><blockquote>
+<p>例（ターゲット、写真）</p>
+</blockquote>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">get_multi_position</span><span class="p">(</span><span class="n">target</span><span class="p">,</span><span class="n">screenshot</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>
+</code></pre></div><p><img src="/python_image_location/2.png" alt=""> <img src="/python_image_location/3.png" alt=""> target.image
+<img src="/python_image_location/1.png" alt=""></p>
+<blockquote>
+<p>多数位置でも判断可能に！</p>
+</blockquote></article>
               </div>
             </div>
           </div>
