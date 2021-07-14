@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on WinterCat&#39;s blog</title>
+    <link>https://summersnowwintercat.github.io/tags/code/</link>
+    <description>Recent content in Code on WinterCat&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 20 Jan 2019 08:30:47 +0900</lastBuildDate><atom:link href="https://summersnowwintercat.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jupyter NoteBook Setting</title>
+      <link>https://summersnowwintercat.github.io/post/about_jupyternotebook/</link>
+      <pubDate>Sun, 20 Jan 2019 08:30:47 +0900</pubDate>
+      
+      <guid>https://summersnowwintercat.github.io/post/about_jupyternotebook/</guid>
+      <description>&lt;p&gt;Jupyter NoteBook&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

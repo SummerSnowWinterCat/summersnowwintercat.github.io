@@ -35,6 +35,33 @@
     </item>
     
     <item>
+      <title>Bash</title>
+      <link>https://summersnowwintercat.github.io/tags/bash/</link>
+      <pubDate>Mon, 10 Aug 2020 11:20:37 +0900</pubDate>
+      
+      <guid>https://summersnowwintercat.github.io/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shell</title>
+      <link>https://summersnowwintercat.github.io/tags/shell/</link>
+      <pubDate>Mon, 10 Aug 2020 11:20:37 +0900</pubDate>
+      
+      <guid>https://summersnowwintercat.github.io/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://summersnowwintercat.github.io/tags/ubuntu/</link>
+      <pubDate>Mon, 10 Aug 2020 11:20:37 +0900</pubDate>
+      
+      <guid>https://summersnowwintercat.github.io/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Catalina</title>
       <link>https://summersnowwintercat.github.io/tags/catalina/</link>
       <pubDate>Fri, 17 Jul 2020 12:53:37 +0900</pubDate>
@@ -80,11 +107,29 @@
     </item>
     
     <item>
-      <title>Ubuntu</title>
-      <link>https://summersnowwintercat.github.io/tags/ubuntu/</link>
-      <pubDate>Tue, 12 May 2020 10:20:37 +0900</pubDate>
+      <title>Code</title>
+      <link>https://summersnowwintercat.github.io/tags/code/</link>
+      <pubDate>Sun, 20 Jan 2019 08:30:47 +0900</pubDate>
       
-      <guid>https://summersnowwintercat.github.io/tags/ubuntu/</guid>
+      <guid>https://summersnowwintercat.github.io/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jupyter</title>
+      <link>https://summersnowwintercat.github.io/tags/jupyter/</link>
+      <pubDate>Sun, 20 Jan 2019 08:30:47 +0900</pubDate>
+      
+      <guid>https://summersnowwintercat.github.io/tags/jupyter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NoteBook</title>
+      <link>https://summersnowwintercat.github.io/tags/notebook/</link>
+      <pubDate>Sun, 20 Jan 2019 08:30:47 +0900</pubDate>
+      
+      <guid>https://summersnowwintercat.github.io/tags/notebook/</guid>
       <description></description>
     </item>
     
