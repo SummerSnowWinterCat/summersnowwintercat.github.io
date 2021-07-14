@@ -13,7 +13,7 @@
       <pubDate>Tue, 29 Jun 2021 20:31:37 +0900</pubDate>
       
       <guid>https://summersnowwintercat.github.io/post/python_image_location/</guid>
-      <description>&lt;h3 id=&#34;python-opencv-image-location&#34;&gt;Python Opencv Image Location&lt;/h3&gt;
+      <description>&lt;p&gt;opencv location use &amp;gt;  match Template&lt;/p&gt;
 &lt;p&gt;こちらの方法はいずれかもOpenCVを使用し、目標の位置を表示するためのFunctionである。&lt;/p&gt;</description>
     </item>
     
@@ -23,9 +23,19 @@
       <pubDate>Fri, 17 Jul 2020 12:53:37 +0900</pubDate>
       
       <guid>https://summersnowwintercat.github.io/post/nuc10i5/</guid>
-      <description>&lt;h3 id=&#34;hackintosh-catalina10155&#34;&gt;Hackintosh Catalina10.15.5&lt;/h3&gt;
-&lt;p&gt;文章内容适用于NUC10i5 and NUC10i7机型（已修改)&lt;/p&gt;
+      <description>&lt;p&gt;文章内容适用于NUC10i5 and NUC10i7机型（已修改)&lt;/p&gt;
 &lt;p&gt;intel nuc10i5 model and nuc10i7 model&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MySQL 8.0 Installation Ubuntu</title>
+      <link>https://summersnowwintercat.github.io/post/mysql_install_ubuntu/</link>
+      <pubDate>Tue, 12 May 2020 10:20:37 +0900</pubDate>
+      
+      <guid>https://summersnowwintercat.github.io/post/mysql_install_ubuntu/</guid>
+      <description>&lt;p&gt;MySQL Installation&lt;/p&gt;
+&lt;p&gt;こちらはMySQLのインストール方法や手順となります。&lt;/p&gt;
+&lt;p&gt;MySQLのVersionは8.0&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -34,7 +44,7 @@
       <pubDate>Mon, 10 Sep 2018 01:20:37 +0900</pubDate>
       
       <guid>https://summersnowwintercat.github.io/post/python_file_calculation/</guid>
-      <description>&lt;h3 id=&#34;python-file-count-and-file-size-&#34;&gt;Python File Count and File Size ~&lt;/h3&gt;
+      <description>&lt;p&gt;File Calculation ( ファイル缶詰　計算　)&lt;/p&gt;
 &lt;p&gt;変なファイルサイズと数を数えるFunctionです〜&lt;/p&gt;
 &lt;p&gt;缶GET+1だぜ！&lt;/p&gt;
 &lt;p&gt;缶GET+1だぜ！&lt;/p&gt;</description>
@@ -46,8 +56,7 @@
       <pubDate>Fri, 17 Aug 2018 10:30:37 +0900</pubDate>
       
       <guid>https://summersnowwintercat.github.io/post/python_myqr/</guid>
-      <description>&lt;h3 id=&#34;python-myqr-module-and-how--to-use-it-&#34;&gt;Python MyQR Module and how  to use it ~&lt;/h3&gt;
-&lt;p&gt;PythonでQRコードを作る方法〜&lt;/p&gt;
+      <description>&lt;p&gt;PythonでQRコードを作る方法〜&lt;/p&gt;
 &lt;p&gt;install MyQR!&lt;/p&gt;</description>
     </item>
     

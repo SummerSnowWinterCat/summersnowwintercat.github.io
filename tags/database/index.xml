@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DataBase on WinterCat&#39;s blog</title>
+    <link>https://summersnowwintercat.github.io/tags/database/</link>
+    <description>Recent content in DataBase on WinterCat&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 12 May 2020 10:20:37 +0900</lastBuildDate><atom:link href="https://summersnowwintercat.github.io/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MySQL 8.0 Installation Ubuntu</title>
+      <link>https://summersnowwintercat.github.io/post/mysql_install_ubuntu/</link>
+      <pubDate>Tue, 12 May 2020 10:20:37 +0900</pubDate>
+      
+      <guid>https://summersnowwintercat.github.io/post/mysql_install_ubuntu/</guid>
+      <description>&lt;p&gt;MySQL Installation&lt;/p&gt;
+&lt;p&gt;こちらはMySQLのインストール方法や手順となります。&lt;/p&gt;
+&lt;p&gt;MySQLのVersionは8.0&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

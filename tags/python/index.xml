@@ -13,7 +13,7 @@
       <pubDate>Tue, 29 Jun 2021 20:31:37 +0900</pubDate>
       
       <guid>https://summersnowwintercat.github.io/post/python_image_location/</guid>
-      <description>&lt;h3 id=&#34;python-opencv-image-location&#34;&gt;Python Opencv Image Location&lt;/h3&gt;
+      <description>&lt;p&gt;opencv location use &amp;gt;  match Template&lt;/p&gt;
 &lt;p&gt;こちらの方法はいずれかもOpenCVを使用し、目標の位置を表示するためのFunctionである。&lt;/p&gt;</description>
     </item>
     
@@ -23,7 +23,7 @@
       <pubDate>Mon, 10 Sep 2018 01:20:37 +0900</pubDate>
       
       <guid>https://summersnowwintercat.github.io/post/python_file_calculation/</guid>
-      <description>&lt;h3 id=&#34;python-file-count-and-file-size-&#34;&gt;Python File Count and File Size ~&lt;/h3&gt;
+      <description>&lt;p&gt;File Calculation ( ファイル缶詰　計算　)&lt;/p&gt;
 &lt;p&gt;変なファイルサイズと数を数えるFunctionです〜&lt;/p&gt;
 &lt;p&gt;缶GET+1だぜ！&lt;/p&gt;
 &lt;p&gt;缶GET+1だぜ！&lt;/p&gt;</description>
@@ -35,8 +35,7 @@
       <pubDate>Fri, 17 Aug 2018 10:30:37 +0900</pubDate>
       
       <guid>https://summersnowwintercat.github.io/post/python_myqr/</guid>
-      <description>&lt;h3 id=&#34;python-myqr-module-and-how--to-use-it-&#34;&gt;Python MyQR Module and how  to use it ~&lt;/h3&gt;
-&lt;p&gt;PythonでQRコードを作る方法〜&lt;/p&gt;
+      <description>&lt;p&gt;PythonでQRコードを作る方法〜&lt;/p&gt;
 &lt;p&gt;install MyQR!&lt;/p&gt;</description>
     </item>
     
