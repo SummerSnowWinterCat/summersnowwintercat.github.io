@@ -34,6 +34,19 @@
     </item>
     
     <item>
+      <title>Web Crawler( python )</title>
+      <link>https://www.wintercat.jp/post/webcrawler/</link>
+      <pubDate>Tue, 20 Oct 2020 10:05:40 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/webcrawler/</guid>
+      <description>&lt;p&gt;クローラーの作り方&lt;/p&gt;
+&lt;p&gt;簡易クローラーの構造と流れ&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;流れ( 偽造Header＋URL解析+必要な要素を検索+保存+データベースへ移る)&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
       <title>Ubuntu Command</title>
       <link>https://www.wintercat.jp/post/ubuntu_command/</link>
       <pubDate>Mon, 10 Aug 2020 11:20:37 +0900</pubDate>
@@ -106,6 +119,21 @@
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;PythonでMySQLへアクセスするためのモジュール&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper Collection ( CS )</title>
+      <link>https://www.wintercat.jp/post/cs_paper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/cs_paper/</guid>
+      <description>&lt;p&gt;論文メモ　（ paper memo ）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;こちらは論文のコレクションとなります。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;気になった論文のリンクをここに記載する。&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     

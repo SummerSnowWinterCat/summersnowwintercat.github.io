@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bs4 on WinterCat&#39;s blog</title>
+    <link>https://www.wintercat.jp/tags/bs4/</link>
+    <description>Recent content in bs4 on WinterCat&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 20 Oct 2020 10:05:40 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/bs4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web Crawler( python )</title>
+      <link>https://www.wintercat.jp/post/webcrawler/</link>
+      <pubDate>Tue, 20 Oct 2020 10:05:40 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/webcrawler/</guid>
+      <description>&lt;p&gt;クローラーの作り方&lt;/p&gt;
+&lt;p&gt;簡易クローラーの構造と流れ&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;流れ( 偽造Header＋URL解析+必要な要素を検索+保存+データベースへ移る)&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
