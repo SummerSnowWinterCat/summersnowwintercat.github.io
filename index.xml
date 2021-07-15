@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WinterCat&#39;s blog</title>
-    <link>https://summersnowwintercat.github.io/</link>
+    <link>https://www.wintercat.jp/</link>
     <description>Recent content on WinterCat&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 29 Jun 2021 20:31:37 +0900</lastBuildDate><atom:link href="https://summersnowwintercat.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jun 2021 20:31:37 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python Opencv LocationFunction</title>
-      <link>https://summersnowwintercat.github.io/post/python_image_location/</link>
+      <link>https://www.wintercat.jp/post/python_image_location/</link>
       <pubDate>Tue, 29 Jun 2021 20:31:37 +0900</pubDate>
       
-      <guid>https://summersnowwintercat.github.io/post/python_image_location/</guid>
+      <guid>https://www.wintercat.jp/post/python_image_location/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Use Opencv to match Template&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -21,30 +21,30 @@
     
     <item>
       <title>Ubuntu Command</title>
-      <link>https://summersnowwintercat.github.io/post/ubuntu_command/</link>
+      <link>https://www.wintercat.jp/post/ubuntu_command/</link>
       <pubDate>Mon, 10 Aug 2020 11:20:37 +0900</pubDate>
       
-      <guid>https://summersnowwintercat.github.io/post/ubuntu_command/</guid>
+      <guid>https://www.wintercat.jp/post/ubuntu_command/</guid>
       <description>&lt;p&gt;Ubuntu Base Command  ( 普段よく使われているCommand )&lt;/p&gt;
 &lt;p&gt;収録中ing &amp;raquo;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>NUC10i5 Hackintosh Catalina10.15.5</title>
-      <link>https://summersnowwintercat.github.io/post/nuc10i5/</link>
+      <link>https://www.wintercat.jp/post/nuc10i5/</link>
       <pubDate>Fri, 17 Jul 2020 12:53:37 +0900</pubDate>
       
-      <guid>https://summersnowwintercat.github.io/post/nuc10i5/</guid>
+      <guid>https://www.wintercat.jp/post/nuc10i5/</guid>
       <description>&lt;p&gt;文章内容适用于NUC10i5 and NUC10i7机型（已修改)&lt;/p&gt;
 &lt;p&gt;intel nuc10i5 model and nuc10i7 model&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>MySQL 8.0 Installation Ubuntu</title>
-      <link>https://summersnowwintercat.github.io/post/mysql_install_ubuntu/</link>
+      <link>https://www.wintercat.jp/post/mysql_install_ubuntu/</link>
       <pubDate>Tue, 12 May 2020 10:20:37 +0900</pubDate>
       
-      <guid>https://summersnowwintercat.github.io/post/mysql_install_ubuntu/</guid>
+      <guid>https://www.wintercat.jp/post/mysql_install_ubuntu/</guid>
       <description>&lt;p&gt;MySQL Installation&lt;/p&gt;
 &lt;p&gt;こちらはMySQLのインストール方法や手順となります。&lt;/p&gt;
 &lt;p&gt;MySQLのVersionは8.0&lt;/p&gt;</description>
@@ -52,19 +52,19 @@
     
     <item>
       <title>Jupyter NoteBook Setting</title>
-      <link>https://summersnowwintercat.github.io/post/about_jupyternotebook/</link>
+      <link>https://www.wintercat.jp/post/about_jupyternotebook/</link>
       <pubDate>Sun, 20 Jan 2019 08:30:47 +0900</pubDate>
       
-      <guid>https://summersnowwintercat.github.io/post/about_jupyternotebook/</guid>
+      <guid>https://www.wintercat.jp/post/about_jupyternotebook/</guid>
       <description>&lt;p&gt;Jupyter NoteBook&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Python File Calculation</title>
-      <link>https://summersnowwintercat.github.io/post/python_file_calculation/</link>
+      <link>https://www.wintercat.jp/post/python_file_calculation/</link>
       <pubDate>Mon, 10 Sep 2018 01:20:37 +0900</pubDate>
       
-      <guid>https://summersnowwintercat.github.io/post/python_file_calculation/</guid>
+      <guid>https://www.wintercat.jp/post/python_file_calculation/</guid>
       <description>&lt;p&gt;File Calculation ( ファイル缶詰　計算　)&lt;/p&gt;
 &lt;p&gt;変なファイルサイズと数を数えるFunctionです〜&lt;/p&gt;
 &lt;p&gt;缶GET+1だぜ！&lt;/p&gt;
@@ -73,20 +73,20 @@
     
     <item>
       <title>Python MyQR Module</title>
-      <link>https://summersnowwintercat.github.io/post/python_myqr/</link>
+      <link>https://www.wintercat.jp/post/python_myqr/</link>
       <pubDate>Fri, 17 Aug 2018 10:30:37 +0900</pubDate>
       
-      <guid>https://summersnowwintercat.github.io/post/python_myqr/</guid>
+      <guid>https://www.wintercat.jp/post/python_myqr/</guid>
       <description>&lt;p&gt;PythonでQRコードを作る方法〜&lt;/p&gt;
 &lt;p&gt;install MyQR!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>README</title>
-      <link>https://summersnowwintercat.github.io/readme/</link>
+      <link>https://www.wintercat.jp/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://summersnowwintercat.github.io/readme/</guid>
+      <guid>https://www.wintercat.jp/readme/</guid>
       <description>Skill / スキル  Java　 Python / PHP HTML / JavaScript / CSS / JQuery MySQL  Link　/ リンク  Email: summersnowwintercat@gmail.com GitHub: SummerSnowWinterCat  Repository / コード倉庫  DataBaseCat: Python Database Process Pools Tools. NUC10i5 Hackintosh: NUC10EFI Hackintosh Catalina10.15. JupyterNoteBook: Jupyter Notebook (勉強用ノート)  </description>
     </item>
     

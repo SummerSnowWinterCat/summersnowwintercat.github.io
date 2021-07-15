@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MyQR on WinterCat&#39;s blog</title>
-    <link>https://summersnowwintercat.github.io/tags/myqr/</link>
+    <link>https://www.wintercat.jp/tags/myqr/</link>
     <description>Recent content in MyQR on WinterCat&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 17 Aug 2018 10:30:37 +0900</lastBuildDate><atom:link href="https://summersnowwintercat.github.io/tags/myqr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Aug 2018 10:30:37 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/myqr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python MyQR Module</title>
-      <link>https://summersnowwintercat.github.io/post/python_myqr/</link>
+      <link>https://www.wintercat.jp/post/python_myqr/</link>
       <pubDate>Fri, 17 Aug 2018 10:30:37 +0900</pubDate>
       
-      <guid>https://summersnowwintercat.github.io/post/python_myqr/</guid>
+      <guid>https://www.wintercat.jp/post/python_myqr/</guid>
       <description>&lt;p&gt;PythonでQRコードを作る方法〜&lt;/p&gt;
 &lt;p&gt;install MyQR!&lt;/p&gt;</description>
     </item>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>File on WinterCat&#39;s blog</title>
-    <link>https://summersnowwintercat.github.io/tags/file/</link>
+    <link>https://www.wintercat.jp/tags/file/</link>
     <description>Recent content in File on WinterCat&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 10 Sep 2018 01:20:37 +0900</lastBuildDate><atom:link href="https://summersnowwintercat.github.io/tags/file/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Sep 2018 01:20:37 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/file/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python File Calculation</title>
-      <link>https://summersnowwintercat.github.io/post/python_file_calculation/</link>
+      <link>https://www.wintercat.jp/post/python_file_calculation/</link>
       <pubDate>Mon, 10 Sep 2018 01:20:37 +0900</pubDate>
       
-      <guid>https://summersnowwintercat.github.io/post/python_file_calculation/</guid>
+      <guid>https://www.wintercat.jp/post/python_file_calculation/</guid>
       <description>&lt;p&gt;File Calculation ( ファイル缶詰　計算　)&lt;/p&gt;
 &lt;p&gt;変なファイルサイズと数を数えるFunctionです〜&lt;/p&gt;
 &lt;p&gt;缶GET+1だぜ！&lt;/p&gt;

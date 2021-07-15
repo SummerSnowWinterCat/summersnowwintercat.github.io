@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shell on WinterCat&#39;s blog</title>
-    <link>https://summersnowwintercat.github.io/tags/shell/</link>
+    <link>https://www.wintercat.jp/tags/shell/</link>
     <description>Recent content in Shell on WinterCat&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 10 Aug 2020 11:20:37 +0900</lastBuildDate><atom:link href="https://summersnowwintercat.github.io/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Aug 2020 11:20:37 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu Command</title>
-      <link>https://summersnowwintercat.github.io/post/ubuntu_command/</link>
+      <link>https://www.wintercat.jp/post/ubuntu_command/</link>
       <pubDate>Mon, 10 Aug 2020 11:20:37 +0900</pubDate>
       
-      <guid>https://summersnowwintercat.github.io/post/ubuntu_command/</guid>
+      <guid>https://www.wintercat.jp/post/ubuntu_command/</guid>
       <description>&lt;p&gt;Ubuntu Base Command  ( 普段よく使われているCommand )&lt;/p&gt;
 &lt;p&gt;収録中ing &amp;raquo;&lt;/p&gt;</description>
     </item>
