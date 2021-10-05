@@ -160,9 +160,9 @@
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Thu, 15 Jul 2021 16:21:39 &#43;0900"
+                  Modified <relative-time datetime="Wed, 08 Sep 2021 01:19:00 &#43;0900"
                     class="no-wrap">
-                    Thu, 15 Jul 2021 16:21:39 &#43;0900</relative-time>
+                    Wed, 08 Sep 2021 01:19:00 &#43;0900</relative-time>
                   
                 </div>
               </div>
@@ -228,7 +228,7 @@
 <blockquote>
 <p>必要とされるモジュール</p>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">cv2</span> 
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">cv2</span> 
 <span class="kn">import</span> <span class="nn">numpy</span>
 <span class="kn">import</span> <span class="nn">pyautogui</span>
 <span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
@@ -238,7 +238,7 @@
 </code></pre></div><blockquote>
 <p>こちらの方法は目標の位置を見つけるためのFuncである</p>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># get target from screenshot or image</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="c1"># get target from screenshot or image</span>
 
 <span class="k">def</span> <span class="nf">get_multi_position</span><span class="p">(</span><span class="n">target</span><span class="p">,</span><span class="n">screenshot</span><span class="p">):</span>
     <span class="n">screenshot_im</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">imread</span><span class="p">(</span><span class="n">screenshot</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
@@ -271,7 +271,7 @@
 </code></pre></div><blockquote>
 <p>こちらの方法は相対的位置から絶対的位置への転換</p>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># position for absoulte</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="c1"># position for absoulte</span>
 <span class="k">def</span> <span class="nf">absoulte_position</span><span class="p">(</span><span class="n">monitor</span><span class="p">,</span><span class="n">position</span><span class="p">,</span><span class="n">screenshotsize</span><span class="p">):</span>
     <span class="c1"># location x * screen.width / screenshot width</span>
      <span class="n">x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">position</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">monitor</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">/</span><span class="n">screenshotsize</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -281,7 +281,7 @@
 </code></pre></div><blockquote>
 <p>例（ターゲット、写真）</p>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">get_multi_position</span><span class="p">(</span><span class="n">target</span><span class="p">,</span><span class="n">screenshot</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">get_multi_position</span><span class="p">(</span><span class="n">target</span><span class="p">,</span><span class="n">screenshot</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>
 </code></pre></div><p><img src="/python_image_location/2.png" alt=""> <img src="/python_image_location/3.png" alt=""> target.image</p>
 <p><img src="/python_image_location/1.png" alt=""></p>
 <blockquote>

@@ -197,29 +197,11 @@
     </item>
     
     <item>
-      <title>photography</title>
-      <link>https://www.wintercat.jp/tags/photography/</link>
-      <pubDate>Fri, 08 Apr 2016 22:05:40 +0900</pubDate>
+      <title>Cat</title>
+      <link>https://www.wintercat.jp/tags/cat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.wintercat.jp/tags/photography/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>α7</title>
-      <link>https://www.wintercat.jp/tags/%CE%B17/</link>
-      <pubDate>Fri, 08 Apr 2016 22:05:40 +0900</pubDate>
-      
-      <guid>https://www.wintercat.jp/tags/%CE%B17/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>spot</title>
-      <link>https://www.wintercat.jp/tags/spot/</link>
-      <pubDate>Fri, 25 Dec 2015 09:05:40 +0900</pubDate>
-      
-      <guid>https://www.wintercat.jp/tags/spot/</guid>
+      <guid>https://www.wintercat.jp/tags/cat/</guid>
       <description></description>
     </item>
     
@@ -229,6 +211,24 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.wintercat.jp/tags/computerscience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MiKan</title>
+      <link>https://www.wintercat.jp/tags/mikan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.wintercat.jp/tags/mikan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neko</title>
+      <link>https://www.wintercat.jp/tags/neko/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.wintercat.jp/tags/neko/</guid>
       <description></description>
     </item>
     
@@ -247,6 +247,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.wintercat.jp/tags/wintercat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>子猫</title>
+      <link>https://www.wintercat.jp/tags/%E5%AD%90%E7%8C%AB/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.wintercat.jp/tags/%E5%AD%90%E7%8C%AB/</guid>
       <description></description>
     </item>
     
