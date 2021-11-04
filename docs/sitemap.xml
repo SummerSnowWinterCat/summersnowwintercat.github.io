@@ -4,238 +4,374 @@
     
     <url>
         <loc>https://www.wintercat.jp/tags/image/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/opencv/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/post/</loc>
+<<<<<<< HEAD
         <lastmod>2021-11-04T14:47:48+09:00</lastmod>
+=======
+        <lastmod>2021-10-17T18:10:48+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/python/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/post/python_image_location/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/</loc>
+<<<<<<< HEAD
         <lastmod>2021-11-04T14:47:48+09:00</lastmod>
+=======
+        <lastmod>2021-10-17T18:10:48+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/</loc>
+<<<<<<< HEAD
         <lastmod>2021-11-04T14:47:48+09:00</lastmod>
+=======
+        <lastmod>2021-10-17T18:10:48+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/mecab/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/post/python_mecab/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/bs4/</loc>
+<<<<<<< HEAD
         <lastmod>2021-08-31T04:08:26+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/crawler/</loc>
+<<<<<<< HEAD
         <lastmod>2021-08-31T04:08:26+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/web/</loc>
+<<<<<<< HEAD
         <lastmod>2021-08-31T04:08:26+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/post/webcrawler/</loc>
+<<<<<<< HEAD
         <lastmod>2021-08-31T04:08:26+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/bash/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/shell/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/ubuntu/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/post/ubuntu_command/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/catalina/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/hackintosh/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/nuc/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/post/nuc10i5/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/database/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/mysql/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/post/mysql_install_ubuntu/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/code/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/jupyter/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/post/about_jupyternotebook/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/notebook/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/file/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/os/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/post/python_file_calculation/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/myqr/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/post/python_myqr/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/cat/</loc>
+<<<<<<< HEAD
         <lastmod>2021-11-04T14:47:48+09:00</lastmod>
+=======
+        <lastmod>2021-10-17T18:10:48+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
@@ -248,77 +384,121 @@
     
     <url>
         <loc>https://www.wintercat.jp/tags/computerscience/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/post/databasecat/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/mikan/</loc>
+<<<<<<< HEAD
         <lastmod>2021-11-04T14:47:48+09:00</lastmod>
+=======
+        <lastmod>2021-10-17T18:10:48+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/neko/</loc>
+<<<<<<< HEAD
         <lastmod>2021-11-04T14:47:48+09:00</lastmod>
+=======
+        <lastmod>2021-10-17T18:10:48+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/paper/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/post/cs_paper/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/readme/</loc>
+<<<<<<< HEAD
         <lastmod>2021-11-04T14:43:22+09:00</lastmod>
+=======
+        <lastmod>2021-10-05T19:01:44+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/wintercat/</loc>
+<<<<<<< HEAD
         <lastmod>2021-07-16T12:47:12+09:00</lastmod>
+=======
+        <lastmod>2021-09-08T01:19:00+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/post/mikan/</loc>
+<<<<<<< HEAD
         <lastmod>2021-11-04T14:47:48+09:00</lastmod>
+=======
+        <lastmod>2021-10-17T18:10:48+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%E3%83%98%E3%82%A2/</loc>
+<<<<<<< HEAD
         <lastmod>2021-11-04T14:47:48+09:00</lastmod>
+=======
+        <lastmod>2021-10-17T18:10:48+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
     
     <url>
         <loc>https://www.wintercat.jp/tags/%E5%AD%90%E7%8C%AB/</loc>
+<<<<<<< HEAD
         <lastmod>2021-11-04T14:47:48+09:00</lastmod>
+=======
+        <lastmod>2021-10-17T18:10:48+09:00</lastmod>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>

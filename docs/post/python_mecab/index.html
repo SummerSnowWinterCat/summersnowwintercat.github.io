@@ -160,9 +160,15 @@
 
                   
                   <span class="file-info-divider"></span>
+<<<<<<< HEAD
                   Modified <relative-time datetime="Fri, 16 Jul 2021 12:47:12 &#43;0900"
                     class="no-wrap">
                     Fri, 16 Jul 2021 12:47:12 &#43;0900</relative-time>
+=======
+                  Modified <relative-time datetime="Wed, 08 Sep 2021 01:19:00 &#43;0900"
+                    class="no-wrap">
+                    Wed, 08 Sep 2021 01:19:00 &#43;0900</relative-time>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
                   
                 </div>
               </div>
@@ -224,7 +230,7 @@
 <blockquote>
 <p>インストール方法</p>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">pip install mecab-python3
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">pip install mecab-python3
 pip install ipadic
 </code></pre></div><blockquote>
 <p>GitHub Link: <a href="https://github.com/polm/ipadic-py">ipadic</a></p>
@@ -232,13 +238,13 @@ pip install ipadic
 <blockquote>
 <p>基本的使用方法 ( Basic usage )</p>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># ipadic は単語辞書</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="c1"># ipadic は単語辞書</span>
 <span class="n">tagger</span> <span class="o">=</span> <span class="n">MeCab</span><span class="o">.</span><span class="n">Tagger</span><span class="p">(</span><span class="n">ipadic</span><span class="o">.</span><span class="n">MECAB_ARGS</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">tagger</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="s2">&#34;人を信じよ、しかし、その百倍も自らを信じよ。&#34;</span><span class="p">))</span>
 </code></pre></div><blockquote>
 <p>結果:</p>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">人	名詞,一般,*,*,*,*,人,ヒト,ヒト
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">人	名詞,一般,*,*,*,*,人,ヒト,ヒト
 を	助詞,格助詞,一般,*,*,*,を,ヲ,ヲ
 信じよ	動詞,自立,*,*,一段,命令ｙｏ,信じる,シンジヨ,シンジヨ
 、	記号,読点,*,*,*,*,、,、,、
@@ -257,7 +263,7 @@ EOS
 </code></pre></div><blockquote>
 <p>　必要モジュール</p>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span>
 <span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">MeCab</span>
 <span class="kn">import</span> <span class="nn">ipadic</span>
@@ -266,7 +272,7 @@ EOS
 </code></pre></div><blockquote>
 <p>　テスト用データ</p>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">data</span> <span class="o">=</span><span class="s2">&#34;宇宙が誕生して1秒以内に生まれたとされる未知の素粒子「アクシオン」を、&#34;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">data</span> <span class="o">=</span><span class="s2">&#34;宇宙が誕生して1秒以内に生まれたとされる未知の素粒子「アクシオン」を、&#34;</span>
        <span class="s2">&#34;実験で観測できる可能性があるとする論文を、&#34;</span>
        <span class="s2">&#34;東京大カブリ数物連携宇宙研究機構（カブリIPMU）などのチームが米科学誌に発表した。&#34;</span>
        <span class="s2">&#34;観測できれば、誕生直後の宇宙の姿を見られる新たな物理学の幕が開く。&#34;</span>
@@ -278,7 +284,7 @@ EOS
 </code></pre></div><blockquote>
 <p>名詞を引き出す</p>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">word_box</span> <span class="o">=</span><span class="p">[]</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">word_box</span> <span class="o">=</span><span class="p">[]</span>
 <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tagger</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">):</span>
     <span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">!=</span><span class="s1">&#39;EOS&#39;</span> <span class="ow">and</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">!=</span><span class="s1">&#39;&#39;</span><span class="p">:</span>
         <span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;名詞&#39;</span><span class="p">:</span>
@@ -289,7 +295,7 @@ EOS
 </code></pre></div><blockquote>
 <p>計算結果：65</p>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># TF 計算 （TF = count / all count）</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="c1"># TF 計算 （TF = count / all count）</span>
 <span class="n">tf_box</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">Counter</span><span class="p">(</span><span class="n">word_box</span><span class="p">)</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
     <span class="n">tf_box</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">=</span><span class="n">v</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">word_box</span><span class="p">)</span>

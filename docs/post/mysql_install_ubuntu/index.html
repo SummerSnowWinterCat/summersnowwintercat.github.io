@@ -163,9 +163,15 @@ MySQLのVersionは8.0
 
                   
                   <span class="file-info-divider"></span>
+<<<<<<< HEAD
                   Modified <relative-time datetime="Fri, 16 Jul 2021 12:47:12 &#43;0900"
                     class="no-wrap">
                     Fri, 16 Jul 2021 12:47:12 &#43;0900</relative-time>
+=======
+                  Modified <relative-time datetime="Wed, 08 Sep 2021 01:19:00 &#43;0900"
+                    class="no-wrap">
+                    Wed, 08 Sep 2021 01:19:00 &#43;0900</relative-time>
+>>>>>>> 0ba987b106e0436aac648302b39d3681e8733412
                   
                 </div>
               </div>
@@ -232,7 +238,7 @@ MySQLのVersionは8.0
 <li>APTアップデートとMySQLのインストールを行う</li>
 </ol>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># update ubuntu</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># update ubuntu</span>
 sudo apt-get update <span class="p">&amp;</span> upgrade
 <span class="c1"># install mysql package</span>
 sudo apt-get install mysql-server
@@ -243,7 +249,7 @@ sudo mysql_secure_installation
 <li>SetUp VALIDATE PASSWORD</li>
 </ol>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">Securing the MySQL server deployment.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">Securing the MySQL server deployment.
 Connecting to MySQL using a blank password.
 VALIDATE PASSWORD COMPONENT can be used to <span class="nb">test</span> passwords
 and improve security. It checks the strength of password
@@ -256,7 +262,7 @@ Press y<span class="p">|</span>Y <span class="k">for</span> Yes, any other key <
 <li>Levels of password validation policy</li>
 </ol>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">There are three levels of password validation policy:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">There are three levels of password validation policy:
 LOW    Length &gt;<span class="o">=</span> <span class="m">8</span>
 MEDIUM Length &gt;<span class="o">=</span> 8, numeric, mixed <span class="k">case</span>, and special characters
 STRONG Length &gt;<span class="o">=</span> 8, numeric, mixed <span class="k">case</span>, special characters and dictionary file
@@ -267,7 +273,7 @@ Please enter <span class="nv">0</span> <span class="o">=</span> LOW, <span class
 <li>Set the password for Root</li>
 </ol>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">Please <span class="nb">set</span> the password <span class="k">for</span> root here.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">Please <span class="nb">set</span> the password <span class="k">for</span> root here.
 New password: &lt;password&gt;
 Re-enter new password: &lt;password&gt;
 Estimated strength of the password: <span class="m">50</span> 
@@ -278,7 +284,7 @@ Do you wish to <span class="k">continue</span> with the password provided?<span 
 <li>Remove anonymous users</li>
 </ol>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">By default, a MySQL installation has an anonymous user,
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">By default, a MySQL installation has an anonymous user,
 allowing anyone to log into MySQL without having to have
 a user account created <span class="k">for</span> them. This is intended only <span class="k">for</span>
 testing, and to make the installation go a bit smoother.
@@ -291,7 +297,7 @@ Remove anonymous users? <span class="o">(</span>Press y<span class="p">|</span>Y
 <li>Disallow root login remotely</li>
 </ol>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">Normally, root should only be allowed to connect from
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">Normally, root should only be allowed to connect from
 <span class="s1">&#39;localhost&#39;</span>. This ensures that someone cannot guess at
 the root password from the network.
 Disallow root login remotely? <span class="o">(</span>Press y<span class="p">|</span>Y <span class="k">for</span> Yes, any other key <span class="k">for</span> No<span class="o">)</span> :  Y
@@ -301,7 +307,7 @@ Disallow root login remotely? <span class="o">(</span>Press y<span class="p">|</
 <li>Remove test database and access to it</li>
 </ol>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">By default, MySQL comes with a database named <span class="s1">&#39;test&#39;</span> that
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">By default, MySQL comes with a database named <span class="s1">&#39;test&#39;</span> that
 anyone can access. This is also intended only <span class="k">for</span> testing,
 and should be removed before moving into a production
 environment.
@@ -312,7 +318,7 @@ Remove <span class="nb">test</span> database and access to it? <span class="o">(
 <li>Reload privilege tables</li>
 </ol>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">Reloading the privilege tables will ensure that all changes
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">Reloading the privilege tables will ensure that all changes
 made so far will take effect immediately.
 Reload privilege tables now? <span class="o">(</span>Press y<span class="p">|</span>Y <span class="k">for</span> Yes, any other key <span class="k">for</span> No<span class="o">)</span> :  Y
 // <span class="nv">enter</span>  <span class="o">=</span> Y
@@ -321,7 +327,7 @@ Reload privilege tables now? <span class="o">(</span>Press y<span class="p">|</s
 <li>Check User</li>
 </ol>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo mysql
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo mysql
 <span class="c1"># check user and auth</span>
 mysql&gt; SELECT user,authentication_string,plugin,host FROM mysql.user<span class="p">;</span>
 </code></pre></div><blockquote>
@@ -329,7 +335,7 @@ mysql&gt; SELECT user,authentication_string,plugin,host FROM mysql.user<span cla
 <li>Create User</li>
 </ol>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># create user</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># create user</span>
 CREATE USER <span class="s1">&#39;username&#39;</span>@<span class="s1">&#39;ip address&#39;</span> IDENTIFIED BY <span class="s1">&#39;password&#39;</span><span class="p">;</span>
 <span class="c1"># get user privileges</span>
 GRANT ALL PRIVILEGES ON *.* TO <span class="s1">&#39;username&#39;</span>@<span class="s1">&#39;ip address&#39;</span> WITH GRANT OPTION<span class="p">;</span>
@@ -342,13 +348,13 @@ mysql&gt; <span class="nb">exit</span>
 <li>Systemctl status check</li>
 </ol>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">sudo systemctl status mysql.service
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">sudo systemctl status mysql.service
 </code></pre></div><blockquote>
 <blockquote>
 <p>Maybe&hellip;..connection error ( MySQL )</p>
 </blockquote>
 </blockquote>
-<pre><code># change mysqld.cnf 
+<pre tabindex="0"><code># change mysqld.cnf 
 sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
 # change bind-address 
 &gt;# bind-address = 127.0.0.1
