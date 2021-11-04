@@ -109,28 +109,6 @@
     </item>
     
     <item>
-      <title>Photography 2016-04-08</title>
-      <link>https://www.wintercat.jp/post/photography2016_04_08/</link>
-      <pubDate>Fri, 08 Apr 2016 22:05:40 +0900</pubDate>
-      
-      <guid>https://www.wintercat.jp/post/photography2016_04_08/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;撮影 2016-04-08 Ueno&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
-      <title>Photography 2015-11-25</title>
-      <link>https://www.wintercat.jp/post/photography2015_11_25/</link>
-      <pubDate>Fri, 25 Dec 2015 09:05:40 +0900</pubDate>
-      
-      <guid>https://www.wintercat.jp/post/photography2015_11_25/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;撮影 2015-11-25 Mitake&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
       <title>DataBaseCat Module</title>
       <link>https://www.wintercat.jp/post/databasecat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -165,7 +143,23 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.wintercat.jp/readme/</guid>
-      <description>Skill / スキル  Java　 Python / PHP HTML / JavaScript / CSS / JQuery MySQL  Link　/ リンク  GitHub: SummerSnowWinterCat Paper:ComputerVision  Repository / コード倉庫  DataBaseCat: Python Database Process Pools Tools. NUC10i5 Hackintosh: NUC10EFI Hackintosh Catalina10.15. JupyterNoteBook: Jupyter Notebook (勉強用ノート)  </description>
+      <description>Skill / スキル  Java　 Python / PHP HTML / JavaScript / CSS / JQuery MySQL  Link　/ リンク  GitHub: SummerSnowWinterCat Paper:ComputerVision Cat:ウチのねこちゃん  Repository / コード倉庫  DataBaseCat: Python Database Process Pools Tools. NUC10i5 Hackintosh: NUC10EFI Hackintosh Catalina10.15. JupyterNoteBook: Jupyter Notebook (勉強用ノート)  </description>
+    </item>
+    
+    <item>
+      <title>~ MiKan CaT ~</title>
+      <link>https://www.wintercat.jp/post/mikan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/mikan/</guid>
+      <description>&lt;h2 id=&#34;ウチの子猫&#34;&gt;ウチの子猫　&lt;/h2&gt;
+&lt;h4 id=&#34;名前ミカンまたはo橘&#34;&gt;名前:ミカン　または　O橘&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2021年8月11日生まれのオスねこ 品種は「アメリカショットヘア」&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2021年8月11日出生的小公猫～ 品种:美短&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
   </channel>
