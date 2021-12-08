@@ -6,7 +6,17 @@
     <description>Recent content in Posts on WinterCat&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 29 Jun 2021 20:31:37 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Dec 2021 20:30:47 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Twitter Tweepy</title>
+      <link>https://www.wintercat.jp/post/about_twitter/</link>
+      <pubDate>Tue, 07 Dec 2021 20:30:47 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/about_twitter/</guid>
+      <description>&lt;p&gt;How to Use Tweepy&lt;/p&gt;
+&lt;p&gt;Python で　TwitterApiを通して、キーワードに関する内容を検索&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Python Opencv LocationFunction</title>
       <link>https://www.wintercat.jp/post/python_image_location/</link>
@@ -123,6 +133,19 @@
     </item>
     
     <item>
+      <title>MyCat〜</title>
+      <link>https://www.wintercat.jp/post/mikan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/mikan/</guid>
+      <description>&lt;h3 id=&#34;mycat&#34;&gt;MyCat　&lt;/h3&gt;
+&lt;h4 id=&#34;名前蜜柑&#34;&gt;名前:蜜柑&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2021年8月11日生まれのオスねこ 品種は「アメリカショットヘア」&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
       <title>Paper Collection ( CS )</title>
       <link>https://www.wintercat.jp/post/cs_paper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -134,22 +157,6 @@
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;気になった論文のリンクをここに記載する。&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
-      <title>~ MiKan CaT ~</title>
-      <link>https://www.wintercat.jp/post/mikan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.wintercat.jp/post/mikan/</guid>
-      <description>&lt;h2 id=&#34;ウチの子猫&#34;&gt;ウチの子猫　&lt;/h2&gt;
-&lt;h4 id=&#34;名前ミカンまたはo橘&#34;&gt;名前:ミカン　または　O橘&lt;/h4&gt;
-&lt;blockquote&gt;
-&lt;p&gt;2021年8月11日生まれのオスねこ 品種は「アメリカショットヘア」&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;2021年8月11日出生的小公猫～ 品种:美短&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     

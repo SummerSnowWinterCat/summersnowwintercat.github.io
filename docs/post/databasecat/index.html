@@ -229,13 +229,13 @@
 <blockquote>
 <p>必要なモジュール</p>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">pymysql</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">pymysql</span>
 <span class="kn">from</span> <span class="nn">dbutils.pooled_db</span> <span class="kn">import</span> <span class="n">PooledDB</span>
 <span class="kn">import</span> <span class="nn">config</span>
 </code></pre></div><blockquote>
 <p>プールの構造</p>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># -*- coding:utf-8 -*-</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="c1"># -*- coding:utf-8 -*-</span>
 <span class="c1"># @Author: WinterCat</span>
 <span class="c1"># @File : database_pool.py</span>
 <span class="k">class</span> <span class="nc">DataBaseConnectionPool</span><span class="p">:</span>
@@ -294,7 +294,7 @@
 <blockquote>
 <p>DB_HOST, DB_POST, DB_USER, DB_PASSWORD, DB_NAME となります。</p>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">DB_CREATOR</span> <span class="o">=</span> <span class="s1">&#39;pymysql&#39;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">DB_CREATOR</span> <span class="o">=</span> <span class="s1">&#39;pymysql&#39;</span>
 <span class="n">DB_HOST</span> <span class="o">=</span> <span class="s1">&#39;IP ADDRESS&#39;</span>
 <span class="n">DB_POST</span> <span class="o">=</span> <span class="mi">3306</span>
 <span class="n">DB_NAME</span> <span class="o">=</span> <span class="s1">&#39;DB_NAME&#39;</span>
@@ -327,7 +327,7 @@
 <blockquote>
 <p>search_data方法はsearch,select 用とする</p>
 </blockquote>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># @Author: WinterCat</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="c1"># @Author: WinterCat</span>
 <span class="kn">from</span> <span class="nn">database_service.database_pool</span> <span class="kn">import</span> <span class="n">add_data</span><span class="p">,</span> <span class="n">search_data</span>
 <span class="c1"># テーブルを作る</span>
 <span class="k">def</span> <span class="nf">create_table</span><span class="p">():</span>
