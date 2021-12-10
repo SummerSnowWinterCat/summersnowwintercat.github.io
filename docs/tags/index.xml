@@ -53,11 +53,11 @@
     </item>
     
     <item>
-      <title>MeCab</title>
-      <link>https://www.wintercat.jp/tags/mecab/</link>
-      <pubDate>Sat, 20 Mar 2021 09:40:50 +0900</pubDate>
+      <title>Position</title>
+      <link>https://www.wintercat.jp/tags/position/</link>
+      <pubDate>Tue, 29 Jun 2021 20:31:37 +0900</pubDate>
       
-      <guid>https://www.wintercat.jp/tags/mecab/</guid>
+      <guid>https://www.wintercat.jp/tags/position/</guid>
       <description></description>
     </item>
     
@@ -134,11 +134,11 @@
     </item>
     
     <item>
-      <title>NUC</title>
-      <link>https://www.wintercat.jp/tags/nuc/</link>
+      <title>NUC10i5</title>
+      <link>https://www.wintercat.jp/tags/nuc10i5/</link>
       <pubDate>Fri, 17 Jul 2020 12:53:37 +0900</pubDate>
       
-      <guid>https://www.wintercat.jp/tags/nuc/</guid>
+      <guid>https://www.wintercat.jp/tags/nuc10i5/</guid>
       <description></description>
     </item>
     
@@ -157,6 +157,15 @@
       <pubDate>Tue, 12 May 2020 10:20:37 +0900</pubDate>
       
       <guid>https://www.wintercat.jp/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MeCab</title>
+      <link>https://www.wintercat.jp/tags/mecab/</link>
+      <pubDate>Sun, 19 Jan 2020 10:40:50 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/tags/mecab/</guid>
       <description></description>
     </item>
     
@@ -220,33 +229,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.wintercat.jp/tags/cat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ComputerScience</title>
-      <link>https://www.wintercat.jp/tags/computerscience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.wintercat.jp/tags/computerscience/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Paper</title>
-      <link>https://www.wintercat.jp/tags/paper/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.wintercat.jp/tags/paper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>WinterCat</title>
-      <link>https://www.wintercat.jp/tags/wintercat/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.wintercat.jp/tags/wintercat/</guid>
       <description></description>
     </item>
     

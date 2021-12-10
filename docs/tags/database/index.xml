@@ -18,5 +18,17 @@
 &lt;p&gt;MySQLのVersionは8.0&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>MySQL Connector Pooling</title>
+      <link>https://www.wintercat.jp/post/mysqlconnectorpooling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/mysqlconnectorpooling/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;MySQL Connector Pooling&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;PythonでMySQLへアクセスためのファンクション&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

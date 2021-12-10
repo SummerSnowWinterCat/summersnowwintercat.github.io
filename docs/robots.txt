@@ -1,6 +1,16 @@
 User-agent: *
-Disallow: /post/
+Disallow: /
+
 User-agent:Googlebot
-Allow: /
+Allow: /post/
+
+User-agent:Baiduspider
+Allow: /post/
+
+User-agent:bingbot
+Allow: /post/
+
+User-agent:msnbot
+Allow: /post/
 
 Sitemap: https://wintercat.jp/sitemap.xml

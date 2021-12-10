@@ -18,29 +18,15 @@
     </item>
     
     <item>
-      <title>Python Opencv LocationFunction</title>
-      <link>https://www.wintercat.jp/post/python_image_location/</link>
+      <title>Python Opencv Template Matching</title>
+      <link>https://www.wintercat.jp/post/opencvtemplatematching/</link>
       <pubDate>Tue, 29 Jun 2021 20:31:37 +0900</pubDate>
       
-      <guid>https://www.wintercat.jp/post/python_image_location/</guid>
+      <guid>https://www.wintercat.jp/post/opencvtemplatematching/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Use Opencv to match Template&lt;/p&gt;
+&lt;p&gt;OpenCV Template Matching&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;こちらの方法はいずれかもOpenCVを使用し、目標の位置を表示するためのFunctionである。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Python MeCab Module</title>
-      <link>https://www.wintercat.jp/post/python_mecab/</link>
-      <pubDate>Sat, 20 Mar 2021 09:40:50 +0900</pubDate>
-      
-      <guid>https://www.wintercat.jp/post/python_mecab/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Mecab について&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;モジュール方法についてのメモ、テキストから単語へ&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+&lt;p&gt;Template Matching is a method for searching and finding the location of a template image in a larger image.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -67,13 +53,13 @@
     </item>
     
     <item>
-      <title>NUC10i5 Hackintosh Catalina10.15.5</title>
-      <link>https://www.wintercat.jp/post/nuc10i5/</link>
+      <title>NUC10i5 Hackintosh (Catalina10.15.5) </title>
+      <link>https://www.wintercat.jp/post/hackintonuc10i5/</link>
       <pubDate>Fri, 17 Jul 2020 12:53:37 +0900</pubDate>
       
-      <guid>https://www.wintercat.jp/post/nuc10i5/</guid>
+      <guid>https://www.wintercat.jp/post/hackintonuc10i5/</guid>
       <description>&lt;p&gt;文章内容适用于NUC10i5 and NUC10i7机型（已修改)&lt;/p&gt;
-&lt;p&gt;intel nuc10i5 model and nuc10i7 model&lt;/p&gt;</description>
+&lt;p&gt;[ The article content applies to Intel NUC10i5 and NUC10i7 ]&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -85,6 +71,20 @@
       <description>&lt;p&gt;MySQL Installation&lt;/p&gt;
 &lt;p&gt;こちらはMySQLのインストール方法や手順となります。&lt;/p&gt;
 &lt;p&gt;MySQLのVersionは8.0&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title> About MeCab </title>
+      <link>https://www.wintercat.jp/post/aboutmecab/</link>
+      <pubDate>Sun, 19 Jan 2020 10:40:50 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/aboutmecab/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;About MeCab&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;MeCab is an open-source text segmentation library for use with text written in the Japanese language originally developed by the Nara Institute of Science and Technology and currently maintained by Taku Kudou (工藤拓) as part of his work on the Google Japanese Input project.[1][2] The name derives from the developer&amp;rsquo;s favorite food, mekabu [ja] (和布蕪), a Japanese dish made from wakame leaves.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -119,20 +119,6 @@
     </item>
     
     <item>
-      <title>DataBaseCat Module</title>
-      <link>https://www.wintercat.jp/post/databasecat/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.wintercat.jp/post/databasecat/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;MySqlデータベース用モジュール&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;PythonでMySQLへアクセスするためのモジュール&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
       <title>MyCat〜</title>
       <link>https://www.wintercat.jp/post/mikan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -146,18 +132,15 @@
     </item>
     
     <item>
-      <title>Paper Collection ( CS )</title>
-      <link>https://www.wintercat.jp/post/cs_paper/</link>
+      <title>MySQL Connector Pooling</title>
+      <link>https://www.wintercat.jp/post/mysqlconnectorpooling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.wintercat.jp/post/cs_paper/</guid>
-      <description>&lt;p&gt;論文メモ　（ paper memo ）&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;こちらは論文のコレクションとなります。&lt;/p&gt;
+      <guid>https://www.wintercat.jp/post/mysqlconnectorpooling/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;MySQL Connector Pooling&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;気になった論文のリンクをここに記載する。&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+&lt;p&gt;PythonでMySQLへアクセスためのファンクション&lt;/p&gt;</description>
     </item>
     
   </channel>

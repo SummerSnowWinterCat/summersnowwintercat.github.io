@@ -6,18 +6,18 @@
     <description>Recent content in MeCab on WinterCat&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 20 Mar 2021 09:40:50 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/mecab/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Jan 2020 10:40:50 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/mecab/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Python MeCab Module</title>
-      <link>https://www.wintercat.jp/post/python_mecab/</link>
-      <pubDate>Sat, 20 Mar 2021 09:40:50 +0900</pubDate>
+      <title> About MeCab </title>
+      <link>https://www.wintercat.jp/post/aboutmecab/</link>
+      <pubDate>Sun, 19 Jan 2020 10:40:50 +0900</pubDate>
       
-      <guid>https://www.wintercat.jp/post/python_mecab/</guid>
+      <guid>https://www.wintercat.jp/post/aboutmecab/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Mecab について&lt;/p&gt;
+&lt;p&gt;About MeCab&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;モジュール方法についてのメモ、テキストから単語へ&lt;/p&gt;
+&lt;p&gt;MeCab is an open-source text segmentation library for use with text written in the Japanese language originally developed by the Nara Institute of Science and Technology and currently maintained by Taku Kudou (工藤拓) as part of his work on the Google Japanese Input project.[1][2] The name derives from the developer&amp;rsquo;s favorite food, mekabu [ja] (和布蕪), a Japanese dish made from wakame leaves.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     

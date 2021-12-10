@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+    <meta charset="utf-8">
+    
+    <meta name="baidu-site-verification" content="code-c4ncnNdsub" />
+    <meta name="viewport" content="width=device-width">
+    <script type="application/javascript" src='https://www.wintercat.jp/js/theme-mode.js'></script>
+    <link rel="stylesheet" href='https://www.wintercat.jp/css/frameworks.min.css' />
+    <link rel="stylesheet" href='https://www.wintercat.jp/css/github.min.css' />
+    <link rel="stylesheet" href='https://www.wintercat.jp/css/github-style.css' />
+    <link rel="stylesheet" href='https://www.wintercat.jp/css/light.css' />
+    <link rel="stylesheet" href='https://www.wintercat.jp/css/dark.css' />
+    <link rel="stylesheet" href='https://www.wintercat.jp/css/syntax.css' />
+    <title> About MeCab  - WinterCat&#39;s blog</title>
+    <link rel="icon" type="image/x-icon" href='https://www.wintercat.jp/images/favicon.ico'>
+    <meta name="theme-color" content="#1e2327">
+    
+    
+<meta name="description"
+  content=" About MeCab
+  MeCab is an open-source text segmentation library for use with text written in the Japanese language originally developed by the Nara Institute of Science and Technology and currently maintained by Taku Kudou (工藤拓) as part of his work on the Google Japanese Input project.[1][2] The name derives from the developer&amp;rsquo;s favorite food, mekabu [ja] (和布蕪), a Japanese dish made from wakame leaves.
+" />
+<meta name="keywords"
+  content='WinterCat' />
+<meta name="robots" content="index" />
+<link rel="canonical" href="https://www.wintercat.jp/post/aboutmecab/" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content=" About MeCab  - WinterCat&#39;s blog" />
+<meta name="twitter:description"
+  content=" About MeCab
+  MeCab is an open-source text segmentation library for use with text written in the Japanese language originally developed by the Nara Institute of Science and Technology and currently maintained by Taku Kudou (工藤拓) as part of his work on the Google Japanese Input project.[1][2] The name derives from the developer&amp;rsquo;s favorite food, mekabu [ja] (和布蕪), a Japanese dish made from wakame leaves.
+" />
+<meta name="twitter:site" content="https://www.wintercat.jp" />
+<meta name="twitter:creator" content="" />
+<meta name="twitter:image"
+  content="https://www.wintercat.jp">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content=" About MeCab  - WinterCat&#39;s blog">
+<meta property="og:description"
+  content=" About MeCab
+  MeCab is an open-source text segmentation library for use with text written in the Japanese language originally developed by the Nara Institute of Science and Technology and currently maintained by Taku Kudou (工藤拓) as part of his work on the Google Japanese Input project.[1][2] The name derives from the developer&amp;rsquo;s favorite food, mekabu [ja] (和布蕪), a Japanese dish made from wakame leaves.
+" />
+<meta property="og:url" content="https://www.wintercat.jp/post/aboutmecab/" />
+<meta property="og:site_name" content=" About MeCab " />
+<meta property="og:image"
+  content="https://www.wintercat.jp">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+<meta property="article:published_time" content="2020-01-19 10:40:50 &#43;0900 JST" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body>
+  <div style="position: relative">
+  <header class="Header js-details-container Details px-3 px-md-4 px-lg-5 flex-wrap flex-md-nowrap open Details--on">
+    <div class="Header-item mobile-none" style="margin-top: -4px; margin-bottom: -4px;">
+      <a class="Header-link" href="https://www.wintercat.jp">
+        <svg class="octicon" height="32" viewBox="0 0 16 16" version="1.1" width="32">
+          <path fill-rule="evenodd"
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+          </path>
+        </svg>
+      </a>
+    </div>
+    <div class="Header-item d-md-none">
+      <button class="Header-link btn-link js-details-target" type="button"
+        onclick="document.querySelector('#header-search').style.display = document.querySelector('#header-search').style.display == 'none'? 'block': 'none'">
+        <svg height="24" class="octicon octicon-three-bars" viewBox="0 0 16 16" version="1.1" width="24">
+          <path fill-rule="evenodd"
+            d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z">
+          </path>
+        </svg>
+      </button>
+    </div>
+    <div style="display: none;" id="header-search"
+      class="Header-item Header-item--full flex-column flex-md-row width-full flex-order-2 flex-md-order-none mr-0 mr-md-3 mt-3 mt-md-0 Details-content--hidden-not-important d-md-flex">
+      <div
+        class="Header-search header-search flex-auto js-site-search position-relative flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 scoped-search site-scoped-search js-jump-to">
+        <div class="position-relative">
+          <form target="_blank" action="https://github.com/search?q=" accept-charset="UTF-8" method="get"
+            autocomplete="off">
+            <label
+              class="Header-search-label form-control input-sm header-search-wrapper p-0 js-chromeless-input-container header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center">
+              <input type="text"
+                class="Header-search-input form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+                name="q" value="" placeholder="Search" autocomplete="off">
+            </label>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="Header-item Header-item--full flex-justify-center d-md-none position-relative">
+      <a class="Header-link " href="https://www.wintercat.jp">
+        <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
+          width="32">
+          <path fill-rule="evenodd"
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+          </path>
+        </svg>
+      </a>
+    </div>
+    <div class="Header-item" style="margin-right: 0;">
+      <a href="javascript:void(0)" class="Header-link no-select" onclick="switchTheme()">
+        <svg style="fill: var(--color-profile-color-modes-toggle-moon);" class="no-select" viewBox="0 0 16 16"
+          version="1.1" width="16" height="16">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M4.52208 7.71754C7.5782 7.71754 10.0557 5.24006 10.0557 2.18394C10.0557 1.93498 10.0392 1.68986 10.0074 1.44961C9.95801 1.07727 10.3495 0.771159 10.6474 0.99992C12.1153 2.12716 13.0615 3.89999 13.0615 5.89383C13.0615 9.29958 10.3006 12.0605 6.89485 12.0605C3.95334 12.0605 1.49286 10.001 0.876728 7.24527C0.794841 6.87902 1.23668 6.65289 1.55321 6.85451C2.41106 7.40095 3.4296 7.71754 4.52208 7.71754Z">
+          </path>
+        </svg>
+      </a>
+    </div>
+  </header>
+</div>
+  
+<div>
+  <main>
+    <div class="gisthead pagehead bg-gray-light pb-0 pt-3 mb-4">
+      <div class="px-0">
+        <div class="mb-3 d-flex px-3 px-md-3 px-lg-5">
+          <div class="flex-auto min-width-0 width-fit mr-3">
+            <div class="d-flex">
+              <div class="d-none d-md-block">
+                <a class="avatar mr-2 flex-shrink-0" href="https://www.wintercat.jp">
+                  <img class=" avatar-user"
+                    src="https://www.wintercat.jp/images/avatar.png"
+                    width="32" height="32"></a>
+              </div>
+              <div class="d-flex flex-column">
+                <h1 class="break-word f3 text-normal mb-md-0 mb-1">
+                  <span class="author">
+                    <a href="https://www.wintercat.jp">WinterCat</a></span><span
+                    class="path-divider">/</span><strong class="css-truncate-target mr-1" style="max-width: 410px"><a
+                      href="https://www.wintercat.jp/post/aboutmecab/"> About MeCab </a></strong>
+                </h1>
+                <div class="note m-0">
+                  Created <relative-time datetime="Sun, 19 Jan 2020 10:40:50 &#43;0900"
+                    class="no-wrap">
+                    Sun, 19 Jan 2020 10:40:50 &#43;0900</relative-time>
+
+                  
+                  <span class="file-info-divider"></span>
+                  Modified <relative-time datetime="Sat, 11 Dec 2021 03:18:41 &#43;0900"
+                    class="no-wrap">
+                    Sat, 11 Dec 2021 03:18:41 &#43;0900</relative-time>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-lg px-3 new-discussion-timeline">
+      <div class="repository-content gist-content">
+        <div>
+          <div class="js-gist-file-update-container js-task-list-container file-box">
+            <div id="file-pytest" class="file my-2">
+              <div class="file-header d-flex flex-md-items-center flex-items-start">
+                <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
+                  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+                    1704 Words
+                    
+
+                  </div>
+                  <div class="file-actions flex-order-2 pt-0">
+                    
+                    
+                    <a class="muted-link mr-3" href="/tags/python">
+                      <svg class="octicon octicon-tag" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+                        <path fill-rule="evenodd"
+                          d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z">
+                        </path>
+                      </svg>
+                      Python
+                    </a>
+                    
+                    <a class="muted-link mr-3" href="/tags/mecab">
+                      <svg class="octicon octicon-tag" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+                        <path fill-rule="evenodd"
+                          d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z">
+                        </path>
+                      </svg>
+                      MeCab
+                    </a>
+                    
+                    
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="Box-body px-5 pb-5">
+                <article class="markdown-body entry-content container-lg"><blockquote>
+<p>About MeCab</p>
+</blockquote>
+<blockquote>
+<p>MeCab is an open-source text segmentation library for use with text written in the Japanese language originally developed by the Nara Institute of Science and Technology and currently maintained by Taku Kudou (工藤拓) as part of his work on the Google Japanese Input project.[1][2] The name derives from the developer&rsquo;s favorite food, mekabu [ja] (和布蕪), a Japanese dish made from wakame leaves.</p>
+</blockquote>
+<p><img src="/AboutMeCab/1.png" alt=""></p>
+<blockquote>
+<p>MeCabとは：MeCabは 京都大学情報学研究科−日本電信電話株式会社コミュニケーション科学基礎研究所 共同研究ユニットプロジェクトを通じて開発されたオープンソース 形態素解析エンジンです。 言語, 辞書,コーパスに依存しない汎用的な設計を 基本方針としています。 パラメータの推定に Conditional Random Fields (CRF) を用 いており, ChaSenが採用している 隠れマルコフモデルに比べ性能が向上しています。また、平均的に ChaSen, Juman, KAKASIより高速に動作します。 ちなみに和布蕪(めかぶ)は, 作者の好物です。</p>
+</blockquote>
+<blockquote>
+<p>インストール方法</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">pip install mecab-python3
+pip install ipadic
+</code></pre></div><blockquote>
+<p>GitHub Link: <a href="https://github.com/polm/ipadic-py">ipadic</a></p>
+</blockquote>
+<blockquote>
+<p>基本的使用方法 ( Basic Usage )</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="c1"># ipadic は単語辞書</span>
+<span class="n">tagger</span> <span class="o">=</span> <span class="n">MeCab</span><span class="o">.</span><span class="n">Tagger</span><span class="p">(</span><span class="n">ipadic</span><span class="o">.</span><span class="n">MECAB_ARGS</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">tagger</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="s2">&#34;人を信じよ、しかし、その百倍も自らを信じよ。&#34;</span><span class="p">))</span>
+</code></pre></div><blockquote>
+<p>結果:</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">人	名詞,一般,*,*,*,*,人,ヒト,ヒト
+を	助詞,格助詞,一般,*,*,*,を,ヲ,ヲ
+信じよ	動詞,自立,*,*,一段,命令ｙｏ,信じる,シンジヨ,シンジヨ
+、	記号,読点,*,*,*,*,、,、,、
+しかし	接続詞,*,*,*,*,*,しかし,シカシ,シカシ
+、	記号,読点,*,*,*,*,、,、,、
+その	連体詞,*,*,*,*,*,その,ソノ,ソノ
+百	名詞,数,*,*,*,*,百,ヒャク,ヒャク
+倍	名詞,接尾,助数詞,*,*,*,倍,バイ,バイ
+も	助詞,係助詞,*,*,*,*,も,モ,モ
+自ら	名詞,副詞可能,*,*,*,*,自ら,ミズカラ,ミズカラ
+を	助詞,格助詞,一般,*,*,*,を,ヲ,ヲ
+信じ	動詞,自立,*,*,一段,連用形,信じる,シンジ,シンジ
+よ	助詞,終助詞,*,*,*,*,よ,ヨ,ヨ
+。	記号,句点,*,*,*,*,。,。,。
+EOS
+</code></pre></div><blockquote>
+<p>　必要モジュール</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">MeCab</span>
+<span class="kn">import</span> <span class="nn">ipadic</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+</code></pre></div><blockquote>
+<p>　テスト用データ</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">test_data</span> <span class="o">=</span> <span class="s2">&#34;宇宙が誕生して1秒以内に生まれたとされる未知の素粒子「アクシオン」を、&#34;</span>
+            <span class="s2">&#34;実験で観測できる可能性があるとする論文を、&#34;</span>
+            <span class="s2">&#34;東京大カブリ数物連携宇宙研究機構（カブリIPMU）などのチームが米科学誌に発表した。&#34;</span>
+            <span class="s2">&#34;観測できれば、誕生直後の宇宙の姿を見られる新たな物理学の幕が開く。&#34;</span>
+            <span class="s2">&#34;アクシオンは、物理学の根幹をなす標準理論には含まれていないが、&#34;</span>
+            <span class="s2">&#34;理論的に予言されている軽い素粒子の一つ。&#34;</span>
+            <span class="s2">&#34;宇宙の組成の4分の1を占める暗黒物質（ダークマター）の有力な候補とされる。&#34;</span>
+            <span class="s2">&#34;ほとんどのものをすり抜けてめったに反応しない素粒子ニュートリノよりもさらに反応しないといい、&#34;</span>
+            <span class="s2">&#34;米国などで探索実験が続いているが、見つかっていない。&#34;</span>
+</code></pre></div><blockquote>
+<p>名詞を引き出す</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">word_box</span> <span class="o">=</span><span class="p">[]</span>
+<span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tagger</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">!=</span><span class="s1">&#39;EOS&#39;</span> <span class="ow">and</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">!=</span><span class="s1">&#39;&#39;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;名詞&#39;</span><span class="p">:</span>
+            <span class="c1"># 数字抜き、形容動詞語幹、副詞可能</span>
+            <span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">!=</span><span class="s1">&#39;数&#39;</span> <span class="ow">and</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">!=</span><span class="s1">&#39;形容動詞語幹&#39;</span> <span class="ow">and</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">!=</span><span class="s1">&#39;副詞可能&#39;</span><span class="p">:</span>
+                <span class="n">word_box</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span>
+<span class="nb">len</span><span class="p">(</span><span class="n">word_box</span><span class="p">)</span>
+</code></pre></div><blockquote>
+<p>計算結果：65</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="c1"># TF 計算 （TF = count / all count）</span>
+<span class="n">tf_box</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">Counter</span><span class="p">(</span><span class="n">word_box</span><span class="p">)</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">tf_box</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">=</span><span class="n">v</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">word_box</span><span class="p">)</span>
+<span class="nb">list</span><span class="p">(</span><span class="n">tf_box</span><span class="p">)[</span><span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">]</span>
+</code></pre></div><blockquote>
+<p>計算結果： [&lsquo;宇宙&rsquo;, &lsquo;誕生&rsquo;, &lsquo;秒&rsquo;, &lsquo;以内&rsquo;, &lsquo;未知&rsquo;, &lsquo;素粒子&rsquo;, &lsquo;アク&rsquo;, &lsquo;シオン&rsquo;, &lsquo;実験&rsquo;, &lsquo;観測&rsquo;]</p>
+</blockquote>
+<p><em>参考リンク:<a href="https://www.gsk.or.jp/catalog/">https://www.gsk.or.jp/catalog/</a></em></p></article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+  <div class="footer container-xl width-full p-responsive">
+  <div
+    class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between flex-sm-items-center pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mr-lg-4" href="https://www.wintercat.jp">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24">
+        <path fill-rule="evenodd"
+          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+        </path>
+      </svg>
+    </a>
+    <ul class="list-style-none d-flex flex-wrap col-12 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+      
+      <li class="mr-3 mr-lg-0">　Real life is, to most men. a long second-best, a perpetual compromise between the ideal and the possible.　</li>
+      
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+
+
+</div>
+</body>
+
+<script type="application/javascript" src="https://www.wintercat.jp/js/github-style.js"></script>
+
+
+
+</html>

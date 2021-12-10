@@ -18,28 +18,28 @@
     </item>
     
     <item>
-      <title>Python Opencv LocationFunction</title>
-      <link>https://www.wintercat.jp/post/python_image_location/</link>
+      <title>Python Opencv Template Matching</title>
+      <link>https://www.wintercat.jp/post/opencvtemplatematching/</link>
       <pubDate>Tue, 29 Jun 2021 20:31:37 +0900</pubDate>
       
-      <guid>https://www.wintercat.jp/post/python_image_location/</guid>
+      <guid>https://www.wintercat.jp/post/opencvtemplatematching/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Use Opencv to match Template&lt;/p&gt;
+&lt;p&gt;OpenCV Template Matching&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;こちらの方法はいずれかもOpenCVを使用し、目標の位置を表示するためのFunctionである。&lt;/p&gt;</description>
+&lt;p&gt;Template Matching is a method for searching and finding the location of a template image in a larger image.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Python MeCab Module</title>
-      <link>https://www.wintercat.jp/post/python_mecab/</link>
-      <pubDate>Sat, 20 Mar 2021 09:40:50 +0900</pubDate>
+      <title> About MeCab </title>
+      <link>https://www.wintercat.jp/post/aboutmecab/</link>
+      <pubDate>Sun, 19 Jan 2020 10:40:50 +0900</pubDate>
       
-      <guid>https://www.wintercat.jp/post/python_mecab/</guid>
+      <guid>https://www.wintercat.jp/post/aboutmecab/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Mecab について&lt;/p&gt;
+&lt;p&gt;About MeCab&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;モジュール方法についてのメモ、テキストから単語へ&lt;/p&gt;
+&lt;p&gt;MeCab is an open-source text segmentation library for use with text written in the Japanese language originally developed by the Nara Institute of Science and Technology and currently maintained by Taku Kudou (工藤拓) as part of his work on the Google Japanese Input project.[1][2] The name derives from the developer&amp;rsquo;s favorite food, mekabu [ja] (和布蕪), a Japanese dish made from wakame leaves.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     
@@ -66,17 +66,15 @@
     </item>
     
     <item>
-      <title>DataBaseCat Module</title>
-      <link>https://www.wintercat.jp/post/databasecat/</link>
+      <title>MySQL Connector Pooling</title>
+      <link>https://www.wintercat.jp/post/mysqlconnectorpooling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.wintercat.jp/post/databasecat/</guid>
+      <guid>https://www.wintercat.jp/post/mysqlconnectorpooling/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;MySqlデータベース用モジュール&lt;/p&gt;
+&lt;p&gt;MySQL Connector Pooling&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;PythonでMySQLへアクセスするためのモジュール&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+&lt;p&gt;PythonでMySQLへアクセスためのファンクション&lt;/p&gt;</description>
     </item>
     
   </channel>
