@@ -71,11 +71,20 @@
     </item>
     
     <item>
-      <title>crawler</title>
-      <link>https://www.wintercat.jp/tags/crawler/</link>
+      <title>request</title>
+      <link>https://www.wintercat.jp/tags/request/</link>
       <pubDate>Tue, 20 Oct 2020 10:05:40 +0900</pubDate>
       
-      <guid>https://www.wintercat.jp/tags/crawler/</guid>
+      <guid>https://www.wintercat.jp/tags/request/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>urllib</title>
+      <link>https://www.wintercat.jp/tags/urllib/</link>
+      <pubDate>Tue, 20 Oct 2020 10:05:40 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/tags/urllib/</guid>
       <description></description>
     </item>
     
