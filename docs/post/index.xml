@@ -6,13 +6,25 @@
     <description>Recent content in Posts on WinterCat&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 07 Dec 2021 20:30:47 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Dec 2021 19:10:50 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> About Go </title>
+      <link>https://www.wintercat.jp/post/aboutgo/</link>
+      <pubDate>Tue, 14 Dec 2021 19:10:50 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/aboutgo/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Go&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Go started in September 2007 when Robert Griesemer, Ken Thompson, and I began discussing a new language to address the engineering challenges we and our colleagues at Google were facing in our daily work.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Twitter Tweepy</title>
-      <link>https://www.wintercat.jp/post/about_twitter/</link>
+      <link>https://www.wintercat.jp/post/abouttwitter/</link>
       <pubDate>Tue, 07 Dec 2021 20:30:47 +0900</pubDate>
       
-      <guid>https://www.wintercat.jp/post/about_twitter/</guid>
+      <guid>https://www.wintercat.jp/post/abouttwitter/</guid>
       <description>&lt;p&gt;How to Use Tweepy&lt;/p&gt;
 &lt;p&gt;Python で　TwitterApiを通して、キーワードに関する内容を検索&lt;/p&gt;</description>
     </item>
@@ -88,24 +100,13 @@
     </item>
     
     <item>
-      <title>Jupyter NoteBook Setting</title>
-      <link>https://www.wintercat.jp/post/about_jupyternotebook/</link>
-      <pubDate>Sun, 20 Jan 2019 08:30:47 +0900</pubDate>
-      
-      <guid>https://www.wintercat.jp/post/about_jupyternotebook/</guid>
-      <description>&lt;p&gt;Jupyter NoteBook&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Python File Calculation</title>
+      <title>PythonFileCalculation</title>
       <link>https://www.wintercat.jp/post/python_file_calculation/</link>
       <pubDate>Mon, 10 Sep 2018 01:20:37 +0900</pubDate>
       
       <guid>https://www.wintercat.jp/post/python_file_calculation/</guid>
-      <description>&lt;p&gt;File Calculation ( ファイル缶詰　計算　)&lt;/p&gt;
-&lt;p&gt;変なファイルサイズと数を数えるFunctionです〜&lt;/p&gt;
-&lt;p&gt;缶GET+1だぜ！&lt;/p&gt;
-&lt;p&gt;缶GET+1だぜ！&lt;/p&gt;</description>
+      <description>&lt;p&gt;File Calculation&lt;/p&gt;
+&lt;p&gt;File Calucution ファンクション&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -119,12 +120,12 @@
     </item>
     
     <item>
-      <title>MyCat(=^ェ^=)</title>
+      <title>MyCat₍ᐞ•༝•ᐞ₎◞ ̑̑</title>
       <link>https://www.wintercat.jp/post/mikan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.wintercat.jp/post/mikan/</guid>
-      <description>&lt;h3 id=&#34;mycatmikan蜜柑&#34;&gt;MyCat:Mikan(蜜柑)&lt;/h3&gt;
+      <description>&lt;p&gt;MyCat:Mikan(蜜柑)&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;2021年8月11日生まれ オス&lt;/p&gt;
 &lt;/blockquote&gt;</description>

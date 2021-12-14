@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go-dev on WinterCat&#39;s blog</title>
+    <link>https://www.wintercat.jp/tags/go-dev/</link>
+    <description>Recent content in Go-dev on WinterCat&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 14 Dec 2021 19:10:50 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/go-dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> About Go </title>
+      <link>https://www.wintercat.jp/post/aboutgo/</link>
+      <pubDate>Tue, 14 Dec 2021 19:10:50 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/aboutgo/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Go&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Go started in September 2007 when Robert Griesemer, Ken Thompson, and I began discussing a new language to address the engineering challenges we and our colleagues at Google were facing in our daily work.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
