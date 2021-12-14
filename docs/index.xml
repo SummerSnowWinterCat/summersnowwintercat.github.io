@@ -30,6 +30,18 @@
     </item>
     
     <item>
+      <title>MyCat₍ᐞ•༝•ᐞ₎◞ ̑̑</title>
+      <link>https://www.wintercat.jp/post/mikan/</link>
+      <pubDate>Sat, 02 Oct 2021 17:30:00 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/mikan/</guid>
+      <description>&lt;p&gt;MyCat:Mikan(蜜柑)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2021年8月11日生まれ オス&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
       <title>Python Opencv Template Matching</title>
       <link>https://www.wintercat.jp/post/opencvtemplatematching/</link>
       <pubDate>Tue, 29 Jun 2021 20:31:37 +0900</pubDate>
@@ -55,12 +67,24 @@
     </item>
     
     <item>
+      <title>MySQL Connector Pooling</title>
+      <link>https://www.wintercat.jp/post/mysqlconnectorpooling/</link>
+      <pubDate>Wed, 07 Oct 2020 10:30:37 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/mysqlconnectorpooling/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;MySQL Connector Pooling&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;PythonでMySQLへアクセスためのファンクション&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Ubuntu Command</title>
       <link>https://www.wintercat.jp/post/ubuntu_command/</link>
       <pubDate>Mon, 10 Aug 2020 11:20:37 +0900</pubDate>
       
       <guid>https://www.wintercat.jp/post/ubuntu_command/</guid>
-      <description>&lt;p&gt;Ubuntu Base Command  ( 普段よく使われているCommand )&lt;/p&gt;
+      <description>&lt;p&gt;Ubuntu Base Command  ( 普段よく使われているコマンド )&lt;/p&gt;
 &lt;p&gt;収録中ing &amp;raquo;&lt;/p&gt;</description>
     </item>
     
@@ -76,12 +100,12 @@
     
     <item>
       <title>MySQL 8.0 Installation Ubuntu</title>
-      <link>https://www.wintercat.jp/post/mysql_install_ubuntu/</link>
+      <link>https://www.wintercat.jp/post/mysqlinstallation/</link>
       <pubDate>Tue, 12 May 2020 10:20:37 +0900</pubDate>
       
-      <guid>https://www.wintercat.jp/post/mysql_install_ubuntu/</guid>
+      <guid>https://www.wintercat.jp/post/mysqlinstallation/</guid>
       <description>&lt;p&gt;MySQL Installation&lt;/p&gt;
-&lt;p&gt;こちらはMySQLのインストール方法や手順となります。&lt;/p&gt;
+&lt;p&gt;MySQLのインストール方法や手順となります。&lt;/p&gt;
 &lt;p&gt;MySQLのVersionは8.0&lt;/p&gt;</description>
     </item>
     
@@ -117,30 +141,6 @@
       <guid>https://www.wintercat.jp/post/python_myqr/</guid>
       <description>&lt;p&gt;PythonでQRコードを作る方法〜&lt;/p&gt;
 &lt;p&gt;install MyQR!&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>MyCat₍ᐞ•༝•ᐞ₎◞ ̑̑</title>
-      <link>https://www.wintercat.jp/post/mikan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.wintercat.jp/post/mikan/</guid>
-      <description>&lt;p&gt;MyCat:Mikan(蜜柑)&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;2021年8月11日生まれ オス&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
-      <title>MySQL Connector Pooling</title>
-      <link>https://www.wintercat.jp/post/mysqlconnectorpooling/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.wintercat.jp/post/mysqlconnectorpooling/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;MySQL Connector Pooling&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;PythonでMySQLへアクセスためのファンクション&lt;/p&gt;</description>
     </item>
     
     <item>

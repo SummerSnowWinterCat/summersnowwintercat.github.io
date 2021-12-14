@@ -6,28 +6,28 @@
     <description>Recent content in DataBase on WinterCat&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 12 May 2020 10:20:37 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/database/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>MySQL 8.0 Installation Ubuntu</title>
-      <link>https://www.wintercat.jp/post/mysql_install_ubuntu/</link>
-      <pubDate>Tue, 12 May 2020 10:20:37 +0900</pubDate>
-      
-      <guid>https://www.wintercat.jp/post/mysql_install_ubuntu/</guid>
-      <description>&lt;p&gt;MySQL Installation&lt;/p&gt;
-&lt;p&gt;こちらはMySQLのインストール方法や手順となります。&lt;/p&gt;
-&lt;p&gt;MySQLのVersionは8.0&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate>Wed, 07 Oct 2020 10:30:37 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/database/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MySQL Connector Pooling</title>
       <link>https://www.wintercat.jp/post/mysqlconnectorpooling/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 07 Oct 2020 10:30:37 +0900</pubDate>
       
       <guid>https://www.wintercat.jp/post/mysqlconnectorpooling/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;MySQL Connector Pooling&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;PythonでMySQLへアクセスためのファンクション&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MySQL 8.0 Installation Ubuntu</title>
+      <link>https://www.wintercat.jp/post/mysqlinstallation/</link>
+      <pubDate>Tue, 12 May 2020 10:20:37 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/mysqlinstallation/</guid>
+      <description>&lt;p&gt;MySQL Installation&lt;/p&gt;
+&lt;p&gt;MySQLのインストール方法や手順となります。&lt;/p&gt;
+&lt;p&gt;MySQLのVersionは8.0&lt;/p&gt;</description>
     </item>
     
   </channel>
