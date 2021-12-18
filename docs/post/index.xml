@@ -6,7 +6,20 @@
     <description>Recent content in Posts on WinterCat&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 14 Dec 2021 19:10:50 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Dec 2021 10:10:40 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> About M1 </title>
+      <link>https://www.wintercat.jp/post/aboutm1/</link>
+      <pubDate>Sat, 18 Dec 2021 10:10:40 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/aboutm1/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;M1 Support (Software Engineer)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;M1 Support Software List&lt;/p&gt;
+&lt;p&gt;参照リンク:&lt;a href=&#34;https://isapplesiliconready.com/&#34;&gt;Is M1 OK?&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title> About Go </title>
       <link>https://www.wintercat.jp/post/aboutgo/</link>
