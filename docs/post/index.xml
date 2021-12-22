@@ -6,7 +6,19 @@
     <description>Recent content in Posts on WinterCat&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 19 Dec 2021 16:10:50 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Dec 2021 14:10:50 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> About Flask </title>
+      <link>https://www.wintercat.jp/post/aboutflask/</link>
+      <pubDate>Tue, 21 Dec 2021 14:10:50 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/aboutflask/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Flask&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title> About Java </title>
       <link>https://www.wintercat.jp/post/aboutjava/</link>

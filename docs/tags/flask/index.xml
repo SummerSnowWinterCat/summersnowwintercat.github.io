@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Request on WinterCat&#39;s blog</title>
-    <link>https://www.wintercat.jp/tags/request/</link>
-    <description>Recent content in Request on WinterCat&#39;s blog</description>
+    <title>Flask on WinterCat&#39;s blog</title>
+    <link>https://www.wintercat.jp/tags/flask/</link>
+    <description>Recent content in Flask on WinterCat&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 21 Dec 2021 14:10:50 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/request/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Dec 2021 14:10:50 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/flask/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> About Flask </title>
       <link>https://www.wintercat.jp/post/aboutflask/</link>
@@ -17,19 +17,6 @@
 &lt;p&gt;Flask&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Web Crawler( python )</title>
-      <link>https://www.wintercat.jp/post/webcrawler/</link>
-      <pubDate>Tue, 20 Oct 2020 10:05:40 +0900</pubDate>
-      
-      <guid>https://www.wintercat.jp/post/webcrawler/</guid>
-      <description>&lt;p&gt;クローラーの作り方&lt;/p&gt;
-&lt;p&gt;簡易クローラーの構造と流れ&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;流れ( 偽造Header＋URL解析+必要な要素を検索+保存+データベースへ移る)&lt;/p&gt;
-&lt;/blockquote&gt;</description>
     </item>
     
   </channel>
