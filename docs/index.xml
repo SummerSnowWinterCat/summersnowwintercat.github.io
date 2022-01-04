@@ -6,7 +6,43 @@
     <description>Recent content on WinterCat&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 21 Dec 2021 14:10:50 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jan 2022 04:10:50 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> About Spring Boot </title>
+      <link>https://www.wintercat.jp/post/aboutspringboot/</link>
+      <pubDate>Mon, 03 Jan 2022 04:10:50 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/aboutspringboot/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Spring Boot&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can &amp;ldquo;just run&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title> Search Engine </title>
+      <link>https://www.wintercat.jp/post/searchengine/</link>
+      <pubDate>Mon, 27 Dec 2021 15:10:50 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/searchengine/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Search Engine 个人项目&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This project is a personal interest project. Search for words about Japanese, postal code numbers, subway routes, geographical locations, etc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title> About Maven </title>
+      <link>https://www.wintercat.jp/post/aboutmaven/</link>
+      <pubDate>Fri, 24 Dec 2021 16:10:50 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/aboutmaven/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;About Maven&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project&amp;rsquo;s build, reporting and documentation from a central piece of information.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title> About Flask </title>
       <link>https://www.wintercat.jp/post/aboutflask/</link>
@@ -28,7 +64,8 @@
       <description>&lt;blockquote&gt;
 &lt;p&gt;About Java&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Javaに関する知識を再整理 (中国語カバー)&lt;/p&gt;</description>
+&lt;p&gt;Javaに関する知識を再整理 (中国語カバー)&lt;/p&gt;
+&lt;p&gt;Used by over 10 million developers and running on 56 billion devices globally, the Java Platform truly moves the world forward, and now even faster with Java 17. Download or try out Java here!&lt;/p&gt;</description>
     </item>
     
     <item>
