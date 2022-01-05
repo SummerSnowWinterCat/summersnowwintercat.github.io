@@ -6,7 +6,19 @@
     <description>Recent content in Java on WinterCat&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 03 Jan 2022 04:10:50 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jan 2022 12:10:50 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> About SpringDataJPA </title>
+      <link>https://www.wintercat.jp/post/aboutspringdatajpa/</link>
+      <pubDate>Tue, 04 Jan 2022 12:10:50 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/aboutspringdatajpa/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;About SpringDataJPA&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Spring Data JPA, part of the larger Spring Data family, makes it easy to easily implement JPA based repositories. This module deals with enhanced support for JPA based data access layers. It makes it easier to build Spring-powered applications that use data access technologies.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title> About Spring Boot </title>
       <link>https://www.wintercat.jp/post/aboutspringboot/</link>
