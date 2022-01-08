@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vue on WinterCat&#39;s blog</title>
+    <link>https://www.wintercat.jp/tags/vue/</link>
+    <description>Recent content in Vue on WinterCat&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 09 Jan 2022 00:10:50 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/vue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> About Vue.js </title>
+      <link>https://www.wintercat.jp/post/aboutvue/</link>
+      <pubDate>Sun, 09 Jan 2022 00:10:50 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/aboutvue/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;About Vue.js&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
