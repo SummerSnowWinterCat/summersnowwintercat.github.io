@@ -3,6 +3,62 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     
     <url>
+        <loc>https://www.wintercat.jp/tags/chinese/</loc>
+        <lastmod>2022-02-16T10:41:50+09:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.wintercat.jp/tags/english/</loc>
+        <lastmod>2022-02-16T10:41:50+09:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.wintercat.jp/tags/japanese/</loc>
+        <lastmod>2022-02-16T10:41:50+09:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.wintercat.jp/tags/java/</loc>
+        <lastmod>2022-02-16T10:41:50+09:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.wintercat.jp/post/japanesecomparisontablejava/</loc>
+        <lastmod>2022-02-16T10:41:50+09:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.wintercat.jp/post/</loc>
+        <lastmod>2022-02-16T10:41:50+09:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.wintercat.jp/tags/</loc>
+        <lastmod>2022-02-16T10:41:50+09:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
+        <loc>https://www.wintercat.jp/</loc>
+        <lastmod>2022-02-16T10:41:50+09:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.4</priority>
+    </url>
+    
+    <url>
         <loc>https://www.wintercat.jp/post/aboutvue/</loc>
         <lastmod>2022-01-09T01:24:38+09:00</lastmod>
         <changefreq>monthly</changefreq>
@@ -17,20 +73,6 @@
     </url>
     
     <url>
-        <loc>https://www.wintercat.jp/post/</loc>
-        <lastmod>2022-02-14T12:25:40+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.4</priority>
-    </url>
-    
-    <url>
-        <loc>https://www.wintercat.jp/tags/</loc>
-        <lastmod>2022-02-14T12:25:40+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.4</priority>
-    </url>
-    
-    <url>
         <loc>https://www.wintercat.jp/tags/vue/</loc>
         <lastmod>2022-01-09T01:24:38+09:00</lastmod>
         <changefreq>monthly</changefreq>
@@ -38,22 +80,8 @@
     </url>
     
     <url>
-        <loc>https://www.wintercat.jp/</loc>
-        <lastmod>2022-02-14T12:25:40+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.4</priority>
-    </url>
-    
-    <url>
         <loc>https://www.wintercat.jp/post/aboutspringdatajpa/</loc>
         <lastmod>2022-01-06T02:53:14+09:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.4</priority>
-    </url>
-    
-    <url>
-        <loc>https://www.wintercat.jp/tags/java/</loc>
-        <lastmod>2022-02-14T12:25:40+09:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
     </url>
