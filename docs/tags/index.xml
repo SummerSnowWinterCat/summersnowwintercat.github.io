@@ -35,15 +35,6 @@
     </item>
     
     <item>
-      <title>Java</title>
-      <link>https://www.wintercat.jp/tags/java/</link>
-      <pubDate>Tue, 15 Feb 2022 10:03:37 +0900</pubDate>
-      
-      <guid>https://www.wintercat.jp/tags/java/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Js</title>
       <link>https://www.wintercat.jp/tags/js/</link>
       <pubDate>Sun, 09 Jan 2022 00:10:50 +0900</pubDate>
@@ -58,6 +49,15 @@
       <pubDate>Sun, 09 Jan 2022 00:10:50 +0900</pubDate>
       
       <guid>https://www.wintercat.jp/tags/vue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>https://www.wintercat.jp/tags/java/</link>
+      <pubDate>Tue, 04 Jan 2022 12:10:50 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/tags/java/</guid>
       <description></description>
     </item>
     
