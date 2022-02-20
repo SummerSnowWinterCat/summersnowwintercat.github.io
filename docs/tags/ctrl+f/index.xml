@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>POM on WinterCat&#39;s blog</title>
-    <link>https://www.wintercat.jp/tags/pom/</link>
-    <description>Recent content in POM on WinterCat&#39;s blog</description>
+    <title>Ctrl&#43;F on WinterCat&#39;s blog</title>
+    <link>https://www.wintercat.jp/tags/ctrl&#43;f/</link>
+    <description>Recent content in Ctrl&#43;F on WinterCat&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 03 Jan 2022 04:10:50 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/pom/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jan 2022 04:10:50 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/ctrl+f/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> About Spring Boot </title>
       <link>https://www.wintercat.jp/post/aboutspringboot/</link>

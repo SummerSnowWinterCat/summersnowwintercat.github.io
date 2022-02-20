@@ -160,9 +160,9 @@
 
                   
                   <span class="file-info-divider"></span>
-                  Modified <relative-time datetime="Wed, 05 Jan 2022 01:25:51 &#43;0900"
+                  Modified <relative-time datetime="Sun, 20 Feb 2022 11:58:44 &#43;0900"
                     class="no-wrap">
-                    Wed, 05 Jan 2022 01:25:51 &#43;0900</relative-time>
+                    Sun, 20 Feb 2022 11:58:44 &#43;0900</relative-time>
                   
                 </div>
               </div>
@@ -180,7 +180,7 @@
               <div class="file-header d-flex flex-md-items-center flex-items-start">
                 <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
                   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                    105 Words
+                    723 Words
                     
 
                   </div>
@@ -196,31 +196,22 @@
                       Java
                     </a>
                     
-                    <a class="muted-link mr-3" href="/tags/spring">
+                    <a class="muted-link mr-3" href="/tags/springboot">
                       <svg class="octicon octicon-tag" viewBox="0 0 16 16" version="1.1" width="16" height="16">
                         <path fill-rule="evenodd"
                           d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z">
                         </path>
                       </svg>
-                      Spring
+                      SpringBoot
                     </a>
                     
-                    <a class="muted-link mr-3" href="/tags/pom">
+                    <a class="muted-link mr-3" href="/tags/ctrl&#43;f">
                       <svg class="octicon octicon-tag" viewBox="0 0 16 16" version="1.1" width="16" height="16">
                         <path fill-rule="evenodd"
                           d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z">
                         </path>
                       </svg>
-                      POM
-                    </a>
-                    
-                    <a class="muted-link mr-3" href="/tags/maven">
-                      <svg class="octicon octicon-tag" viewBox="0 0 16 16" version="1.1" width="16" height="16">
-                        <path fill-rule="evenodd"
-                          d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z">
-                        </path>
-                      </svg>
-                      Maven
+                      Ctrl&#43;F
                     </a>
                     
                     
@@ -257,7 +248,218 @@
 <p>Absolutely no code generation and no requirement for XML configuration</p>
 </li>
 </ul>
-<h4 id="createspring-initializrhttpsstartspringio">Create:<a href="https://start.spring.io/">spring initializr</a></h4></article>
+<h4 id="spring-initializrhttpsstartspringio"><a href="https://start.spring.io/">spring initializr</a></h4>
+<table>
+<thead>
+<tr>
+<th>注释</th>
+<th>作用</th>
+<th>注释</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>@Entity</td>
+<td>实体类的声明（数据库实体)</td>
+<td>@Repository</td>
+<td>数据库操作的持久化Dao层</td>
+</tr>
+<tr>
+<td>@Table</td>
+<td>设置表名</td>
+<td>@Query</td>
+<td>SQL操作</td>
+</tr>
+<tr>
+<td>@GenerateValue</td>
+<td>主键生成策略</td>
+<td>@RestController</td>
+<td>*</td>
+</tr>
+<tr>
+<td>@Column</td>
+<td>声明字段</td>
+<td>@RequestMapping</td>
+<td>*</td>
+</tr>
+<tr>
+<td>@Id</td>
+<td>主键</td>
+<td>@Data</td>
+<td>为类提供读写属性</td>
+</tr>
+<tr>
+<td>@Autowired</td>
+<td>自动导入对象到类中,声明依赖</td>
+<td>@SpringBootApplication</td>
+<td>主类(SpringBoot的基石)</td>
+</tr>
+<tr>
+<td>@Service</td>
+<td>服务层（逻辑处理层)</td>
+<td>@Controller</td>
+<td>MVC控制层中的C,调用Service</td>
+</tr>
+<tr>
+<td>@Configuration</td>
+<td>注册额外的bean或导入其他的配置</td>
+<td>@PostMapping</td>
+<td>POST请求</td>
+</tr>
+<tr>
+<td>@JPAGenerate</td>
+<td>JPA 主键生成策略</td>
+<td>@GetMapping</td>
+<td>GET请求</td>
+</tr>
+<tr>
+<td>@Modifying</td>
+<td>注解JPA修改操作</td>
+<td>@PutMapping</td>
+<td>PUT请求</td>
+</tr>
+<tr>
+<td>@Transactional</td>
+<td>事务注解</td>
+<td>@DeleteMapping</td>
+<td>DELETE请求</td>
+</tr>
+<tr>
+<td>@Scope</td>
+<td>BEAN作用域</td>
+<td>@PatchMapping</td>
+<td>PATCH请求</td>
+</tr>
+<tr>
+<td>@Getter</td>
+<td>提供Getter方法</td>
+<td>@Setter</td>
+<td>提供Setter</td>
+</tr>
+<tr>
+<td>@ToString</td>
+<td>提供ToString方法</td>
+<td>@PersistenceContext</td>
+<td>执行持久化操作</td>
+</tr>
+<tr>
+<td>@Bean</td>
+<td>Bean组件,一般用于配置</td>
+<td>@Component</td>
+<td>*</td>
+</tr>
+</tbody>
+</table>
+<p>例:</p>
+<blockquote>
+<p>@SpringBootApplication</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="nd">@SpringBootApplication</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">SpringSecurityJwtGuideApplication</span> <span class="o">{</span>
+      <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">java</span><span class="o">.</span><span class="na">lang</span><span class="o">.</span><span class="na">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">SpringApplication</span><span class="o">.</span><span class="na">run</span><span class="o">(</span><span class="n">SpringSecurityJwtGuideApplication</span><span class="o">.</span><span class="na">class</span><span class="o">,</span> <span class="n">args</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div><blockquote>
+<p>@GenerateValue</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">// 主键策略 默认为IDENTITY
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">enum</span> <span class="n">GenerationType</span><span class="o">{</span>
+	<span class="n">TABLE</span><span class="o">,</span> <span class="c1">// 特定表格来生成主键
+</span><span class="c1"></span>	<span class="n">SEQUENCE</span><span class="o">,</span> <span class="c1">// 某些不支持主键自增的数据库 用序列作为主键
+</span><span class="c1"></span>	<span class="n">IDENTITY</span><span class="o">,</span> <span class="c1">// 主键自增
+</span><span class="c1"></span>	<span class="n">AUTO</span> <span class="c1">// 根据数据库自动选择其中一种策略
+</span><span class="c1"></span><span class="o">}</span>
+</code></pre></div><blockquote>
+<p>@Table,Entity,Id</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="nd">@Entity</span>
+<span class="nd">@Table</span><span class="o">(</span><span class="n">name</span> <span class="o">=</span> <span class="s">&#34;tableName&#34;</span><span class="o">)</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">TableName</span> <span class="o">{</span>
+    <span class="nd">@Id</span>
+    <span class="nd">@GeneratedValue</span><span class="o">(</span><span class="n">strategy</span> <span class="o">=</span> <span class="n">GenerationType</span><span class="o">.</span><span class="na">IDENTITY</span><span class="o">)</span>
+    <span class="kd">private</span> <span class="n">Long</span> <span class="n">id</span><span class="o">;</span>
+    <span class="kd">private</span> <span class="n">String</span> <span class="n">name</span><span class="o">;</span>
+    <span class="kd">private</span> <span class="n">String</span> <span class="n">description</span><span class="o">;</span>
+    <span class="c1">// 省略getter/setter......
+</span><span class="c1"></span><span class="o">}</span>
+</code></pre></div><blockquote>
+<p>@GetMapping</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="nd">@GetMapping</span><span class="o">(</span><span class="s">&#34;/api&#34;</span><span class="o">)</span>
+<span class="c1">// @RequestMapping(value=&#34;/api&#34;,method=RequestMethod.GET) 等价
+</span><span class="c1"></span><span class="kd">public</span> <span class="n">ResponseEntity</span><span class="o">&lt;</span><span class="n">List</span><span class="o">&lt;</span><span class="n">Data</span><span class="o">&gt;&gt;</span> <span class="nf">getAllData</span><span class="o">()</span> <span class="o">{</span>
+ <span class="k">return</span> <span class="n">dataRepository</span><span class="o">.</span><span class="na">findAll</span><span class="o">();</span>
+<span class="o">}</span>
+</code></pre></div><blockquote>
+<p>@PostMapping</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="nd">@PostMapping</span><span class="o">(</span><span class="s">&#34;/api&#34;</span><span class="o">)</span>
+<span class="kd">public</span> <span class="n">ResponseEntity</span><span class="o">&lt;</span><span class="n">Data</span><span class="o">&gt;</span> <span class="nf">createData</span><span class="o">(</span><span class="nd">@Valid</span> <span class="nd">@RequestBody</span> <span class="n">DataCreateRequest</span> <span class="n">dataCreateRequest</span><span class="o">)</span> <span class="o">{</span>
+ <span class="k">return</span> <span class="n">dataRespository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="n">data</span><span class="o">);</span>
+<span class="o">}</span>
+</code></pre></div><blockquote>
+<p>@PutMapping</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="nd">@PutMapping</span><span class="o">(</span><span class="s">&#34;/api/{Id}&#34;</span><span class="o">)</span>
+<span class="kd">public</span> <span class="n">ResponseEntity</span><span class="o">&lt;</span><span class="n">Data</span><span class="o">&gt;</span> <span class="nf">updateData</span><span class="o">(</span><span class="nd">@PathVariable</span><span class="o">(</span><span class="n">value</span> <span class="o">=</span> <span class="s">&#34;Id&#34;</span><span class="o">)</span> <span class="n">Long</span> <span class="n">dataId</span><span class="o">,</span>
+  <span class="nd">@Valid</span> <span class="nd">@RequestBody</span> <span class="n">DataUpdateRequest</span> <span class="n">dataUpdateRequest</span><span class="o">)</span> <span class="o">{</span>
+  <span class="o">......</span>
+<span class="o">}</span>
+</code></pre></div><blockquote>
+<p>@DeleteMapping</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="nd">@DeleteMapping</span><span class="o">(</span><span class="s">&#34;/api/{dataId}&#34;</span><span class="o">)</span>
+<span class="c1">// 等价于 @RequestMapping(value=&#34;/api/{dataId},
+</span><span class="c1">// method=RequestMethod.DELETE)
+</span><span class="c1"></span><span class="kd">public</span> <span class="n">ResponseEntity</span> <span class="nf">deleteData</span><span class="o">(</span><span class="nd">@PathVariable</span><span class="o">(</span><span class="n">value</span> <span class="o">=</span> <span class="s">&#34;dataId&#34;</span><span class="o">)</span> <span class="n">Long</span> <span class="n">dataId</span><span class="o">){</span>
+  <span class="o">......</span>
+<span class="o">}</span>
+</code></pre></div><blockquote>
+<p>@Column</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="nd">@Column</span><span class="o">(</span><span class="n">name</span> <span class="o">=</span> <span class="s">&#34;data&#34;</span><span class="o">,</span> <span class="n">nullable</span> <span class="o">=</span> <span class="kc">false</span><span class="o">,</span> <span class="n">length</span><span class="o">=</span><span class="n">32</span><span class="o">)</span>
+<span class="kd">private</span> <span class="n">String</span> <span class="n">data</span><span class="o">;</span>
+<span class="c1">// 声明字段 设置属性
+</span></code></pre></div><blockquote>
+<p>@Modifying,@Transactional</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="nd">@Repository</span> 
+<span class="kd">public</span> <span class="kd">interface</span> <span class="nc">dataRepository</span> <span class="kd">extends</span> <span class="n">JpaRepository</span><span class="o">&lt;</span><span class="n">Data</span><span class="o">,</span> <span class="n">Integer</span><span class="o">&gt;</span> <span class="o">{</span>
+
+    <span class="nd">@Modifying</span> <span class="c1">// 修改操作
+</span><span class="c1"></span>    <span class="nd">@Transactional</span><span class="o">(</span><span class="n">rollbackFor</span> <span class="o">=</span> <span class="n">Exception</span><span class="o">.</span><span class="na">class</span><span class="o">)</span> <span class="c1">//需要配合该注解
+</span><span class="c1"></span>		<span class="c1">// 事务操作注解 - Transactional
+</span><span class="c1"></span>    <span class="kt">void</span> <span class="nf">deleteByDataID</span><span class="o">(</span><span class="n">String</span> <span class="n">dataId</span><span class="o">);</span>
+<span class="o">}</span>
+</code></pre></div><blockquote>
+<p>@Getter/Setter</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="nd">@Getter</span> <span class="c1">// getter
+</span><span class="c1"></span><span class="nd">@Entity</span> <span class="c1">// 实体化
+</span><span class="c1"></span><span class="nd">@Setter</span> <span class="c1">// setter
+</span><span class="c1"></span><span class="nd">@ToString</span> <span class="c1">//toString
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">data</span><span class="o">{</span>
+		<span class="nd">@Id</span>
+		<span class="nd">@GeneratedValue</span>
+    <span class="kd">private</span> <span class="n">Integer</span> <span class="n">id</span><span class="o">;</span>
+<span class="o">}</span>
+
+
+<span class="c1">// pom.xml 导入 lombok
+</span><span class="c1">// &lt;dependency&gt;
+</span><span class="c1">//            &lt;groupId&gt;org.projectlombok&lt;/groupId&gt;
+</span><span class="c1">//           &lt;artifactId&gt;lombok&lt;/artifactId&gt;
+</span><span class="c1">// &lt;/dependency&gt;
+</span></code></pre></div><blockquote>
+<p>@Modifying</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java">  <span class="nd">@Modifying</span> <span class="c1">// Modifying 来声明update delete 
+</span><span class="c1"></span>  <span class="nd">@Transactional</span> <span class="c1">//提供事务支持
+</span><span class="c1"></span>  <span class="nd">@Query</span><span class="o">(</span><span class="s">&#34;delete from User u where u.active = false&#34;</span><span class="o">)</span> <span class="c1">// sql语句
+</span><span class="c1"></span>  <span class="kt">void</span> <span class="nf">deleteInactiveUsers</span><span class="o">();</span> <span class="c1">// 方法
+</span></code></pre></div></article>
               </div>
             </div>
           </div>
