@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+    <meta charset="utf-8">
+    
+    <meta name="baidu-site-verification" content="code-c4ncnNdsub" />
+    <meta name="viewport" content="width=device-width">
+    <script type="application/javascript" src='https://www.wintercat.jp/js/theme-mode.js'></script>
+    <link rel="stylesheet" href='https://www.wintercat.jp/css/frameworks.min.css' />
+    <link rel="stylesheet" href='https://www.wintercat.jp/css/github.min.css' />
+    <link rel="stylesheet" href='https://www.wintercat.jp/css/github-style.css' />
+    <link rel="stylesheet" href='https://www.wintercat.jp/css/light.css' />
+    <link rel="stylesheet" href='https://www.wintercat.jp/css/dark.css' />
+    <link rel="stylesheet" href='https://www.wintercat.jp/css/syntax.css' />
+    <title>Java Bronze( Japanese ver ) - WinterCat&#39;s blog</title>
+    <link rel="icon" type="image/x-icon" href='https://www.wintercat.jp/images/favicon.ico'>
+    <meta name="theme-color" content="#1e2327">
+    
+    
+<meta name="description"
+  content="٩(๑òωó๑)۶ ファイト〜
+" />
+<meta name="keywords"
+  content='WinterCat' />
+<meta name="robots" content="index" />
+<link rel="canonical" href="https://www.wintercat.jp/post/javabronze/" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Java Bronze( Japanese ver ) - WinterCat&#39;s blog" />
+<meta name="twitter:description"
+  content="٩(๑òωó๑)۶ ファイト〜
+" />
+<meta name="twitter:site" content="https://www.wintercat.jp" />
+<meta name="twitter:creator" content="" />
+<meta name="twitter:image"
+  content="https://www.wintercat.jp">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Java Bronze( Japanese ver ) - WinterCat&#39;s blog">
+<meta property="og:description"
+  content="٩(๑òωó๑)۶ ファイト〜
+" />
+<meta property="og:url" content="https://www.wintercat.jp/post/javabronze/" />
+<meta property="og:site_name" content="Java Bronze( Japanese ver )" />
+<meta property="og:image"
+  content="https://www.wintercat.jp">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+<meta property="article:published_time" content="2022-02-27 09:05:40 &#43;0900 JST" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body>
+  <div style="position: relative">
+  <header class="Header js-details-container Details px-3 px-md-4 px-lg-5 flex-wrap flex-md-nowrap open Details--on">
+    <div class="Header-item mobile-none" style="margin-top: -4px; margin-bottom: -4px;">
+      <a class="Header-link" href="https://www.wintercat.jp">
+        <svg class="octicon" height="32" viewBox="0 0 16 16" version="1.1" width="32">
+          <path fill-rule="evenodd"
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+          </path>
+        </svg>
+      </a>
+    </div>
+    <div class="Header-item d-md-none">
+      <button class="Header-link btn-link js-details-target" type="button"
+        onclick="document.querySelector('#header-search').style.display = document.querySelector('#header-search').style.display == 'none'? 'block': 'none'">
+        <svg height="24" class="octicon octicon-three-bars" viewBox="0 0 16 16" version="1.1" width="24">
+          <path fill-rule="evenodd"
+            d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z">
+          </path>
+        </svg>
+      </button>
+    </div>
+    <div style="display: none;" id="header-search"
+      class="Header-item Header-item--full flex-column flex-md-row width-full flex-order-2 flex-md-order-none mr-0 mr-md-3 mt-3 mt-md-0 Details-content--hidden-not-important d-md-flex">
+      <div
+        class="Header-search header-search flex-auto js-site-search position-relative flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 scoped-search site-scoped-search js-jump-to">
+        <div class="position-relative">
+          <form target="_blank" action="https://github.com/search?q=" accept-charset="UTF-8" method="get"
+            autocomplete="off">
+            <label
+              class="Header-search-label form-control input-sm header-search-wrapper p-0 js-chromeless-input-container header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center">
+              <input type="text"
+                class="Header-search-input form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+                name="q" value="" placeholder="Search" autocomplete="off">
+            </label>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="Header-item Header-item--full flex-justify-center d-md-none position-relative">
+      <a class="Header-link " href="https://www.wintercat.jp">
+        <svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1"
+          width="32">
+          <path fill-rule="evenodd"
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+          </path>
+        </svg>
+      </a>
+    </div>
+    <div class="Header-item" style="margin-right: 0;">
+      <a href="javascript:void(0)" class="Header-link no-select" onclick="switchTheme()">
+        <svg style="fill: var(--color-profile-color-modes-toggle-moon);" class="no-select" viewBox="0 0 16 16"
+          version="1.1" width="16" height="16">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M4.52208 7.71754C7.5782 7.71754 10.0557 5.24006 10.0557 2.18394C10.0557 1.93498 10.0392 1.68986 10.0074 1.44961C9.95801 1.07727 10.3495 0.771159 10.6474 0.99992C12.1153 2.12716 13.0615 3.89999 13.0615 5.89383C13.0615 9.29958 10.3006 12.0605 6.89485 12.0605C3.95334 12.0605 1.49286 10.001 0.876728 7.24527C0.794841 6.87902 1.23668 6.65289 1.55321 6.85451C2.41106 7.40095 3.4296 7.71754 4.52208 7.71754Z">
+          </path>
+        </svg>
+      </a>
+    </div>
+  </header>
+</div>
+  
+<div>
+  <main>
+    <div class="gisthead pagehead bg-gray-light pb-0 pt-3 mb-4">
+      <div class="px-0">
+        <div class="mb-3 d-flex px-3 px-md-3 px-lg-5">
+          <div class="flex-auto min-width-0 width-fit mr-3">
+            <div class="d-flex">
+              <div class="d-none d-md-block">
+                <a class="avatar mr-2 flex-shrink-0" href="https://www.wintercat.jp">
+                  <img class=" avatar-user"
+                    src="https://www.wintercat.jp/images/avatar.png"
+                    width="32" height="32"></a>
+              </div>
+              <div class="d-flex flex-column">
+                <h1 class="break-word f3 text-normal mb-md-0 mb-1">
+                  <span class="author">
+                    <a href="https://www.wintercat.jp">WinterCat</a></span><span
+                    class="path-divider">/</span><strong class="css-truncate-target mr-1" style="max-width: 410px"><a
+                      href="https://www.wintercat.jp/post/javabronze/">Java Bronze( Japanese ver )</a></strong>
+                </h1>
+                <div class="note m-0">
+                  Created <relative-time datetime="Sun, 27 Feb 2022 09:05:40 &#43;0900"
+                    class="no-wrap">
+                    Sun, 27 Feb 2022 09:05:40 &#43;0900</relative-time>
+
+                  
+                  <span class="file-info-divider"></span>
+                  Modified <relative-time datetime="Sun, 06 Mar 2022 00:46:11 &#43;0900"
+                    class="no-wrap">
+                    Sun, 06 Mar 2022 00:46:11 &#43;0900</relative-time>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-lg px-3 new-discussion-timeline">
+      <div class="repository-content gist-content">
+        <div>
+          <div class="js-gist-file-update-container js-task-list-container file-box">
+            <div id="file-pytest" class="file my-2">
+              <div class="file-header d-flex flex-md-items-center flex-items-start">
+                <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
+                  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+                    1862 Words
+                    
+
+                  </div>
+                  <div class="file-actions flex-order-2 pt-0">
+                    
+                    
+                    <a class="muted-link mr-3" href="/tags/java">
+                      <svg class="octicon octicon-tag" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+                        <path fill-rule="evenodd"
+                          d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z">
+                        </path>
+                      </svg>
+                      java
+                    </a>
+                    
+                    <a class="muted-link mr-3" href="/tags/java-bronze">
+                      <svg class="octicon octicon-tag" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+                        <path fill-rule="evenodd"
+                          d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z">
+                        </path>
+                      </svg>
+                      java bronze
+                    </a>
+                    
+                    
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="Box-body px-5 pb-5">
+                <article class="markdown-body entry-content container-lg"><p>٩(๑òωó๑)۶ ファイト〜</p>
+<h4 id="java-bronze-日本語復習--ポイント-">Java Bronze 日本語復習 [ ポイント ]</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="cm">/*
+</span><span class="cm"> Java SE の特徴
+</span><span class="cm"> 1.JVMの提供
+</span><span class="cm"> 2.標準クラスライブラリの提供
+</span><span class="cm"> 3.各種開発ツールの提供
+</span><span class="cm">*/</span>
+</code></pre></div><blockquote>
+<p>プリミティブ(primitive)</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="c1">// Java データ型の一つ
+</span><span class="c1">// ８種類
+</span><span class="c1"></span><span class="kt">boolean</span><span class="o">,</span><span class="kt">byte</span><span class="o">,</span><span class="kt">char</span><span class="o">,</span><span class="kt">short</span><span class="o">,</span><span class="kt">int</span><span class="o">,</span><span class="kt">float</span><span class="o">,</span><span class="kt">long</span><span class="o">,</span><span class="kt">double</span>
+</code></pre></div><blockquote>
+<p>アクセス修飾子</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="kd">public</span> <span class="c1">// 全てのクラスからアクセス可能
+</span><span class="c1"></span><span class="kd">protected</span> <span class="c1">// 同一パッケージ内のクラスからと、サブクラスからアクセス可能
+</span><span class="c1"></span><span class="kd">private</span> <span class="c1">// 同一クラスからアクセス可能
+</span></code></pre></div><blockquote>
+<p>参照型</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="c1">// String,List,etc...
+</span><span class="c1">//参照型の特徴は、変数に格納されているのは「値」そのものではなく、
+</span><span class="c1">// 値がメモリのどこに格納されているかを示す「参照値」ということです。
+</span></code></pre></div><blockquote>
+<p>定数の宣言</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">// アクセス修飾子　final 定数の型　定数名;
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">static</span> <span class="kd">final</span> <span class="kt">int</span> <span class="n">NUMBER</span> <span class="o">=</span> <span class="n">10</span><span class="o">;</span>
+</code></pre></div><blockquote>
+<p>インスタンス(instance)変数 - 实例</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Document</span><span class="o">{</span>
+<span class="c1">// アクセス修飾子　型名　変数名;
+</span><span class="c1"></span>	<span class="kd">public</span> <span class="kt">int</span> <span class="n">number</span><span class="o">;</span>
+	<span class="kd">public</span> <span class="kt">void</span> <span class="nf">test</span><span class="o">(){</span>
+			<span class="c1">// メソッド定義
+</span><span class="c1"></span>	<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div><blockquote>
+<p>インタフェースに定義するフィールドの修飾子</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="c1">// static、final、public 
+</span></code></pre></div><blockquote>
+<p>static 変数</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Document</span><span class="o">{</span>
+	<span class="c1">// static　変数の宣言
+</span><span class="c1"></span>	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span> <span class="n">number</span><span class="o">;</span>
+	<span class="c1">// インスタンス(instance)変数宣言
+</span><span class="c1"></span>	<span class="kd">public</span> <span class="kt">int</span> <span class="n">file_size</span><span class="o">;</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">test</span><span class="o">(){</span>
+			<span class="c1">// メソッド定義
+</span><span class="c1"></span>	<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div><blockquote>
+<p>配列の宣言</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">// 要素のデータ型[]  変数名;
+</span><span class="c1"></span><span class="kt">int</span> <span class="o">[]</span> <span class="n">array</span><span class="o">;</span><span class="c1">// 宣言
+</span><span class="c1"></span>
+<span class="c1">// 変数名 = new 要素のデータ型[要素数]
+</span><span class="c1"></span><span class="n">array</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">3</span><span class="o">];</span><span class="c1">//インスタンスの生成,参照を変数に代入
+</span><span class="c1"></span>
+<span class="c1">// int 配列型変数の宣言、配列インスタンスの生成、参照を変数に代入
+</span><span class="c1"></span><span class="kt">int</span><span class="o">[]</span> <span class="n">array</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">3</span><span class="o">];</span>
+</code></pre></div><blockquote>
+<p>配列の長さを参照する方法</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="kt">int</span><span class="o">[]</span> <span class="n">array</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">3</span><span class="o">];</span>
+<span class="c1">// 配列の長さ
+</span><span class="c1"></span><span class="n">array</span><span class="o">.</span><span class="na">length</span><span class="o">;</span>
+</code></pre></div><blockquote>
+<p>パッケージの三つの機能</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="c1">// パッケージの三つの機能
+</span><span class="c1">// 名前空間を提供し、名前の衝突を避ける
+</span><span class="c1">// アクセス修飾子と組み合わせてアクセス制御機能を提供する
+</span><span class="c1">// クラスの分類を可能にする
+</span><span class="c1">// 構文: package パッケージ名;
+</span><span class="c1"></span><span class="kn">package</span> <span class="nn">test</span><span class="o">;</span>
+</code></pre></div><blockquote>
+<p>インポート</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="kn">package</span> <span class="nn">test</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">java.math.BigDecimal</span><span class="o">;</span> <span class="c1">// 完全修飾子クラス名
+</span><span class="c1"></span><span class="kn">import</span> <span class="nn">java.math.*</span><span class="o">;</span> <span class="c1">// ワイルドカード表記
+</span></code></pre></div><blockquote>
+<p>インタフェース</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">// インタフェースは情報隠蔽を実現方法として使用します(公開する部分を担当)
+</span><span class="c1">// 情報隠蔽は、抽象化を維持する目的（非公開と公開明確に分け）
+</span><span class="c1">// インタフェースはインスタンス化できない！
+</span><span class="c1">//　インタフェースに定義できるのは、定数フィールドのみ
+</span><span class="c1"></span><span class="kd">static</span> <span class="kd">final</span> <span class="n">value</span><span class="o">;</span><span class="c1">//定数フィールド
+</span><span class="c1">// インタフェースの定義と実現
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">Sample</span><span class="o">{</span>
+   <span class="kt">void</span> <span class="nf">sample</span><span class="o">();</span>
+<span class="o">}</span>
+<span class="c1">// 実現 implements Sample
+</span><span class="c1"></span><span class="kd">public</span> <span class="n">Class</span> <span class="n">SampleImpl</span> <span class="kd">implements</span> <span class="n">Sample</span><span class="o">{</span>
+	<span class="kd">public</span> <span class="kt">void</span> <span class="nf">sample</span><span class="o">(){</span>
+		 <span class="c1">// code
+</span><span class="c1"></span>	<span class="o">}</span>
+<span class="o">}</span>
+<span class="c1">// 複数 implements Sample,Test
+</span><span class="c1"></span><span class="kd">public</span> <span class="n">Class</span> <span class="n">SampleImpl</span> <span class="kd">implements</span> <span class="n">Sample</span><span class="o">,</span><span class="n">Test</span><span class="o">{</span>
+	<span class="kd">public</span> <span class="kt">void</span> <span class="nf">sample</span><span class="o">(){</span>
+		<span class="c1">// code
+</span><span class="c1"></span>	<span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">test</span><span class="o">(){</span>
+		 <span class="c1">// code
+</span><span class="c1"></span>  <span class="o">}</span>
+<span class="o">}</span>
+<span class="cm">/*
+</span><span class="cm">クラスは複数のインタフェースを実現できる
+</span><span class="cm">インタフェースは複数のインタフェースを継承できる
+</span><span class="cm">クラスは複数のクラスを継承できない　
+</span><span class="cm">*/</span>
+</code></pre></div><blockquote>
+<p>抽象メソッド</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">// インタフェースに定義した抽象メソッドは、暗黙的にpublic abstract　で修飾され
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">Sample</span><span class="o">{</span>
+	 <span class="kt">void</span> <span class="nf">test</span><span class="o">(</span><span class="n">String</span> <span class="n">t</span><span class="o">);</span><span class="c1">// 抽象メソッド
+</span><span class="c1"></span><span class="o">}</span>
+<span class="c1">// 抽象クラス 
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="kd">class</span> <span class="nc">Test</span><span class="o">{</span>
+	<span class="kd">private</span> <span class="n">String</span> <span class="n">t_name</span><span class="o">;</span>
+	<span class="kd">public</span> <span class="nf">Test</span><span class="o">(</span><span class="n">String</span> <span class="n">t_name</span><span class="o">){</span>
+	  <span class="k">this</span><span class="o">.</span><span class="na">t_name</span>  <span class="o">=</span> <span class="n">t_name</span><span class="o">;</span>	  
+  <span class="o">}</span>
+  <span class="kd">public</span> <span class="n">String</span> <span class="nf">getName</span><span class="o">(){</span>
+			<span class="k">return</span> <span class="n">t_name</span><span class="o">;</span>
+  <span class="o">}</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">check</span><span class="o">(){</span>
+     <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">t_name</span><span class="o">);</span>  
+  <span class="o">}</span>
+<span class="o">}</span>
+<span class="cm">/*
+</span><span class="cm">抽象クラスの特徴
+</span><span class="cm">1.抽象クラスは、クラスとインタフェース両方の性質を持つクラス
+</span><span class="cm">2.抽象クラスは インスタンスできない ！
+</span><span class="cm">3.定義したメソッドは、抽象クラスを継承する具象クラスが実装する
+</span><span class="cm">4.抽象クラスに定義するメソッドは、abstractで修飾しない と コンパイルエラー！
+</span><span class="cm">*/</span>
+</code></pre></div><blockquote>
+<p>カプセル化(封装)</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Sample</span><span class="o">{</span>
+  <span class="c1">// フィールド変数
+</span><span class="c1"></span>	<span class="kd">private</span> <span class="n">String</span> <span class="n">s_name</span><span class="o">;</span>
+  <span class="c1">// Setter 
+</span><span class="c1"></span>  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">setName</span><span class="o">(</span><span class="n">String</span> <span class="n">s_name</span><span class="o">){</span>
+	    <span class="k">this</span><span class="o">.</span><span class="na">s_name</span> <span class="o">=</span> <span class="n">s_name</span><span class="o">;</span>
+  <span class="o">}</span>
+  <span class="c1">//Getter
+</span><span class="c1"></span>  <span class="kd">public</span> <span class="n">String</span> <span class="nf">getName</span><span class="o">(){</span>
+			<span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">s_name</span><span class="o">;</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div><blockquote>
+<p>コンストラクタ</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="cm">/*
+</span><span class="cm">	コンストラクタはメソッド関数であること
+</span><span class="cm">	コンストラクタはメソッド名はクラス名と同じであること
+</span><span class="cm">	コンストラクタは戻り値を記載不要であること　（void）も必要ありません
+</span><span class="cm">*/</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Sample</span><span class="o">{</span>
+	 <span class="kd">private</span> <span class="n">String</span> <span class="n">name</span><span class="o">;</span>
+   <span class="kd">public</span> <span class="nf">Sample</span><span class="o">(){</span>
+      <span class="c1">// コンストラクタ
+</span><span class="c1"></span>   <span class="o">}</span>
+   <span class="kd">public</span> <span class="nf">Sample</span><span class="o">(</span><span class="kt">int</span> <span class="n">a</span><span class="o">){</span>
+     <span class="c1">// 引数がある　コンストラクタ
+</span><span class="c1"></span>   <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div><blockquote>
+<p>this() 先頭行</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="k">this</span><span class="o">();</span>
+<span class="c1">// コンストラクタブロック内の先頭行でのみ利用でき、先頭行以外で利用することができな
+</span><span class="c1">// コンパイルエラーとなります
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Demo</span><span class="o">{</span>
+	 <span class="n">Demo</span><span class="o">(){</span> <span class="c1">// code }
+</span><span class="c1"></span>	 <span class="n">Demo</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">){</span> 
+      <span class="k">this</span><span class="o">();</span>
+      <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">name</span><span class="o">);</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div><blockquote>
+<p>シグニチャ(signature)</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">// メソッド名、引数の数、引数の型、引数の順番 -&gt; シグニチャ
+</span></code></pre></div><blockquote>
+<p>継承（super）</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">//  継承
+</span><span class="c1">// 引き継げないもの:コンストラクタ、privateなフィールドやメソッド
+</span><span class="c1">// 引き継くもの:finalなフィールド、publicで修飾されたメソッド（オーバーライド）
+</span></code></pre></div><blockquote>
+<p>private修飾可能対象</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">// クラスのコンストラクタ
+</span><span class="c1">// クラスのフィールド
+</span><span class="c1">// クラスの具象メソッド
+</span><span class="c1"></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Demo</span><span class="o">{</span>
+	<span class="kd">private</span> <span class="n">String</span> <span class="n">name</span><span class="o">;</span> <span class="c1">// クラスのフィールド
+</span><span class="c1"></span>  <span class="kd">private</span> <span class="nf">Demo</span><span class="o">(){}</span> <span class="c1">// クラスのコンストラクタ
+</span><span class="c1"></span>  <span class="kd">private</span> <span class="n">String</span> <span class="nf">getName</span><span class="o">(){</span> <span class="c1">// クラスの具象メソッド
+</span><span class="c1"></span>		  <span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">name</span><span class="o">;</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div><blockquote>
+<p>「６：２０」と表示される</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="n">12</span><span class="o">;</span>
+        <span class="kt">int</span> <span class="n">b</span>  <span class="o">=</span> <span class="n">8</span> <span class="o">;</span>
+        <span class="k">if</span><span class="o">(</span><span class="n">a</span><span class="o">&gt;=</span><span class="n">10</span><span class="o">||</span><span class="n">b</span><span class="o">&gt;=</span><span class="n">10</span><span class="o">){</span>　<span class="c1">// a &gt;=10 --&gt; true
+</span><span class="c1"></span>            <span class="n">a</span> <span class="o">/=</span> <span class="n">2</span><span class="o">;</span> <span class="c1">// a = 6
+</span><span class="c1"></span>            <span class="n">b</span><span class="o">+=</span><span class="n">a</span><span class="o">;</span>  <span class="c1">// b = 6+8 = 14
+</span><span class="c1"></span>        <span class="o">}</span><span class="k">else</span> <span class="c1">// &lt;---{ なし
+</span><span class="c1"></span>            <span class="n">a</span> <span class="o">/=</span><span class="n">2</span><span class="o">;</span> <span class="c1">// } によって
+</span><span class="c1"></span>
+            <span class="n">b</span> <span class="o">+=</span><span class="n">a</span><span class="o">;</span> <span class="c1">// 14+6 = 20
+</span><span class="c1"></span>            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">a</span><span class="o">+</span><span class="s">&#34;:&#34;</span><span class="o">+</span><span class="n">b</span><span class="o">);</span> <span class="c1">// 6 : 20
+</span><span class="c1"></span>    <span class="o">}</span>
+</code></pre></div><blockquote>
+<p>10:10と表示される</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+            <span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">5</span><span class="o">;</span>
+							<span class="c1">// i = 5 + 5  --&gt;i+=5
+</span><span class="c1"></span>            <span class="c1">// iを使用した後で +1; i++
+</span><span class="c1"></span>            <span class="c1">// iを+1した後で使用する; ++i
+</span><span class="c1"></span>            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">((</span><span class="n">i</span><span class="o">+=</span><span class="n">5</span><span class="o">)+</span><span class="s">&#34;:&#34;</span><span class="o">+(</span><span class="n">i</span><span class="o">--));</span>
+            <span class="c1">// 10:10
+</span><span class="c1"></span>            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">((</span><span class="n">i</span><span class="o">+=</span><span class="n">5</span><span class="o">)+</span><span class="s">&#34;:&#34;</span><span class="o">+(--</span><span class="n">i</span><span class="o">));</span>
+            <span class="c1">// 10:9
+</span><span class="c1"></span>    <span class="o">}</span>
+</code></pre></div><blockquote>
+<p>2  2.5と表示される</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">5</span><span class="o">/</span><span class="n">2</span><span class="o">);</span> <span class="c1">// 2 (int)
+</span><span class="c1"></span>        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">5</span><span class="o">/</span><span class="n">2</span><span class="o">.</span><span class="na">0</span><span class="o">);</span> <span class="c1">// 2.5 (float)
+</span><span class="c1"></span>    <span class="o">}</span>
+</code></pre></div><blockquote>
+<p>final宣言 &amp;&amp; static宣言</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kd">final</span> <span class="kt">int</span> <span class="n">obj</span> <span class="o">=</span><span class="n">1</span><span class="o">;</span> <span class="c1">// final
+</span><span class="c1"></span><span class="kd">final</span> <span class="kd">class</span> <span class="nf">Demo</span><span class="o">(){}</span>  <span class="c1">// final
+</span><span class="c1"></span><span class="kd">static</span> <span class="kt">int</span> <span class="n">obj</span> <span class="o">=</span> <span class="n">2</span><span class="o">;</span> <span class="c1">// static フィールド
+</span><span class="c1"></span><span class="kd">static</span> <span class="kt">void</span> <span class="nf">Demo</span><span class="o">(){}</span> <span class="c1">// static　メソッド
+</span></code></pre></div><blockquote>
+<p>ポリモーフィズム</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">// 多态:继承,重写,父类引用指向子类
+</span></code></pre></div></article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+  <div class="footer container-xl width-full p-responsive">
+  <div
+    class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between flex-sm-items-center pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mr-lg-4" href="https://www.wintercat.jp">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24">
+        <path fill-rule="evenodd"
+          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+        </path>
+      </svg>
+    </a>
+    <ul class="list-style-none d-flex flex-wrap col-12 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+      
+      <li class="mr-3 mr-lg-0">　Real life is, to most men. a long second-best, a perpetual compromise between the ideal and the possible.　</li>
+      
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+
+
+</div>
+</body>
+
+<script type="application/javascript" src="https://www.wintercat.jp/js/github-style.js"></script>
+
+
+
+</html>
