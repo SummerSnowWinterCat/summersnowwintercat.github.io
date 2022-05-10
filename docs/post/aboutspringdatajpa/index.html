@@ -229,19 +229,19 @@
 <blockquote>
 <p>添加依赖</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-XML" data-lang="XML"><span class="nt">&lt;dependency&gt;</span>
-    <span class="nt">&lt;groupId&gt;</span>org.springframework.boot<span class="nt">&lt;/groupId&gt;</span>
-    <span class="nt">&lt;artifactId&gt;</span>spring-boot-starter-data-jpa<span class="nt">&lt;/artifactId&gt;</span>
-<span class="nt">&lt;/dependency&gt;</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-XML" data-lang="XML"><span class="line"><span class="cl"><span class="nt">&lt;dependency&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;groupId&gt;</span>org.springframework.boot<span class="nt">&lt;/groupId&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;artifactId&gt;</span>spring-boot-starter-data-jpa<span class="nt">&lt;/artifactId&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/dependency&gt;</span>
+</span></span></code></pre></div><blockquote>
 <p>在application.xml中配置：数据库连接信息</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">spring.datasource.url<span class="o">=</span>jdbc:mysql://localhost:3306/test
-spring.datasource.username<span class="o">=</span>root
-spring.datasource.password<span class="o">=</span>
-spring.datasource.driver-class-name<span class="o">=</span>com.mysql.cj.jdbc.Drivers
-spring.jpa.properties.hibernate.hbm2ddl.auto<span class="o">=</span>create-drop
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">spring.datasource.url<span class="o">=</span>jdbc:mysql://localhost:3306/test
+</span></span><span class="line"><span class="cl">spring.datasource.username<span class="o">=</span>root
+</span></span><span class="line"><span class="cl">spring.datasource.password<span class="o">=</span>
+</span></span><span class="line"><span class="cl">spring.datasource.driver-class-name<span class="o">=</span>com.mysql.cj.jdbc.Drivers
+</span></span><span class="line"><span class="cl">spring.jpa.properties.hibernate.hbm2ddl.auto<span class="o">=</span>create-drop
+</span></span></code></pre></div><blockquote>
 <p>spring.jpa.properties.hibernate.hbm2ddl.auto是hibernate的配置属性</p>
 </blockquote>
 <ul>
@@ -253,69 +253,69 @@ spring.jpa.properties.hibernate.hbm2ddl.auto<span class="o">=</span>create-drop
 <blockquote>
 <p>创建一个实体( Entity )</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="nd">@Entity</span>   <span class="c1">//标识此类为持久化的实体
-</span><span class="c1"></span><span class="nd">@Data</span>  <span class="c1">// Lombok的注解 自动生成set get
-</span><span class="c1"></span><span class="nd">@NoArgsConstructor</span> <span class="c1">// Lombok的注解 自动生成set get
-</span><span class="c1"></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">User</span> <span class="o">{</span>
-
-    <span class="nd">@Id</span> <span class="c1">// user 数据库表中的主建
-</span><span class="c1"></span>    <span class="nd">@GeneratedValue</span> <span class="c1">// 同上
-</span><span class="c1"></span>    <span class="kd">private</span> <span class="n">Long</span> <span class="n">id</span><span class="o">;</span>
-    <span class="kd">private</span> <span class="n">String</span> <span class="n">name</span><span class="o">;</span>
-    <span class="kd">private</span> <span class="n">Integer</span> <span class="n">age</span><span class="o">;</span>
-
-    <span class="kd">public</span> <span class="nf">User</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">,</span> <span class="n">Integer</span> <span class="n">age</span><span class="o">)</span> <span class="o">{</span>
-        <span class="k">this</span><span class="o">.</span><span class="na">name</span> <span class="o">=</span> <span class="n">name</span><span class="o">;</span>
-        <span class="k">this</span><span class="o">.</span><span class="na">age</span> <span class="o">=</span> <span class="n">age</span><span class="o">;</span>
-    <span class="o">}</span>
-<span class="o">}</span>
-</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">UserRepository</span> <span class="kd">extends</span> <span class="n">JpaRepository</span><span class="o">&lt;</span><span class="n">User</span><span class="o">,</span> <span class="n">Long</span><span class="o">&gt;</span> <span class="o">{</span>　　　  <span class="c1">// 接口
-</span><span class="c1"></span>		<span class="c1">// User类继承了 jpa
-</span><span class="c1"></span>    <span class="n">User</span> <span class="nf">findByName</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">);</span> <span class="c1">//查询语句
-</span><span class="c1"></span>    <span class="n">User</span> <span class="nf">findByNameAndAge</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">,</span> <span class="n">Integer</span> <span class="n">age</span><span class="o">);</span>
-    <span class="nd">@Query</span><span class="o">(</span><span class="s">&#34;from User u where u.name=:name&#34;</span><span class="o">)</span> <span class="c1">// query注解sql语句查询
-</span><span class="c1"></span>    <span class="n">User</span> <span class="nf">findUser</span><span class="o">(</span><span class="nd">@Param</span><span class="o">(</span><span class="s">&#34;name&#34;</span><span class="o">)</span> <span class="n">String</span> <span class="n">name</span><span class="o">);</span>
-<span class="o">}</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="nd">@Entity</span>   <span class="c1">//标识此类为持久化的实体
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nd">@Data</span>  <span class="c1">// Lombok的注解 自动生成set get
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nd">@NoArgsConstructor</span> <span class="c1">// Lombok的注解 自动生成set get
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">User</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nd">@Id</span> <span class="c1">// user 数据库表中的主建
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nd">@GeneratedValue</span> <span class="c1">// 同上
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kd">private</span> <span class="n">Long</span> <span class="n">id</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="n">String</span> <span class="n">name</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="n">Integer</span> <span class="n">age</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="nf">User</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">,</span> <span class="n">Integer</span> <span class="n">age</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="o">.</span><span class="na">name</span> <span class="o">=</span> <span class="n">name</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">this</span><span class="o">.</span><span class="na">age</span> <span class="o">=</span> <span class="n">age</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">UserRepository</span> <span class="kd">extends</span> <span class="n">JpaRepository</span><span class="o">&lt;</span><span class="n">User</span><span class="o">,</span> <span class="n">Long</span><span class="o">&gt;</span> <span class="o">{</span>　　　  <span class="c1">// 接口
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>		<span class="c1">// User类继承了 jpa
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">User</span> <span class="nf">findByName</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">);</span> <span class="c1">//查询语句
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">User</span> <span class="nf">findByNameAndAge</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">,</span> <span class="n">Integer</span> <span class="n">age</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nd">@Query</span><span class="o">(</span><span class="s">&#34;from User u where u.name=:name&#34;</span><span class="o">)</span> <span class="c1">// query注解sql语句查询
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">User</span> <span class="nf">findUser</span><span class="o">(</span><span class="nd">@Param</span><span class="o">(</span><span class="s">&#34;name&#34;</span><span class="o">)</span> <span class="n">String</span> <span class="n">name</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><blockquote>
 <p>单元测试</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="nd">@RunWith</span><span class="o">(</span><span class="n">SpringRunner</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
-<span class="nd">@SpringBootTest</span>
-<span class="kd">public</span> <span class="kd">class</span> <span class="nc">ApplicationTests</span> <span class="o">{</span>
-
-    <span class="nd">@Autowired</span>
-    <span class="kd">private</span> <span class="n">UserRepository</span> <span class="n">userRepository</span><span class="o">;</span>
-
-    <span class="nd">@Test</span>
-    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">test</span><span class="o">()</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
-
-        <span class="c1">// 创建10条记录
-</span><span class="c1"></span>        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;AAA&#34;</span><span class="o">,</span> <span class="n">10</span><span class="o">));</span>
-        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;BBB&#34;</span><span class="o">,</span> <span class="n">20</span><span class="o">));</span>
-        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;CCC&#34;</span><span class="o">,</span> <span class="n">30</span><span class="o">));</span>
-        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;DDD&#34;</span><span class="o">,</span> <span class="n">40</span><span class="o">));</span>
-        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;EEE&#34;</span><span class="o">,</span> <span class="n">50</span><span class="o">));</span>
-        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;FFF&#34;</span><span class="o">,</span> <span class="n">60</span><span class="o">));</span>
-        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;GGG&#34;</span><span class="o">,</span> <span class="n">70</span><span class="o">));</span>
-        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;HHH&#34;</span><span class="o">,</span> <span class="n">80</span><span class="o">));</span>
-        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;III&#34;</span><span class="o">,</span> <span class="n">90</span><span class="o">));</span>
-        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;JJJ&#34;</span><span class="o">,</span> <span class="n">100</span><span class="o">));</span>
-        <span class="c1">// 测试findAll, 查询所有记录
-</span><span class="c1"></span>        <span class="n">Assert</span><span class="o">.</span><span class="na">assertEquals</span><span class="o">(</span><span class="n">10</span><span class="o">,</span> <span class="n">userRepository</span><span class="o">.</span><span class="na">findAll</span><span class="o">().</span><span class="na">size</span><span class="o">());</span>
-        <span class="c1">// 测试findByName, 查询姓名为FFF的User
-</span><span class="c1"></span>        <span class="n">Assert</span><span class="o">.</span><span class="na">assertEquals</span><span class="o">(</span><span class="n">60</span><span class="o">,</span> <span class="n">userRepository</span><span class="o">.</span><span class="na">findByName</span><span class="o">(</span><span class="s">&#34;FFF&#34;</span><span class="o">).</span><span class="na">getAge</span><span class="o">().</span><span class="na">longValue</span><span class="o">());</span>
-        <span class="c1">// 测试findUser, 查询姓名为FFF的User
-</span><span class="c1"></span>        <span class="n">Assert</span><span class="o">.</span><span class="na">assertEquals</span><span class="o">(</span><span class="n">60</span><span class="o">,</span> <span class="n">userRepository</span><span class="o">.</span><span class="na">findUser</span><span class="o">(</span><span class="s">&#34;FFF&#34;</span><span class="o">).</span><span class="na">getAge</span><span class="o">().</span><span class="na">longValue</span><span class="o">());</span>
-        <span class="c1">// 测试findByNameAndAge, 查询姓名为FFF并且年龄为60的User
-</span><span class="c1"></span>        <span class="n">Assert</span><span class="o">.</span><span class="na">assertEquals</span><span class="o">(</span><span class="s">&#34;FFF&#34;</span><span class="o">,</span> <span class="n">userRepository</span><span class="o">.</span><span class="na">findByNameAndAge</span><span class="o">(</span><span class="s">&#34;FFF&#34;</span><span class="o">,</span> <span class="n">60</span><span class="o">).</span><span class="na">getName</span><span class="o">());</span>
-        <span class="c1">// 测试删除姓名为AAA的User
-</span><span class="c1"></span>        <span class="n">userRepository</span><span class="o">.</span><span class="na">delete</span><span class="o">(</span><span class="n">userRepository</span><span class="o">.</span><span class="na">findByName</span><span class="o">(</span><span class="s">&#34;AAA&#34;</span><span class="o">));</span>
-        <span class="c1">// 测试findAll, 查询所有记录, 验证上面的删除是否成功
-</span><span class="c1"></span>        <span class="n">Assert</span><span class="o">.</span><span class="na">assertEquals</span><span class="o">(</span><span class="n">9</span><span class="o">,</span> <span class="n">userRepository</span><span class="o">.</span><span class="na">findAll</span><span class="o">().</span><span class="na">size</span><span class="o">());</span>
-
-    <span class="o">}</span>
-<span class="o">}</span>
-</code></pre></div></article>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="cl"><span class="nd">@RunWith</span><span class="o">(</span><span class="n">SpringRunner</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl"><span class="nd">@SpringBootTest</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">ApplicationTests</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nd">@Autowired</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="n">UserRepository</span> <span class="n">userRepository</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nd">@Test</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">test</span><span class="o">()</span> <span class="kd">throws</span> <span class="n">Exception</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">// 创建10条记录
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;AAA&#34;</span><span class="o">,</span> <span class="n">10</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl">        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;BBB&#34;</span><span class="o">,</span> <span class="n">20</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl">        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;CCC&#34;</span><span class="o">,</span> <span class="n">30</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl">        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;DDD&#34;</span><span class="o">,</span> <span class="n">40</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl">        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;EEE&#34;</span><span class="o">,</span> <span class="n">50</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl">        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;FFF&#34;</span><span class="o">,</span> <span class="n">60</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl">        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;GGG&#34;</span><span class="o">,</span> <span class="n">70</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl">        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;HHH&#34;</span><span class="o">,</span> <span class="n">80</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl">        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;III&#34;</span><span class="o">,</span> <span class="n">90</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl">        <span class="n">userRepository</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="k">new</span> <span class="n">User</span><span class="o">(</span><span class="s">&#34;JJJ&#34;</span><span class="o">,</span> <span class="n">100</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 测试findAll, 查询所有记录
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">Assert</span><span class="o">.</span><span class="na">assertEquals</span><span class="o">(</span><span class="n">10</span><span class="o">,</span> <span class="n">userRepository</span><span class="o">.</span><span class="na">findAll</span><span class="o">().</span><span class="na">size</span><span class="o">());</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 测试findByName, 查询姓名为FFF的User
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">Assert</span><span class="o">.</span><span class="na">assertEquals</span><span class="o">(</span><span class="n">60</span><span class="o">,</span> <span class="n">userRepository</span><span class="o">.</span><span class="na">findByName</span><span class="o">(</span><span class="s">&#34;FFF&#34;</span><span class="o">).</span><span class="na">getAge</span><span class="o">().</span><span class="na">longValue</span><span class="o">());</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 测试findUser, 查询姓名为FFF的User
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">Assert</span><span class="o">.</span><span class="na">assertEquals</span><span class="o">(</span><span class="n">60</span><span class="o">,</span> <span class="n">userRepository</span><span class="o">.</span><span class="na">findUser</span><span class="o">(</span><span class="s">&#34;FFF&#34;</span><span class="o">).</span><span class="na">getAge</span><span class="o">().</span><span class="na">longValue</span><span class="o">());</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 测试findByNameAndAge, 查询姓名为FFF并且年龄为60的User
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">Assert</span><span class="o">.</span><span class="na">assertEquals</span><span class="o">(</span><span class="s">&#34;FFF&#34;</span><span class="o">,</span> <span class="n">userRepository</span><span class="o">.</span><span class="na">findByNameAndAge</span><span class="o">(</span><span class="s">&#34;FFF&#34;</span><span class="o">,</span> <span class="n">60</span><span class="o">).</span><span class="na">getName</span><span class="o">());</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 测试删除姓名为AAA的User
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">userRepository</span><span class="o">.</span><span class="na">delete</span><span class="o">(</span><span class="n">userRepository</span><span class="o">.</span><span class="na">findByName</span><span class="o">(</span><span class="s">&#34;AAA&#34;</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 测试findAll, 查询所有记录, 验证上面的删除是否成功
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">Assert</span><span class="o">.</span><span class="na">assertEquals</span><span class="o">(</span><span class="n">9</span><span class="o">,</span> <span class="n">userRepository</span><span class="o">.</span><span class="na">findAll</span><span class="o">().</span><span class="na">size</span><span class="o">());</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div></article>
               </div>
             </div>
           </div>

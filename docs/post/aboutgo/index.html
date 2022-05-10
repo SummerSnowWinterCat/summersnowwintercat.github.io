@@ -222,362 +222,362 @@
 <blockquote>
 <p>Hello World!</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="kn">package</span> <span class="nx">main</span>
-
-<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
-
-<span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
-    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello World!&#34;</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="c1">// result:
-</span><span class="c1">// Hello World!
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello World!&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result:
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Hello World!
+</span></span></span></code></pre></div><blockquote>
 <p>Hello Go!</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kn">package</span> <span class="nx">main</span>
-
-<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
-
-<span class="kd">func</span> <span class="nf">hello</span><span class="p">(){</span>
-    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello Go!&#34;</span><span class="p">)</span>
-<span class="p">}</span>
-
-<span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
-    <span class="nf">hello</span><span class="p">()</span>
-    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello World!&#34;</span><span class="p">)</span>
-<span class="p">}</span>
-
-<span class="c1">// result:
-</span><span class="c1">// Hello Go! Hello World!
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">hello</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello Go!&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">hello</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello World!&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// result:
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Hello Go! Hello World!
+</span></span></span></code></pre></div><blockquote>
 <p>init</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kn">package</span> <span class="nx">main</span>
-
-<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
-<span class="kd">func</span> <span class="nf">init</span><span class="p">(){</span>
-    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Init Go!&#34;</span><span class="p">)</span>
-<span class="p">}</span>
-
-<span class="kd">func</span> <span class="nf">hello</span><span class="p">(){</span>
-    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello Go!&#34;</span><span class="p">)</span>
-<span class="p">}</span>
-
-<span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
-    <span class="nf">hello</span><span class="p">()</span>
-    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello World!&#34;</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="c1">// result:
-</span><span class="c1">// Init Go! Hello go! Hello World!
-</span></code></pre></div><p><img src="/AboutGo/2.jpeg" alt=""></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">init</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Init Go!&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">hello</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello Go!&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">    <span class="nf">hello</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello World!&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result:
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Init Go! Hello go! Hello World!
+</span></span></span></code></pre></div><p><img src="/AboutGo/2.jpeg" alt=""></p>
 <blockquote>
 <p>import</p>
 </blockquote>
 <p>参考リンク：<a href="https://golang.org/pkg/">Golang pkg</a></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kn">package</span> <span class="nx">main</span>
-
-<span class="kn">import</span> <span class="p">(</span>
-	<span class="s">&#34;fmt&#34;</span>
-	<span class="s">&#34;time&#34;</span> <span class="c1">// import time
-</span><span class="c1"></span><span class="p">)</span>
-
-<span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello&#34;</span><span class="p">,</span><span class="nx">time</span><span class="p">.</span><span class="nf">Now</span><span class="p">())</span>
-<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// Hello 2021-12-14 19:59:20.635438 +0900 JST m=+0.000067962
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">	<span class="s">&#34;fmt&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="s">&#34;time&#34;</span> <span class="c1">// import time
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello&#34;</span><span class="p">,</span><span class="nx">time</span><span class="p">.</span><span class="nf">Now</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Hello 2021-12-14 19:59:20.635438 +0900 JST m=+0.000067962
+</span></span></span></code></pre></div><blockquote>
 <p>変数</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kn">package</span> <span class="nx">main</span>
-
-<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
-
-<span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
-	<span class="kd">var</span> <span class="nx">i</span> <span class="kt">int</span> <span class="p">=</span> <span class="mi">1</span>
-	<span class="kd">var</span> <span class="nx">f64</span> <span class="kt">float64</span> <span class="p">=</span> <span class="mf">1.2</span>
-	<span class="kd">var</span> <span class="nx">s</span> <span class="kt">string</span> <span class="p">=</span> <span class="s">&#34;Hello Go&#34;</span>
-	<span class="kd">var</span> <span class="nx">t</span><span class="p">,</span><span class="nx">f</span> <span class="kt">bool</span> <span class="p">=</span> <span class="kc">true</span><span class="p">,</span><span class="kc">false</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="nx">f64</span><span class="p">,</span><span class="nx">s</span><span class="p">,</span><span class="nx">t</span><span class="p">,</span><span class="nx">f</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// 1 1.2 Hello Go true false
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">var</span> <span class="nx">i</span> <span class="kt">int</span> <span class="p">=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">var</span> <span class="nx">f64</span> <span class="kt">float64</span> <span class="p">=</span> <span class="mf">1.2</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">var</span> <span class="nx">s</span> <span class="kt">string</span> <span class="p">=</span> <span class="s">&#34;Hello Go&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">var</span> <span class="nx">t</span><span class="p">,</span><span class="nx">f</span> <span class="kt">bool</span> <span class="p">=</span> <span class="kc">true</span><span class="p">,</span><span class="kc">false</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="nx">f64</span><span class="p">,</span><span class="nx">s</span><span class="p">,</span><span class="nx">t</span><span class="p">,</span><span class="nx">f</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 1 1.2 Hello Go true false
+</span></span></span></code></pre></div><blockquote>
 <p>変数宣言</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kn">package</span> <span class="nx">main</span>
-
-<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
-
-<span class="kd">var</span><span class="p">(</span>
-	<span class="nx">i</span> <span class="kt">int</span> <span class="p">=</span> <span class="mi">1</span>
- 	<span class="nx">f64</span> <span class="kt">float64</span> <span class="p">=</span> <span class="mf">1.2</span>
- 	<span class="nx">s</span> <span class="kt">string</span> <span class="p">=</span> <span class="s">&#34;Hello Go&#34;</span>
- 	<span class="nx">t</span> <span class="kt">bool</span> <span class="p">=</span> <span class="kc">true</span>
-	<span class="nx">f</span> <span class="kt">bool</span> <span class="p">=</span> <span class="kc">false</span>
-<span class="p">)</span>
-
-<span class="kd">func</span> <span class="nf">test</span><span class="p">()</span>  <span class="p">{</span>
-	<span class="nx">i1</span> <span class="o">:=</span><span class="mi">1</span>
-	<span class="nx">xf64</span> <span class="o">:=</span><span class="mf">1.2</span>   <span class="c1">//&lt;--- a  :=   1
-</span><span class="c1"></span>	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i1</span><span class="p">,</span><span class="nx">xf64</span><span class="p">)</span>
-<span class="p">}</span>
-
-<span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
-	<span class="nf">test</span><span class="p">()</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="nx">f64</span><span class="p">,</span><span class="nx">s</span><span class="p">,</span><span class="nx">t</span><span class="p">,</span><span class="nx">f</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// 1 1.2
-</span><span class="c1">// 1 1.2 Hello Go true false
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">var</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">i</span> <span class="kt">int</span> <span class="p">=</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl"> 	<span class="nx">f64</span> <span class="kt">float64</span> <span class="p">=</span> <span class="mf">1.2</span>
+</span></span><span class="line"><span class="cl"> 	<span class="nx">s</span> <span class="kt">string</span> <span class="p">=</span> <span class="s">&#34;Hello Go&#34;</span>
+</span></span><span class="line"><span class="cl"> 	<span class="nx">t</span> <span class="kt">bool</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">f</span> <span class="kt">bool</span> <span class="p">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">test</span><span class="p">()</span>  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">i1</span> <span class="o">:=</span><span class="mi">1</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">xf64</span> <span class="o">:=</span><span class="mf">1.2</span>   <span class="c1">//&lt;--- a  :=   1
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i1</span><span class="p">,</span><span class="nx">xf64</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">	<span class="nf">test</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span><span class="nx">f64</span><span class="p">,</span><span class="nx">s</span><span class="p">,</span><span class="nx">t</span><span class="p">,</span><span class="nx">f</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 1 1.2
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 1 1.2 Hello Go true false
+</span></span></span></code></pre></div><blockquote>
 <p>const</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kn">package</span> <span class="nx">main</span>
-
-<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
-
-<span class="kd">const</span> <span class="nx">Pi</span> <span class="p">=</span> <span class="mf">3.14159</span>
-<span class="kd">const</span> <span class="p">(</span>
-	<span class="nx">userName</span> <span class="p">=</span> <span class="s">&#34;Go&#34;</span>
-	<span class="nx">userPassword</span> <span class="p">=</span> <span class="mi">1234</span>
-<span class="p">)</span>
-
-<span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">Pi</span><span class="p">,</span><span class="nx">userName</span><span class="p">,</span><span class="nx">userPassword</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// 3.14159 Go 1234
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">const</span> <span class="nx">Pi</span> <span class="p">=</span> <span class="mf">3.14159</span>
+</span></span><span class="line"><span class="cl"><span class="kd">const</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">userName</span> <span class="p">=</span> <span class="s">&#34;Go&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">userPassword</span> <span class="p">=</span> <span class="mi">1234</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">Pi</span><span class="p">,</span><span class="nx">userName</span><span class="p">,</span><span class="nx">userPassword</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 3.14159 Go 1234
+</span></span></span></code></pre></div><blockquote>
 <p>数値型</p>
 </blockquote>
 <p>参考リンク：[<a href="https://golang.org/ref/spec">Golang Spec</a>],[<a href="https://go.dev/ref/spec#Numeric_types">Numeric</a>],[<a href="https://pkg.go.dev/fmt#pkg-functions">Fmt</a>]</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kt">uint8</span>       <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">unsigned</span>  <span class="mi">8</span><span class="o">-</span><span class="nx">bit</span> <span class="nf">integers</span> <span class="p">(</span><span class="mi">0</span> <span class="nx">to</span> <span class="mi">255</span><span class="p">)</span>
-<span class="kt">uint16</span>      <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">unsigned</span> <span class="mi">16</span><span class="o">-</span><span class="nx">bit</span> <span class="nf">integers</span> <span class="p">(</span><span class="mi">0</span> <span class="nx">to</span> <span class="mi">65535</span><span class="p">)</span>
-<span class="kt">uint32</span>      <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">unsigned</span> <span class="mi">32</span><span class="o">-</span><span class="nx">bit</span> <span class="nf">integers</span> <span class="p">(</span><span class="mi">0</span> <span class="nx">to</span> <span class="mi">4294967295</span><span class="p">)</span>
-<span class="kt">uint64</span>      <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">unsigned</span> <span class="mi">64</span><span class="o">-</span><span class="nx">bit</span> <span class="nf">integers</span> <span class="p">(</span><span class="mi">0</span> <span class="nx">to</span> <span class="mi">18446744073709551615</span><span class="p">)</span>
-
-<span class="kt">int8</span>        <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">signed</span>  <span class="mi">8</span><span class="o">-</span><span class="nx">bit</span> <span class="nf">integers</span> <span class="p">(</span><span class="o">-</span><span class="mi">128</span> <span class="nx">to</span> <span class="mi">127</span><span class="p">)</span>
-<span class="kt">int16</span>       <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">signed</span> <span class="mi">16</span><span class="o">-</span><span class="nx">bit</span> <span class="nf">integers</span> <span class="p">(</span><span class="o">-</span><span class="mi">32768</span> <span class="nx">to</span> <span class="mi">32767</span><span class="p">)</span>
-<span class="kt">int32</span>       <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">signed</span> <span class="mi">32</span><span class="o">-</span><span class="nx">bit</span> <span class="nf">integers</span> <span class="p">(</span><span class="o">-</span><span class="mi">2147483648</span> <span class="nx">to</span> <span class="mi">2147483647</span><span class="p">)</span>
-<span class="kt">int64</span>       <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">signed</span> <span class="mi">64</span><span class="o">-</span><span class="nx">bit</span> <span class="nf">integers</span> <span class="p">(</span><span class="o">-</span><span class="mi">9223372036854775808</span> <span class="nx">to</span> <span class="mi">9223372036854775807</span><span class="p">)</span>
-
-<span class="kt">float32</span>     <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">IEEE</span><span class="o">-</span><span class="mi">754</span> <span class="mi">32</span><span class="o">-</span><span class="nx">bit</span> <span class="nx">floating</span><span class="o">-</span><span class="nx">point</span> <span class="nx">numbers</span>
-<span class="kt">float64</span>     <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">IEEE</span><span class="o">-</span><span class="mi">754</span> <span class="mi">64</span><span class="o">-</span><span class="nx">bit</span> <span class="nx">floating</span><span class="o">-</span><span class="nx">point</span> <span class="nx">numbers</span>
-
-<span class="kt">complex64</span>   <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">complex</span> <span class="nx">numbers</span> <span class="nx">with</span> <span class="kt">float32</span> <span class="nx">real</span> <span class="nx">and</span> <span class="nx">imaginary</span> <span class="nx">parts</span>
-<span class="kt">complex128</span>  <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">complex</span> <span class="nx">numbers</span> <span class="nx">with</span> <span class="kt">float64</span> <span class="nx">real</span> <span class="nx">and</span> <span class="nx">imaginary</span> <span class="nx">parts</span>
-
-<span class="kt">byte</span>        <span class="nx">alias</span> <span class="k">for</span> <span class="kt">uint8</span>
-<span class="kt">rune</span>        <span class="nx">alias</span> <span class="k">for</span> <span class="kt">int32</span>
-</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kn">package</span> <span class="nx">main</span>
-
-<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
-
-<span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
-	<span class="kd">var</span><span class="p">(</span>
-		<span class="nx">u8</span> <span class="kt">uint8</span> <span class="p">=</span> <span class="mi">255</span>
-		<span class="nx">i8</span> <span class="kt">int8</span> <span class="p">=</span> <span class="mi">127</span>
-		<span class="nx">f32</span> <span class="kt">float32</span> <span class="p">=</span> <span class="mf">0.2</span>
-		<span class="nx">c64</span> <span class="kt">complex64</span> <span class="p">=</span> <span class="o">-</span><span class="mi">5</span><span class="o">+</span><span class="m">12i</span>
-	<span class="p">)</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">u8</span><span class="p">,</span><span class="nx">i8</span><span class="p">,</span><span class="nx">f32</span><span class="p">,</span><span class="nx">c64</span><span class="p">)</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;%T %v&#34;</span><span class="p">,</span><span class="nx">u8</span><span class="p">,</span><span class="nx">u8</span><span class="p">)</span> <span class="c1">// &lt;-- 参考fmt package
-</span><span class="c1"></span><span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// 255 127 0.2 (-5+12i)
-</span><span class="c1">// uint8 255
-</span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="c1">// fmt 参考 
-</span><span class="c1"></span><span class="o">%</span><span class="nx">v</span>	<span class="nx">the</span> <span class="nx">value</span> <span class="nx">in</span> <span class="nx">a</span> <span class="k">default</span> <span class="nx">format</span>
-	<span class="nx">when</span> <span class="nx">printing</span> <span class="nx">structs</span><span class="p">,</span> <span class="nx">the</span> <span class="nx">plus</span> <span class="nf">flag</span> <span class="p">(</span><span class="o">%+</span><span class="nx">v</span><span class="p">)</span> <span class="nx">adds</span> <span class="nx">field</span> <span class="nx">names</span>
-<span class="o">%</span><span class="err">#</span><span class="nx">v</span>	<span class="nx">a</span> <span class="nx">Go</span><span class="o">-</span><span class="nx">syntax</span> <span class="nx">representation</span> <span class="nx">of</span> <span class="nx">the</span> <span class="nx">value</span>
-<span class="o">%</span><span class="nx">T</span>	<span class="nx">a</span> <span class="nx">Go</span><span class="o">-</span><span class="nx">syntax</span> <span class="nx">representation</span> <span class="nx">of</span> <span class="nx">the</span> <span class="kd">type</span> <span class="nx">of</span> <span class="nx">the</span> <span class="nx">value</span>
-<span class="o">%%</span>	<span class="nx">a</span> <span class="nx">literal</span> <span class="nx">percent</span> <span class="nx">sign</span><span class="p">;</span> <span class="nx">consumes</span> <span class="nx">no</span> <span class="nx">value</span>
-</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
-	<span class="nx">i</span> <span class="o">:=</span> <span class="mi">0</span> <span class="c1">//0 
-</span><span class="c1"></span>	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
-	<span class="nx">i</span><span class="o">++</span> <span class="c1">// 0+1 = 1
-</span><span class="c1"></span>	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
-	<span class="nx">i</span><span class="o">--</span> <span class="c1">// 0-1 = 0
-</span><span class="c1"></span>	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="c1">// result 
-</span><span class="c1">// 0 1 0
-</span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="mi">0</span><span class="p">)</span> <span class="c1">// 0001 0001
-</span><span class="c1"></span>	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="mi">1</span><span class="p">)</span> <span class="c1">// 0001 0010
-</span><span class="c1"></span>	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="mi">2</span><span class="p">)</span> <span class="c1">// 0001 0100
-</span><span class="c1"></span>	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="mi">3</span><span class="p">)</span> <span class="c1">// 0001 1000
-</span><span class="c1"></span><span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// 1 2 4 8
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kt">uint8</span>       <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">unsigned</span>  <span class="mi">8</span><span class="o">-</span><span class="nx">bit</span> <span class="nf">integers</span> <span class="p">(</span><span class="mi">0</span> <span class="nx">to</span> <span class="mi">255</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kt">uint16</span>      <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">unsigned</span> <span class="mi">16</span><span class="o">-</span><span class="nx">bit</span> <span class="nf">integers</span> <span class="p">(</span><span class="mi">0</span> <span class="nx">to</span> <span class="mi">65535</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kt">uint32</span>      <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">unsigned</span> <span class="mi">32</span><span class="o">-</span><span class="nx">bit</span> <span class="nf">integers</span> <span class="p">(</span><span class="mi">0</span> <span class="nx">to</span> <span class="mi">4294967295</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kt">uint64</span>      <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">unsigned</span> <span class="mi">64</span><span class="o">-</span><span class="nx">bit</span> <span class="nf">integers</span> <span class="p">(</span><span class="mi">0</span> <span class="nx">to</span> <span class="mi">18446744073709551615</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">int8</span>        <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">signed</span>  <span class="mi">8</span><span class="o">-</span><span class="nx">bit</span> <span class="nf">integers</span> <span class="p">(</span><span class="o">-</span><span class="mi">128</span> <span class="nx">to</span> <span class="mi">127</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int16</span>       <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">signed</span> <span class="mi">16</span><span class="o">-</span><span class="nx">bit</span> <span class="nf">integers</span> <span class="p">(</span><span class="o">-</span><span class="mi">32768</span> <span class="nx">to</span> <span class="mi">32767</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int32</span>       <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">signed</span> <span class="mi">32</span><span class="o">-</span><span class="nx">bit</span> <span class="nf">integers</span> <span class="p">(</span><span class="o">-</span><span class="mi">2147483648</span> <span class="nx">to</span> <span class="mi">2147483647</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int64</span>       <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">signed</span> <span class="mi">64</span><span class="o">-</span><span class="nx">bit</span> <span class="nf">integers</span> <span class="p">(</span><span class="o">-</span><span class="mi">9223372036854775808</span> <span class="nx">to</span> <span class="mi">9223372036854775807</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">float32</span>     <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">IEEE</span><span class="o">-</span><span class="mi">754</span> <span class="mi">32</span><span class="o">-</span><span class="nx">bit</span> <span class="nx">floating</span><span class="o">-</span><span class="nx">point</span> <span class="nx">numbers</span>
+</span></span><span class="line"><span class="cl"><span class="kt">float64</span>     <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">IEEE</span><span class="o">-</span><span class="mi">754</span> <span class="mi">64</span><span class="o">-</span><span class="nx">bit</span> <span class="nx">floating</span><span class="o">-</span><span class="nx">point</span> <span class="nx">numbers</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">complex64</span>   <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">complex</span> <span class="nx">numbers</span> <span class="nx">with</span> <span class="kt">float32</span> <span class="nx">real</span> <span class="nx">and</span> <span class="nx">imaginary</span> <span class="nx">parts</span>
+</span></span><span class="line"><span class="cl"><span class="kt">complex128</span>  <span class="nx">the</span> <span class="nx">set</span> <span class="nx">of</span> <span class="nx">all</span> <span class="nx">complex</span> <span class="nx">numbers</span> <span class="nx">with</span> <span class="kt">float64</span> <span class="nx">real</span> <span class="nx">and</span> <span class="nx">imaginary</span> <span class="nx">parts</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">byte</span>        <span class="nx">alias</span> <span class="k">for</span> <span class="kt">uint8</span>
+</span></span><span class="line"><span class="cl"><span class="kt">rune</span>        <span class="nx">alias</span> <span class="k">for</span> <span class="kt">int32</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">var</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">		<span class="nx">u8</span> <span class="kt">uint8</span> <span class="p">=</span> <span class="mi">255</span>
+</span></span><span class="line"><span class="cl">		<span class="nx">i8</span> <span class="kt">int8</span> <span class="p">=</span> <span class="mi">127</span>
+</span></span><span class="line"><span class="cl">		<span class="nx">f32</span> <span class="kt">float32</span> <span class="p">=</span> <span class="mf">0.2</span>
+</span></span><span class="line"><span class="cl">		<span class="nx">c64</span> <span class="kt">complex64</span> <span class="p">=</span> <span class="o">-</span><span class="mi">5</span><span class="o">+</span><span class="m">12i</span>
+</span></span><span class="line"><span class="cl">	<span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">u8</span><span class="p">,</span><span class="nx">i8</span><span class="p">,</span><span class="nx">f32</span><span class="p">,</span><span class="nx">c64</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;%T %v&#34;</span><span class="p">,</span><span class="nx">u8</span><span class="p">,</span><span class="nx">u8</span><span class="p">)</span> <span class="c1">// &lt;-- 参考fmt package
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 255 127 0.2 (-5+12i)
+</span></span></span><span class="line"><span class="cl"><span class="c1">// uint8 255
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="c1">// fmt 参考 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">%</span><span class="nx">v</span>	<span class="nx">the</span> <span class="nx">value</span> <span class="nx">in</span> <span class="nx">a</span> <span class="k">default</span> <span class="nx">format</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">when</span> <span class="nx">printing</span> <span class="nx">structs</span><span class="p">,</span> <span class="nx">the</span> <span class="nx">plus</span> <span class="nf">flag</span> <span class="p">(</span><span class="o">%+</span><span class="nx">v</span><span class="p">)</span> <span class="nx">adds</span> <span class="nx">field</span> <span class="nx">names</span>
+</span></span><span class="line"><span class="cl"><span class="o">%</span><span class="err">#</span><span class="nx">v</span>	<span class="nx">a</span> <span class="nx">Go</span><span class="o">-</span><span class="nx">syntax</span> <span class="nx">representation</span> <span class="nx">of</span> <span class="nx">the</span> <span class="nx">value</span>
+</span></span><span class="line"><span class="cl"><span class="o">%</span><span class="nx">T</span>	<span class="nx">a</span> <span class="nx">Go</span><span class="o">-</span><span class="nx">syntax</span> <span class="nx">representation</span> <span class="nx">of</span> <span class="nx">the</span> <span class="kd">type</span> <span class="nx">of</span> <span class="nx">the</span> <span class="nx">value</span>
+</span></span><span class="line"><span class="cl"><span class="o">%%</span>	<span class="nx">a</span> <span class="nx">literal</span> <span class="nx">percent</span> <span class="nx">sign</span><span class="p">;</span> <span class="nx">consumes</span> <span class="nx">no</span> <span class="nx">value</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">i</span> <span class="o">:=</span> <span class="mi">0</span> <span class="c1">//0 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">i</span><span class="o">++</span> <span class="c1">// 0+1 = 1
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">i</span><span class="o">--</span> <span class="c1">// 0-1 = 0
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result 
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 0 1 0
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="mi">0</span><span class="p">)</span> <span class="c1">// 0001 0001
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="mi">1</span><span class="p">)</span> <span class="c1">// 0001 0010
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="mi">2</span><span class="p">)</span> <span class="c1">// 0001 0100
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="mi">3</span><span class="p">)</span> <span class="c1">// 0001 1000
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 1 2 4 8
+</span></span></span></code></pre></div><blockquote>
 <p>文字列型</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello World&#34;</span><span class="p">)</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello&#34;</span><span class="o">+</span><span class="s">&#34;World&#34;</span><span class="p">)</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nb">string</span><span class="p">(</span><span class="s">&#34;Hello Go&#34;</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
-<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// Hello World,HelloWorld,H
-</span></code></pre></div><p>参考リンク：[<a href="https://pkg.go.dev/strings">strings</a>]</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kn">package</span> <span class="nx">main</span>
-
-<span class="kn">import</span> <span class="p">(</span>
-	<span class="s">&#34;fmt&#34;</span>
-	<span class="s">&#34;strings&#34;</span> <span class="c1">// &lt;--package
-</span><span class="c1"></span><span class="p">)</span>
-<span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
-	<span class="kd">var</span> <span class="nx">s</span> <span class="kt">string</span> <span class="p">=</span> <span class="s">&#34;Hello Go&#34;</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">strings</span><span class="p">.</span><span class="nf">Replace</span><span class="p">(</span><span class="nx">s</span><span class="p">,</span><span class="s">&#34;Go&#34;</span><span class="p">,</span><span class="s">&#34;World&#34;</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
-<span class="p">}</span>
-<span class="c1">// result : Hello World
-</span><span class="c1">// Hello Go -&gt; Hello World 
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello World&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello&#34;</span><span class="o">+</span><span class="s">&#34;World&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nb">string</span><span class="p">(</span><span class="s">&#34;Hello Go&#34;</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Hello World,HelloWorld,H
+</span></span></span></code></pre></div><p>参考リンク：[<a href="https://pkg.go.dev/strings">strings</a>]</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">	<span class="s">&#34;fmt&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="s">&#34;strings&#34;</span> <span class="c1">// &lt;--package
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">(){</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">var</span> <span class="nx">s</span> <span class="kt">string</span> <span class="p">=</span> <span class="s">&#34;Hello Go&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">strings</span><span class="p">.</span><span class="nf">Replace</span><span class="p">(</span><span class="nx">s</span><span class="p">,</span><span class="s">&#34;Go&#34;</span><span class="p">,</span><span class="s">&#34;World&#34;</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result : Hello World
+</span></span></span><span class="line"><span class="cl"><span class="c1">// Hello Go -&gt; Hello World 
+</span></span></span></code></pre></div><blockquote>
 <p>論理値型</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="nx">t</span><span class="p">,</span><span class="nx">f</span> <span class="o">:=</span> <span class="kc">true</span><span class="p">,</span><span class="kc">false</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;%T %v %t&#34;</span><span class="p">,</span><span class="nx">t</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="nx">f</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// bool 1 false
-</span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="kc">true</span><span class="o">&amp;&amp;</span><span class="kc">true</span><span class="p">)</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="kc">true</span><span class="o">&amp;&amp;</span><span class="kc">false</span><span class="p">)</span>
-    <span class="c1">// true || false
-</span><span class="c1"></span>    <span class="c1">// !true
-</span><span class="c1"></span><span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// true false
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">t</span><span class="p">,</span><span class="nx">f</span> <span class="o">:=</span> <span class="kc">true</span><span class="p">,</span><span class="kc">false</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;%T %v %t&#34;</span><span class="p">,</span><span class="nx">t</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="nx">f</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// bool 1 false
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="kc">true</span><span class="o">&amp;&amp;</span><span class="kc">true</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="kc">true</span><span class="o">&amp;&amp;</span><span class="kc">false</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// true || false
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="c1">// !true
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// true false
+</span></span></span></code></pre></div><blockquote>
 <p>型変換</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="kd">var</span> <span class="nx">x</span> <span class="kt">int</span> <span class="p">=</span><span class="mi">1</span>
-	<span class="nx">xx</span> <span class="o">:=</span><span class="nb">float64</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;%T %v %f&#34;</span><span class="p">,</span><span class="nx">xx</span><span class="p">,</span><span class="nx">xx</span><span class="p">,</span><span class="nx">xx</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// float64 1 1.000000
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">var</span> <span class="nx">x</span> <span class="kt">int</span> <span class="p">=</span><span class="mi">1</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">xx</span> <span class="o">:=</span><span class="nb">float64</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;%T %v %f&#34;</span><span class="p">,</span><span class="nx">xx</span><span class="p">,</span><span class="nx">xx</span><span class="p">,</span><span class="nx">xx</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// float64 1 1.000000
+</span></span></span></code></pre></div><blockquote>
 <p>配列</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="kd">var</span> <span class="nx">l</span> <span class="p">[]</span><span class="kt">int</span> <span class="p">=</span> <span class="p">[]</span><span class="kt">int</span><span class="p">{}</span>
-	<span class="nx">l</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">l</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">300</span><span class="p">)</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">l</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// [100 200 300]
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">var</span> <span class="nx">l</span> <span class="p">[]</span><span class="kt">int</span> <span class="p">=</span> <span class="p">[]</span><span class="kt">int</span><span class="p">{}</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">l</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">l</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">300</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">l</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// [100 200 300]
+</span></span></span></code></pre></div><blockquote>
 <p>スライス makeとcap</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="nx">n</span><span class="o">:=</span><span class="p">[]</span><span class="kt">int</span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">}</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">n</span><span class="p">)</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">n</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">n</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">4</span><span class="p">])</span>
-    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">n</span><span class="p">[:</span><span class="mi">2</span><span class="p">])</span>
-<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// [1 2 3 4 5] -&gt; 3 -&gt; [3 4] -&gt; [1 2]
-</span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="nx">i</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="nx">i</span><span class="p">))</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nb">cap</span><span class="p">(</span><span class="nx">i</span><span class="p">))</span>
-<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// [0 0 0], 3 , 5
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">n</span><span class="o">:=</span><span class="p">[]</span><span class="kt">int</span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">n</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">n</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">n</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">4</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">n</span><span class="p">[:</span><span class="mi">2</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// [1 2 3 4 5] -&gt; 3 -&gt; [3 4] -&gt; [1 2]
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">i</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="nx">i</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nb">cap</span><span class="p">(</span><span class="nx">i</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// [0 0 0], 3 , 5
+</span></span></span></code></pre></div><blockquote>
 <p>Map</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="nx">m</span> <span class="o">:=</span><span class="kd">map</span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="kt">int</span><span class="p">{</span><span class="s">&#34;hello&#34;</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="s">&#34;hello&#34;</span><span class="p">),</span><span class="s">&#34;go&#34;</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="s">&#34;go&#34;</span><span class="p">)}</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">m</span><span class="p">)</span>
-	<span class="nx">m</span><span class="p">[</span><span class="s">&#34;!&#34;</span><span class="p">]=</span><span class="nb">len</span><span class="p">(</span><span class="s">&#34;!&#34;</span><span class="p">)</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">m</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// map[go:2 hello:5] , map[!:1 go:2 hello:5]
-</span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="nx">m</span> <span class="o">:=</span><span class="kd">map</span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="kt">int</span><span class="p">{</span><span class="s">&#34;hello&#34;</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="s">&#34;hello&#34;</span><span class="p">),</span><span class="s">&#34;go&#34;</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="s">&#34;go&#34;</span><span class="p">)}</span>
-	<span class="nx">v</span> <span class="p">,</span> <span class="nx">b</span> <span class="o">:=</span> <span class="nx">m</span><span class="p">[</span><span class="s">&#34;xx&#34;</span><span class="p">]</span>
-	<span class="nx">v1</span> <span class="p">,</span> <span class="nx">b1</span> <span class="o">:=</span> <span class="nx">m</span><span class="p">[</span><span class="s">&#34;go&#34;</span><span class="p">]</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">v</span><span class="p">,</span><span class="nx">b</span><span class="p">)</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">v1</span><span class="p">,</span><span class="nx">b1</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// 0 false , 2 true
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">m</span> <span class="o">:=</span><span class="kd">map</span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="kt">int</span><span class="p">{</span><span class="s">&#34;hello&#34;</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="s">&#34;hello&#34;</span><span class="p">),</span><span class="s">&#34;go&#34;</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="s">&#34;go&#34;</span><span class="p">)}</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">m</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">m</span><span class="p">[</span><span class="s">&#34;!&#34;</span><span class="p">]=</span><span class="nb">len</span><span class="p">(</span><span class="s">&#34;!&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">m</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// map[go:2 hello:5] , map[!:1 go:2 hello:5]
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">m</span> <span class="o">:=</span><span class="kd">map</span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="kt">int</span><span class="p">{</span><span class="s">&#34;hello&#34;</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="s">&#34;hello&#34;</span><span class="p">),</span><span class="s">&#34;go&#34;</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="s">&#34;go&#34;</span><span class="p">)}</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">v</span> <span class="p">,</span> <span class="nx">b</span> <span class="o">:=</span> <span class="nx">m</span><span class="p">[</span><span class="s">&#34;xx&#34;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">v1</span> <span class="p">,</span> <span class="nx">b1</span> <span class="o">:=</span> <span class="nx">m</span><span class="p">[</span><span class="s">&#34;go&#34;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">v</span><span class="p">,</span><span class="nx">b</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">v1</span><span class="p">,</span><span class="nx">b1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 0 false , 2 true
+</span></span></span></code></pre></div><blockquote>
 <p>バイト型</p>
 </blockquote>
 <p>参考リンク:[<a href="https://www.ascii-code.com/">ASCII Code</a>]</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	 <span class="nx">b</span><span class="o">:=</span><span class="p">[]</span><span class="kt">byte</span><span class="p">{</span><span class="mi">71</span><span class="p">,</span><span class="mi">79</span><span class="p">}</span>
-	 <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">b</span><span class="p">)</span>
-	 <span class="nx">c</span> <span class="o">:=</span><span class="p">[]</span><span class="nb">byte</span><span class="p">(</span><span class="s">&#34;GO&#34;</span><span class="p">)</span>
-	 <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">c</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// [71 79] , [71 79]
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	 <span class="nx">b</span><span class="o">:=</span><span class="p">[]</span><span class="kt">byte</span><span class="p">{</span><span class="mi">71</span><span class="p">,</span><span class="mi">79</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">	 <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">b</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	 <span class="nx">c</span> <span class="o">:=</span><span class="p">[]</span><span class="nb">byte</span><span class="p">(</span><span class="s">&#34;GO&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	 <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">c</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// [71 79] , [71 79]
+</span></span></span></code></pre></div><blockquote>
 <p>関数</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kn">package</span> <span class="nx">main</span>
-
-<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
-
-<span class="kd">func</span> <span class="nb">delete</span><span class="p">(</span><span class="nx">a</span> <span class="kt">int</span><span class="p">,</span><span class="nx">b</span> <span class="kt">int</span><span class="p">)(</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="p">){</span>
-	<span class="k">return</span>  <span class="nx">a</span><span class="o">-</span><span class="nx">b</span><span class="p">,</span><span class="nx">b</span><span class="o">-</span><span class="nx">a</span>
-<span class="p">}</span>
-
-<span class="kd">func</span>  <span class="nf">add</span><span class="p">(</span><span class="nx">x</span> <span class="kt">int</span> <span class="p">,</span> <span class="nx">y</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
-	<span class="k">return</span> <span class="nx">x</span><span class="o">+</span><span class="nx">y</span>
-<span class="p">}</span>
-<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="nx">r</span><span class="o">:=</span> <span class="nf">add</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">200</span><span class="p">)</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">r</span><span class="p">)</span>
-	<span class="nx">r1</span><span class="p">,</span><span class="nx">r2</span><span class="o">:=</span><span class="nb">delete</span><span class="p">(</span><span class="mi">400</span><span class="p">,</span><span class="mi">300</span><span class="p">)</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">r1</span><span class="p">,</span><span class="nx">r2</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// 300 , 100 -100
-</span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">cal</span><span class="p">(</span><span class="nx">price</span><span class="p">,</span><span class="nx">item_code</span> <span class="kt">int</span><span class="p">)(</span><span class="nx">result</span> <span class="kt">int</span><span class="p">){</span>
-	<span class="nx">result</span> <span class="p">=</span> <span class="nx">price</span> <span class="o">*</span> <span class="nx">item_code</span>
-	<span class="k">return</span>  <span class="nx">result</span>
-<span class="p">}</span>
-
-<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="nx">r</span> <span class="o">:=</span><span class="nf">cal</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">400</span><span class="p">)</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">r</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// 40000
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nb">delete</span><span class="p">(</span><span class="nx">a</span> <span class="kt">int</span><span class="p">,</span><span class="nx">b</span> <span class="kt">int</span><span class="p">)(</span><span class="kt">int</span><span class="p">,</span> <span class="kt">int</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span>  <span class="nx">a</span><span class="o">-</span><span class="nx">b</span><span class="p">,</span><span class="nx">b</span><span class="o">-</span><span class="nx">a</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span>  <span class="nf">add</span><span class="p">(</span><span class="nx">x</span> <span class="kt">int</span> <span class="p">,</span> <span class="nx">y</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="nx">x</span><span class="o">+</span><span class="nx">y</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">r</span><span class="o">:=</span> <span class="nf">add</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">200</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">r</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">r1</span><span class="p">,</span><span class="nx">r2</span><span class="o">:=</span><span class="nb">delete</span><span class="p">(</span><span class="mi">400</span><span class="p">,</span><span class="mi">300</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">r1</span><span class="p">,</span><span class="nx">r2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 300 , 100 -100
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">cal</span><span class="p">(</span><span class="nx">price</span><span class="p">,</span><span class="nx">item_code</span> <span class="kt">int</span><span class="p">)(</span><span class="nx">result</span> <span class="kt">int</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">result</span> <span class="p">=</span> <span class="nx">price</span> <span class="o">*</span> <span class="nx">item_code</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span>  <span class="nx">result</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">r</span> <span class="o">:=</span><span class="nf">cal</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">400</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">r</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 40000
+</span></span></span></code></pre></div><blockquote>
 <p>可変長引数</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">limit_add</span><span class="p">(</span><span class="nx">params</span> <span class="o">...</span><span class="kt">int</span><span class="p">){</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="nx">params</span><span class="p">),</span><span class="nx">params</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="nf">limit_add</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">300</span><span class="p">,</span><span class="mi">400</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// 4 [100 200 300 400]
-</span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">limit_add</span><span class="p">(</span><span class="nx">params</span> <span class="o">...</span><span class="kt">int</span><span class="p">){</span>
-	<span class="k">for</span> <span class="nx">_</span><span class="p">,</span><span class="nx">param</span><span class="o">:=</span><span class="k">range</span> <span class="nx">params</span><span class="p">{</span>
-		<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">param</span><span class="p">)</span>
-	<span class="p">}</span>
-<span class="p">}</span>
-<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="nf">limit_add</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">300</span><span class="p">,</span><span class="mi">400</span><span class="p">)</span>
-<span class="p">}</span>
-<span class="c1">// result
-</span><span class="c1">// 100 200 300 400
-</span></code></pre></div></article>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">limit_add</span><span class="p">(</span><span class="nx">params</span> <span class="o">...</span><span class="kt">int</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="nx">params</span><span class="p">),</span><span class="nx">params</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nf">limit_add</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">300</span><span class="p">,</span><span class="mi">400</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 4 [100 200 300 400]
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Go" data-lang="Go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">limit_add</span><span class="p">(</span><span class="nx">params</span> <span class="o">...</span><span class="kt">int</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="nx">_</span><span class="p">,</span><span class="nx">param</span><span class="o">:=</span><span class="k">range</span> <span class="nx">params</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">param</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nf">limit_add</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">300</span><span class="p">,</span><span class="mi">400</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// result
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 100 200 300 400
+</span></span></span></code></pre></div></article>
               </div>
             </div>
           </div>

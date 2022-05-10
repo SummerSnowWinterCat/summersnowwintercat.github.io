@@ -225,77 +225,77 @@
 <blockquote>
 <p>インストール方法</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">pip install mecab-python3
-pip install ipadic
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pip install mecab-python3
+</span></span><span class="line"><span class="cl">pip install ipadic
+</span></span></code></pre></div><blockquote>
 <p>GitHub Link: <a href="https://github.com/polm/ipadic-py">ipadic</a></p>
 </blockquote>
 <blockquote>
 <p>基本的使用方法 ( Basic Usage )</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="c1"># ipadic は単語辞書</span>
-<span class="n">tagger</span> <span class="o">=</span> <span class="n">MeCab</span><span class="o">.</span><span class="n">Tagger</span><span class="p">(</span><span class="n">ipadic</span><span class="o">.</span><span class="n">MECAB_ARGS</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">tagger</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="s2">&#34;人を信じよ、しかし、その百倍も自らを信じよ。&#34;</span><span class="p">))</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># ipadic は単語辞書</span>
+</span></span><span class="line"><span class="cl"><span class="n">tagger</span> <span class="o">=</span> <span class="n">MeCab</span><span class="o">.</span><span class="n">Tagger</span><span class="p">(</span><span class="n">ipadic</span><span class="o">.</span><span class="n">MECAB_ARGS</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">tagger</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="s2">&#34;人を信じよ、しかし、その百倍も自らを信じよ。&#34;</span><span class="p">))</span>
+</span></span></code></pre></div><blockquote>
 <p>結果:</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">人	名詞,一般,*,*,*,*,人,ヒト,ヒト
-を	助詞,格助詞,一般,*,*,*,を,ヲ,ヲ
-信じよ	動詞,自立,*,*,一段,命令ｙｏ,信じる,シンジヨ,シンジヨ
-、	記号,読点,*,*,*,*,、,、,、
-しかし	接続詞,*,*,*,*,*,しかし,シカシ,シカシ
-、	記号,読点,*,*,*,*,、,、,、
-その	連体詞,*,*,*,*,*,その,ソノ,ソノ
-百	名詞,数,*,*,*,*,百,ヒャク,ヒャク
-倍	名詞,接尾,助数詞,*,*,*,倍,バイ,バイ
-も	助詞,係助詞,*,*,*,*,も,モ,モ
-自ら	名詞,副詞可能,*,*,*,*,自ら,ミズカラ,ミズカラ
-を	助詞,格助詞,一般,*,*,*,を,ヲ,ヲ
-信じ	動詞,自立,*,*,一段,連用形,信じる,シンジ,シンジ
-よ	助詞,終助詞,*,*,*,*,よ,ヨ,ヨ
-。	記号,句点,*,*,*,*,。,。,。
-EOS
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">人	名詞,一般,*,*,*,*,人,ヒト,ヒト
+</span></span><span class="line"><span class="cl">を	助詞,格助詞,一般,*,*,*,を,ヲ,ヲ
+</span></span><span class="line"><span class="cl">信じよ	動詞,自立,*,*,一段,命令ｙｏ,信じる,シンジヨ,シンジヨ
+</span></span><span class="line"><span class="cl">、	記号,読点,*,*,*,*,、,、,、
+</span></span><span class="line"><span class="cl">しかし	接続詞,*,*,*,*,*,しかし,シカシ,シカシ
+</span></span><span class="line"><span class="cl">、	記号,読点,*,*,*,*,、,、,、
+</span></span><span class="line"><span class="cl">その	連体詞,*,*,*,*,*,その,ソノ,ソノ
+</span></span><span class="line"><span class="cl">百	名詞,数,*,*,*,*,百,ヒャク,ヒャク
+</span></span><span class="line"><span class="cl">倍	名詞,接尾,助数詞,*,*,*,倍,バイ,バイ
+</span></span><span class="line"><span class="cl">も	助詞,係助詞,*,*,*,*,も,モ,モ
+</span></span><span class="line"><span class="cl">自ら	名詞,副詞可能,*,*,*,*,自ら,ミズカラ,ミズカラ
+</span></span><span class="line"><span class="cl">を	助詞,格助詞,一般,*,*,*,を,ヲ,ヲ
+</span></span><span class="line"><span class="cl">信じ	動詞,自立,*,*,一段,連用形,信じる,シンジ,シンジ
+</span></span><span class="line"><span class="cl">よ	助詞,終助詞,*,*,*,*,よ,ヨ,ヨ
+</span></span><span class="line"><span class="cl">。	記号,句点,*,*,*,*,。,。,。
+</span></span><span class="line"><span class="cl">EOS
+</span></span></code></pre></div><blockquote>
 <p>　必要モジュール</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span>
-<span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">import</span> <span class="nn">MeCab</span>
-<span class="kn">import</span> <span class="nn">ipadic</span>
-<span class="kn">import</span> <span class="nn">sys</span>
-<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">os</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">MeCab</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">ipadic</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">sys</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+</span></span></code></pre></div><blockquote>
 <p>　テスト用データ</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">test_data</span> <span class="o">=</span> <span class="s2">&#34;宇宙が誕生して1秒以内に生まれたとされる未知の素粒子「アクシオン」を、&#34;</span>
-            <span class="s2">&#34;実験で観測できる可能性があるとする論文を、&#34;</span>
-            <span class="s2">&#34;東京大カブリ数物連携宇宙研究機構（カブリIPMU）などのチームが米科学誌に発表した。&#34;</span>
-            <span class="s2">&#34;観測できれば、誕生直後の宇宙の姿を見られる新たな物理学の幕が開く。&#34;</span>
-            <span class="s2">&#34;アクシオンは、物理学の根幹をなす標準理論には含まれていないが、&#34;</span>
-            <span class="s2">&#34;理論的に予言されている軽い素粒子の一つ。&#34;</span>
-            <span class="s2">&#34;宇宙の組成の4分の1を占める暗黒物質（ダークマター）の有力な候補とされる。&#34;</span>
-            <span class="s2">&#34;ほとんどのものをすり抜けてめったに反応しない素粒子ニュートリノよりもさらに反応しないといい、&#34;</span>
-            <span class="s2">&#34;米国などで探索実験が続いているが、見つかっていない。&#34;</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">test_data</span> <span class="o">=</span> <span class="s2">&#34;宇宙が誕生して1秒以内に生まれたとされる未知の素粒子「アクシオン」を、&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;実験で観測できる可能性があるとする論文を、&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;東京大カブリ数物連携宇宙研究機構（カブリIPMU）などのチームが米科学誌に発表した。&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;観測できれば、誕生直後の宇宙の姿を見られる新たな物理学の幕が開く。&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;アクシオンは、物理学の根幹をなす標準理論には含まれていないが、&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;理論的に予言されている軽い素粒子の一つ。&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;宇宙の組成の4分の1を占める暗黒物質（ダークマター）の有力な候補とされる。&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;ほとんどのものをすり抜けてめったに反応しない素粒子ニュートリノよりもさらに反応しないといい、&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="s2">&#34;米国などで探索実験が続いているが、見つかっていない。&#34;</span>
+</span></span></code></pre></div><blockquote>
 <p>名詞を引き出す</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">word_box</span> <span class="o">=</span><span class="p">[]</span>
-<span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tagger</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">!=</span><span class="s1">&#39;EOS&#39;</span> <span class="ow">and</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">!=</span><span class="s1">&#39;&#39;</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;名詞&#39;</span><span class="p">:</span>
-            <span class="c1"># 数字抜き、形容動詞語幹、副詞可能</span>
-            <span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">!=</span><span class="s1">&#39;数&#39;</span> <span class="ow">and</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">!=</span><span class="s1">&#39;形容動詞語幹&#39;</span> <span class="ow">and</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">!=</span><span class="s1">&#39;副詞可能&#39;</span><span class="p">:</span>
-                <span class="n">word_box</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span>
-<span class="nb">len</span><span class="p">(</span><span class="n">word_box</span><span class="p">)</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">word_box</span> <span class="o">=</span><span class="p">[]</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tagger</span><span class="o">.</span><span class="n">parse</span><span class="p">(</span><span class="n">data</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">!=</span><span class="s1">&#39;EOS&#39;</span> <span class="ow">and</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">!=</span><span class="s1">&#39;&#39;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">==</span><span class="s1">&#39;名詞&#39;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="c1"># 数字抜き、形容動詞語幹、副詞可能</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">!=</span><span class="s1">&#39;数&#39;</span> <span class="ow">and</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">!=</span><span class="s1">&#39;形容動詞語幹&#39;</span> <span class="ow">and</span> <span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">!=</span><span class="s1">&#39;副詞可能&#39;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                <span class="n">word_box</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">t</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl"><span class="nb">len</span><span class="p">(</span><span class="n">word_box</span><span class="p">)</span>
+</span></span></code></pre></div><blockquote>
 <p>計算結果：65</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="c1"># TF 計算 （TF = count / all count）</span>
-<span class="n">tf_box</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">Counter</span><span class="p">(</span><span class="n">word_box</span><span class="p">)</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-    <span class="n">tf_box</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">=</span><span class="n">v</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">word_box</span><span class="p">)</span>
-<span class="nb">list</span><span class="p">(</span><span class="n">tf_box</span><span class="p">)[</span><span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">]</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># TF 計算 （TF = count / all count）</span>
+</span></span><span class="line"><span class="cl"><span class="n">tf_box</span> <span class="o">=</span> <span class="p">{}</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">Counter</span><span class="p">(</span><span class="n">word_box</span><span class="p">)</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="n">tf_box</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">=</span><span class="n">v</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">word_box</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">list</span><span class="p">(</span><span class="n">tf_box</span><span class="p">)[</span><span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">]</span>
+</span></span></code></pre></div><blockquote>
 <p>計算結果： [&lsquo;宇宙&rsquo;, &lsquo;誕生&rsquo;, &lsquo;秒&rsquo;, &lsquo;以内&rsquo;, &lsquo;未知&rsquo;, &lsquo;素粒子&rsquo;, &lsquo;アク&rsquo;, &lsquo;シオン&rsquo;, &lsquo;実験&rsquo;, &lsquo;観測&rsquo;]</p>
 </blockquote>
 <p>参考リンク:</p>

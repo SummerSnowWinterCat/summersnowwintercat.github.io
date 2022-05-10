@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bash on WinterCat&#39;s blog</title>
+    <title>bash on WinterCat&#39;s blog</title>
     <link>https://www.wintercat.jp/tags/bash/</link>
-    <description>Recent content in Bash on WinterCat&#39;s blog</description>
+    <description>Recent content in bash on WinterCat&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 10 Aug 2020 11:20:37 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Apr 2022 19:01:20 +0900</lastBuildDate><atom:link href="https://www.wintercat.jp/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AboutShellScript.sh</title>
+      <link>https://www.wintercat.jp/post/aboutshellscript/</link>
+      <pubDate>Sun, 24 Apr 2022 19:01:20 +0900</pubDate>
+      
+      <guid>https://www.wintercat.jp/post/aboutshellscript/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Shell Script&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
     <item>
       <title>Ubuntu Command</title>
       <link>https://www.wintercat.jp/post/ubuntu_command/</link>

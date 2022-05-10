@@ -228,43 +228,43 @@ Python で　TwitterApiを通して、キーワードに関する内容を検索
 <blockquote>
 <p>install tweepy</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">pip install Tweepy
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pip install Tweepy
+</span></span></code></pre></div><blockquote>
 <p><a href="https://docs.tweepy.org/en/stable/">Tweepy</a> 参考元</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="c1"># twitter api account</span>
-<span class="n">api_key</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
-<span class="n">api_secret</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
-<span class="n">bearer_token</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
-<span class="n">access_token</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
-<span class="n">access_secret</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
-
-<span class="c1"># class method</span>
-<span class="k">class</span> <span class="nc">TwitterAuth</span><span class="p">:</span>
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">api_key</span><span class="p">,</span><span class="n">api_secret</span><span class="p">,</span><span class="n">bearer_token</span><span class="p">,</span><span class="n">access_token</span><span class="p">,</span><span class="n">access_secret</span><span class="p">,</span><span class="n">query</span><span class="p">,</span><span class="n">maxresults</span><span class="o">=</span><span class="mi">100</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">api_key</span> <span class="o">=</span> <span class="n">api_key</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">api_secret</span> <span class="o">=</span> <span class="n">api_secret</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">bearer_token</span> <span class="o">=</span> <span class="n">bearer_token</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">access_token</span> <span class="o">=</span> <span class="n">access_token</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">access_secret</span> <span class="o">=</span> <span class="n">access_secret</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">query</span> <span class="o">=</span> <span class="n">query</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">maxresults</span> <span class="o">=</span> <span class="n">maxresults</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">client</span> <span class="o">=</span> <span class="n">tweepy</span><span class="o">.</span><span class="n">Client</span><span class="p">(</span><span class="n">bearer_token</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">bearer_token</span><span class="p">,</span>
-                                <span class="n">access_token</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">access_token</span><span class="p">,</span>
-                                <span class="n">access_token_secret</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">access_secret</span><span class="p">)</span>
-    
-    <span class="k">def</span> <span class="nf">search_recent</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">maxresults</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
-            <span class="n">recent_data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">client</span><span class="o">.</span><span class="n">search_recent_tweets</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">query</span><span class="p">)</span>
-            <span class="k">return</span> <span class="n">recent_data</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">recent_data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">client</span><span class="o">.</span><span class="n">search_recent_tweets</span><span class="p">(</span><span class="n">query</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">query</span><span class="p">,</span><span class="n">max_results</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">maxresults</span><span class="p">)</span>
-            <span class="k">return</span> <span class="n">recent_data</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># twitter api account</span>
+</span></span><span class="line"><span class="cl"><span class="n">api_key</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">api_secret</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">bearer_token</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">access_token</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">access_secret</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># class method</span>
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">TwitterAuth</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="n">api_key</span><span class="p">,</span><span class="n">api_secret</span><span class="p">,</span><span class="n">bearer_token</span><span class="p">,</span><span class="n">access_token</span><span class="p">,</span><span class="n">access_secret</span><span class="p">,</span><span class="n">query</span><span class="p">,</span><span class="n">maxresults</span><span class="o">=</span><span class="mi">100</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">api_key</span> <span class="o">=</span> <span class="n">api_key</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">api_secret</span> <span class="o">=</span> <span class="n">api_secret</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">bearer_token</span> <span class="o">=</span> <span class="n">bearer_token</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">access_token</span> <span class="o">=</span> <span class="n">access_token</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">access_secret</span> <span class="o">=</span> <span class="n">access_secret</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">query</span> <span class="o">=</span> <span class="n">query</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">maxresults</span> <span class="o">=</span> <span class="n">maxresults</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">client</span> <span class="o">=</span> <span class="n">tweepy</span><span class="o">.</span><span class="n">Client</span><span class="p">(</span><span class="n">bearer_token</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">bearer_token</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                                <span class="n">access_token</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">access_token</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                                <span class="n">access_token_secret</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">access_secret</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">search_recent</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">maxresults</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">recent_data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">client</span><span class="o">.</span><span class="n">search_recent_tweets</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">query</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">recent_data</span>
+</span></span><span class="line"><span class="cl">        <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">recent_data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">client</span><span class="o">.</span><span class="n">search_recent_tweets</span><span class="p">(</span><span class="n">query</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">query</span><span class="p">,</span><span class="n">max_results</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">maxresults</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="n">recent_data</span>
+</span></span></code></pre></div><blockquote>
 <p>使用方法 TwitterAuth(APIなどのアクセス権利,query=検索ワード,max_results=検索数量)</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="n">recent_tweets</span> <span class="o">=</span> <span class="n">TwitterAuth</span><span class="p">(</span><span class="n">api_key</span><span class="o">=</span><span class="n">api_key</span><span class="p">,</span><span class="n">api_secret</span><span class="o">=</span><span class="n">api_secret</span><span class="p">,</span><span class="n">bearer_token</span><span class="o">=</span><span class="n">bearer_token</span><span class="p">,</span><span class="n">access_token</span><span class="o">=</span><span class="n">access_token</span><span class="p">,</span><span class="n">access_secret</span><span class="o">=</span><span class="n">access_secret</span><span class="p">,</span><span class="n">query</span><span class="o">=</span><span class="n">keyword</span><span class="p">)</span><span class="o">.</span><span class="n">search_recent</span><span class="p">()</span>
-</code></pre></div></article>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">recent_tweets</span> <span class="o">=</span> <span class="n">TwitterAuth</span><span class="p">(</span><span class="n">api_key</span><span class="o">=</span><span class="n">api_key</span><span class="p">,</span><span class="n">api_secret</span><span class="o">=</span><span class="n">api_secret</span><span class="p">,</span><span class="n">bearer_token</span><span class="o">=</span><span class="n">bearer_token</span><span class="p">,</span><span class="n">access_token</span><span class="o">=</span><span class="n">access_token</span><span class="p">,</span><span class="n">access_secret</span><span class="o">=</span><span class="n">access_secret</span><span class="p">,</span><span class="n">query</span><span class="o">=</span><span class="n">keyword</span><span class="p">)</span><span class="o">.</span><span class="n">search_recent</span><span class="p">()</span>
+</span></span></code></pre></div></article>
               </div>
             </div>
           </div>

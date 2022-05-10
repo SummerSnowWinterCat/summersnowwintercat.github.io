@@ -236,45 +236,45 @@
 <blockquote>
 <p>项目结构</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml">a-maven-project
-├── pom.xml   <span class="nt">&lt;--</span> <span class="err">描述文件</span>
-<span class="err">├──</span> <span class="err">src</span>  <span class="err">&lt;--入口</span>
-<span class="err">│</span>   <span class="err">├──</span> <span class="err">main</span>
-<span class="err">│</span>   <span class="err">│</span>   <span class="err">├──</span> <span class="err">java</span> <span class="err">&lt;--</span> <span class="err">java</span> <span class="err">code</span> 
-<span class="err">│</span>   <span class="err">│</span>   <span class="err">└──</span> <span class="err">resources</span> <span class="err">&lt;--</span> <span class="err">资源文件位置</span>
-<span class="err">│</span>   <span class="err">└──</span> <span class="err">test</span> <span class="err">&lt;--</span> <span class="err">测试用源码</span>
-<span class="err">│</span>       <span class="err">├──</span> <span class="err">java</span> <span class="err">&lt;--</span> <span class="err">java</span> <span class="err">code</span>
-<span class="err">│</span>       <span class="err">└──</span> <span class="err">resources</span>  <span class="err">&lt;--</span> <span class="err">资源文件位置</span>
-<span class="err">└──</span> <span class="err">target</span> <span class="err">&lt;--打包生成文件存放</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl">a-maven-project
+</span></span><span class="line"><span class="cl">├── pom.xml   <span class="nt">&lt;--</span> <span class="err">描述文件</span>
+</span></span><span class="line"><span class="cl"><span class="err">├──</span> <span class="err">src</span>  <span class="err">&lt;--入口</span>
+</span></span><span class="line"><span class="cl"><span class="err">│</span>   <span class="err">├──</span> <span class="err">main</span>
+</span></span><span class="line"><span class="cl"><span class="err">│</span>   <span class="err">│</span>   <span class="err">├──</span> <span class="err">java</span> <span class="err">&lt;--</span> <span class="err">java</span> <span class="err">code</span> 
+</span></span><span class="line"><span class="cl"><span class="err">│</span>   <span class="err">│</span>   <span class="err">└──</span> <span class="err">resources</span> <span class="err">&lt;--</span> <span class="err">资源文件位置</span>
+</span></span><span class="line"><span class="cl"><span class="err">│</span>   <span class="err">└──</span> <span class="err">test</span> <span class="err">&lt;--</span> <span class="err">测试用源码</span>
+</span></span><span class="line"><span class="cl"><span class="err">│</span>       <span class="err">├──</span> <span class="err">java</span> <span class="err">&lt;--</span> <span class="err">java</span> <span class="err">code</span>
+</span></span><span class="line"><span class="cl"><span class="err">│</span>       <span class="err">└──</span> <span class="err">resources</span>  <span class="err">&lt;--</span> <span class="err">资源文件位置</span>
+</span></span><span class="line"><span class="cl"><span class="err">└──</span> <span class="err">target</span> <span class="err">&lt;--打包生成文件存放</span>
+</span></span></code></pre></div><blockquote>
 <p>pom.xml</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="nt">&lt;project</span> <span class="err">...</span><span class="nt">&gt;</span>
-	<span class="nt">&lt;modelVersion&gt;</span>4.0.0<span class="nt">&lt;/modelVersion&gt;</span>
-	<span class="nt">&lt;groupId&gt;</span>com.wintercat.jp<span class="nt">&lt;/groupId&gt;</span>
-	<span class="nt">&lt;artifactId&gt;</span>hello<span class="nt">&lt;/artifactId&gt;</span>
-	<span class="nt">&lt;version&gt;</span>1.0<span class="nt">&lt;/version&gt;</span>
-	<span class="nt">&lt;packaging&gt;</span>jar<span class="nt">&lt;/packaging&gt;</span>
-	<span class="nt">&lt;properties&gt;</span>
-        ...
-	<span class="nt">&lt;/properties&gt;</span>
-	<span class="nt">&lt;dependencies&gt;</span>
-        <span class="nt">&lt;dependency&gt;</span>
-            <span class="nt">&lt;groupId&gt;</span>commons-logging<span class="nt">&lt;/groupId&gt;</span>
-            <span class="nt">&lt;artifactId&gt;</span>commons-logging<span class="nt">&lt;/artifactId&gt;</span>
-            <span class="nt">&lt;version&gt;</span>1.2<span class="nt">&lt;/version&gt;</span>
-        <span class="nt">&lt;/dependency&gt;</span>
-	<span class="nt">&lt;/dependencies&gt;</span>
-<span class="nt">&lt;/project&gt;</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;project</span> <span class="err">...</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;modelVersion&gt;</span>4.0.0<span class="nt">&lt;/modelVersion&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;groupId&gt;</span>com.wintercat.jp<span class="nt">&lt;/groupId&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;artifactId&gt;</span>hello<span class="nt">&lt;/artifactId&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;version&gt;</span>1.0<span class="nt">&lt;/version&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;packaging&gt;</span>jar<span class="nt">&lt;/packaging&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;properties&gt;</span>
+</span></span><span class="line"><span class="cl">        ...
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;/properties&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;dependencies&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;dependency&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&lt;groupId&gt;</span>commons-logging<span class="nt">&lt;/groupId&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&lt;artifactId&gt;</span>commons-logging<span class="nt">&lt;/artifactId&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="nt">&lt;version&gt;</span>1.2<span class="nt">&lt;/version&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&lt;/dependency&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;/dependencies&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/project&gt;</span>
+</span></span></code></pre></div><blockquote>
 <p>依赖声明</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="nt">&lt;dependency&gt;</span>
-    <span class="nt">&lt;groupId&gt;</span>commons-logging<span class="nt">&lt;/groupId&gt;</span>  <span class="c">&lt;!-- Java的包名 --&gt;</span>
-    <span class="nt">&lt;artifactId&gt;</span>commons-logging<span class="nt">&lt;/artifactId&gt;</span>  <span class="c">&lt;!--Java的类名--&gt;</span>
-    <span class="nt">&lt;version&gt;</span>1.2<span class="nt">&lt;/version&gt;</span>  <span class="c">&lt;!--版本--&gt;</span>
-<span class="nt">&lt;/dependency&gt;</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;dependency&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;groupId&gt;</span>commons-logging<span class="nt">&lt;/groupId&gt;</span>  <span class="c">&lt;!-- Java的包名 --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;artifactId&gt;</span>commons-logging<span class="nt">&lt;/artifactId&gt;</span>  <span class="c">&lt;!--Java的类名--&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;version&gt;</span>1.2<span class="nt">&lt;/version&gt;</span>  <span class="c">&lt;!--版本--&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/dependency&gt;</span>
+</span></span></code></pre></div><blockquote>
 <p>依赖关系</p>
 </blockquote>
 <p>Maven定义了几种依赖关系，分别是<code>compile</code>、<code>test</code>、<code>runtime</code>和<code>provided</code></p>
@@ -307,13 +307,13 @@
 <blockquote>
 <p>pom.xml</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="nt">&lt;dependency&gt;</span>
-    <span class="nt">&lt;groupId&gt;</span>org.junit.jupiter<span class="nt">&lt;/groupId&gt;</span>
-    <span class="nt">&lt;artifactId&gt;</span>junit-jupiter-api<span class="nt">&lt;/artifactId&gt;</span>
-    <span class="nt">&lt;version&gt;</span>5.3.2<span class="nt">&lt;/version&gt;</span>
-    <span class="nt">&lt;scope&gt;</span>test<span class="nt">&lt;/scope&gt;</span> <span class="c">&lt;!--依赖关系--&gt;</span>
-<span class="nt">&lt;/dependency&gt;</span>
-</code></pre></div></article>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;dependency&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;groupId&gt;</span>org.junit.jupiter<span class="nt">&lt;/groupId&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;artifactId&gt;</span>junit-jupiter-api<span class="nt">&lt;/artifactId&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;version&gt;</span>5.3.2<span class="nt">&lt;/version&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;scope&gt;</span>test<span class="nt">&lt;/scope&gt;</span> <span class="c">&lt;!--依赖关系--&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/dependency&gt;</span>
+</span></span></code></pre></div></article>
               </div>
             </div>
           </div>

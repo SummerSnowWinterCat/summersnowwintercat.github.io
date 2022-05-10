@@ -211,267 +211,267 @@
               <div class="Box-body px-5 pb-5">
                 <article class="markdown-body entry-content container-lg"><p>٩(๑òωó๑)۶ ファイト〜</p>
 <h4 id="java-bronze-日本語復習--ポイント-">Java Bronze 日本語復習 [ ポイント ]</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="cm">/*
-</span><span class="cm"> Java SE の特徴
-</span><span class="cm"> 1.JVMの提供
-</span><span class="cm"> 2.標準クラスライブラリの提供
-</span><span class="cm"> 3.各種開発ツールの提供
-</span><span class="cm">*/</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="cl"><span class="cm">/*
+</span></span></span><span class="line"><span class="cl"><span class="cm"> Java SE の特徴
+</span></span></span><span class="line"><span class="cl"><span class="cm"> 1.JVMの提供
+</span></span></span><span class="line"><span class="cl"><span class="cm"> 2.標準クラスライブラリの提供
+</span></span></span><span class="line"><span class="cl"><span class="cm"> 3.各種開発ツールの提供
+</span></span></span><span class="line"><span class="cl"><span class="cm">*/</span>
+</span></span></code></pre></div><blockquote>
 <p>プリミティブ(primitive)</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="c1">// Java データ型の一つ
-</span><span class="c1">// ８種類
-</span><span class="c1"></span><span class="kt">boolean</span><span class="o">,</span><span class="kt">byte</span><span class="o">,</span><span class="kt">char</span><span class="o">,</span><span class="kt">short</span><span class="o">,</span><span class="kt">int</span><span class="o">,</span><span class="kt">float</span><span class="o">,</span><span class="kt">long</span><span class="o">,</span><span class="kt">double</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="cl"><span class="c1">// Java データ型の一つ
+</span></span></span><span class="line"><span class="cl"><span class="c1">// ８種類
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">boolean</span><span class="o">,</span><span class="kt">byte</span><span class="o">,</span><span class="kt">char</span><span class="o">,</span><span class="kt">short</span><span class="o">,</span><span class="kt">int</span><span class="o">,</span><span class="kt">float</span><span class="o">,</span><span class="kt">long</span><span class="o">,</span><span class="kt">double</span>
+</span></span></code></pre></div><blockquote>
 <p>アクセス修飾子</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="kd">public</span> <span class="c1">// 全てのクラスからアクセス可能
-</span><span class="c1"></span><span class="kd">protected</span> <span class="c1">// 同一パッケージ内のクラスからと、サブクラスからアクセス可能
-</span><span class="c1"></span><span class="kd">private</span> <span class="c1">// 同一クラスからアクセス可能
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="c1">// 全てのクラスからアクセス可能
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">protected</span> <span class="c1">// 同一パッケージ内のクラスからと、サブクラスからアクセス可能
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">private</span> <span class="c1">// 同一クラスからアクセス可能
+</span></span></span></code></pre></div><blockquote>
 <p>参照型</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="c1">// String,List,etc...
-</span><span class="c1">//参照型の特徴は、変数に格納されているのは「値」そのものではなく、
-</span><span class="c1">// 値がメモリのどこに格納されているかを示す「参照値」ということです。
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="cl"><span class="c1">// String,List,etc...
+</span></span></span><span class="line"><span class="cl"><span class="c1">//参照型の特徴は、変数に格納されているのは「値」そのものではなく、
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 値がメモリのどこに格納されているかを示す「参照値」ということです。
+</span></span></span></code></pre></div><blockquote>
 <p>定数の宣言</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">// アクセス修飾子　final 定数の型　定数名;
-</span><span class="c1"></span><span class="kd">public</span> <span class="kd">static</span> <span class="kd">final</span> <span class="kt">int</span> <span class="n">NUMBER</span> <span class="o">=</span> <span class="n">10</span><span class="o">;</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">// アクセス修飾子　final 定数の型　定数名;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">public</span> <span class="kd">static</span> <span class="kd">final</span> <span class="kt">int</span> <span class="n">NUMBER</span> <span class="o">=</span> <span class="n">10</span><span class="o">;</span>
+</span></span></code></pre></div><blockquote>
 <p>インスタンス(instance)変数 - 实例</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Document</span><span class="o">{</span>
-<span class="c1">// アクセス修飾子　型名　変数名;
-</span><span class="c1"></span>	<span class="kd">public</span> <span class="kt">int</span> <span class="n">number</span><span class="o">;</span>
-	<span class="kd">public</span> <span class="kt">void</span> <span class="nf">test</span><span class="o">(){</span>
-			<span class="c1">// メソッド定義
-</span><span class="c1"></span>	<span class="o">}</span>
-<span class="o">}</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Document</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// アクセス修飾子　型名　変数名;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="kd">public</span> <span class="kt">int</span> <span class="n">number</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">public</span> <span class="kt">void</span> <span class="nf">test</span><span class="o">(){</span>
+</span></span><span class="line"><span class="cl">			<span class="c1">// メソッド定義
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><blockquote>
 <p>インタフェースに定義するフィールドの修飾子</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="c1">// static、final、public 
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="cl"><span class="c1">// static、final、public 
+</span></span></span></code></pre></div><blockquote>
 <p>static 変数</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Document</span><span class="o">{</span>
-	<span class="c1">// static　変数の宣言
-</span><span class="c1"></span>	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span> <span class="n">number</span><span class="o">;</span>
-	<span class="c1">// インスタンス(instance)変数宣言
-</span><span class="c1"></span>	<span class="kd">public</span> <span class="kt">int</span> <span class="n">file_size</span><span class="o">;</span>
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">test</span><span class="o">(){</span>
-			<span class="c1">// メソッド定義
-</span><span class="c1"></span>	<span class="o">}</span>
-<span class="o">}</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Document</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// static　変数の宣言
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">int</span> <span class="n">number</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">	<span class="c1">// インスタンス(instance)変数宣言
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="kd">public</span> <span class="kt">int</span> <span class="n">file_size</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">test</span><span class="o">(){</span>
+</span></span><span class="line"><span class="cl">			<span class="c1">// メソッド定義
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><blockquote>
 <p>配列の宣言</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">// 要素のデータ型[]  変数名;
-</span><span class="c1"></span><span class="kt">int</span> <span class="o">[]</span> <span class="n">array</span><span class="o">;</span><span class="c1">// 宣言
-</span><span class="c1"></span>
-<span class="c1">// 変数名 = new 要素のデータ型[要素数]
-</span><span class="c1"></span><span class="n">array</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">3</span><span class="o">];</span><span class="c1">//インスタンスの生成,参照を変数に代入
-</span><span class="c1"></span>
-<span class="c1">// int 配列型変数の宣言、配列インスタンスの生成、参照を変数に代入
-</span><span class="c1"></span><span class="kt">int</span><span class="o">[]</span> <span class="n">array</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">3</span><span class="o">];</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">// 要素のデータ型[]  変数名;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="o">[]</span> <span class="n">array</span><span class="o">;</span><span class="c1">// 宣言
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 変数名 = new 要素のデータ型[要素数]
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">array</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">3</span><span class="o">];</span><span class="c1">//インスタンスの生成,参照を変数に代入
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="c1">// int 配列型変数の宣言、配列インスタンスの生成、参照を変数に代入
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span><span class="o">[]</span> <span class="n">array</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">3</span><span class="o">];</span>
+</span></span></code></pre></div><blockquote>
 <p>配列の長さを参照する方法</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="kt">int</span><span class="o">[]</span> <span class="n">array</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">3</span><span class="o">];</span>
-<span class="c1">// 配列の長さ
-</span><span class="c1"></span><span class="n">array</span><span class="o">.</span><span class="na">length</span><span class="o">;</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="cl"><span class="kt">int</span><span class="o">[]</span> <span class="n">array</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">3</span><span class="o">];</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 配列の長さ
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">array</span><span class="o">.</span><span class="na">length</span><span class="o">;</span>
+</span></span></code></pre></div><blockquote>
 <p>パッケージの三つの機能</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="c1">// パッケージの三つの機能
-</span><span class="c1">// 名前空間を提供し、名前の衝突を避ける
-</span><span class="c1">// アクセス修飾子と組み合わせてアクセス制御機能を提供する
-</span><span class="c1">// クラスの分類を可能にする
-</span><span class="c1">// 構文: package パッケージ名;
-</span><span class="c1"></span><span class="kn">package</span> <span class="nn">test</span><span class="o">;</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="cl"><span class="c1">// パッケージの三つの機能
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 名前空間を提供し、名前の衝突を避ける
+</span></span></span><span class="line"><span class="cl"><span class="c1">// アクセス修飾子と組み合わせてアクセス制御機能を提供する
+</span></span></span><span class="line"><span class="cl"><span class="c1">// クラスの分類を可能にする
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 構文: package パッケージ名;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kn">package</span> <span class="nn">test</span><span class="o">;</span>
+</span></span></code></pre></div><blockquote>
 <p>インポート</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="kn">package</span> <span class="nn">test</span><span class="o">;</span>
-<span class="kn">import</span> <span class="nn">java.math.BigDecimal</span><span class="o">;</span> <span class="c1">// 完全修飾子クラス名
-</span><span class="c1"></span><span class="kn">import</span> <span class="nn">java.math.*</span><span class="o">;</span> <span class="c1">// ワイルドカード表記
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Java" data-lang="Java"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nn">test</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">java.math.BigDecimal</span><span class="o">;</span> <span class="c1">// 完全修飾子クラス名
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kn">import</span> <span class="nn">java.math.*</span><span class="o">;</span> <span class="c1">// ワイルドカード表記
+</span></span></span></code></pre></div><blockquote>
 <p>インタフェース</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">// インタフェースは情報隠蔽を実現方法として使用します(公開する部分を担当)
-</span><span class="c1">// 情報隠蔽は、抽象化を維持する目的（非公開と公開明確に分け）
-</span><span class="c1">// インタフェースはインスタンス化できない！
-</span><span class="c1">//　インタフェースに定義できるのは、定数フィールドのみ
-</span><span class="c1"></span><span class="kd">static</span> <span class="kd">final</span> <span class="n">value</span><span class="o">;</span><span class="c1">//定数フィールド
-</span><span class="c1">// インタフェースの定義と実現
-</span><span class="c1"></span><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">Sample</span><span class="o">{</span>
-   <span class="kt">void</span> <span class="nf">sample</span><span class="o">();</span>
-<span class="o">}</span>
-<span class="c1">// 実現 implements Sample
-</span><span class="c1"></span><span class="kd">public</span> <span class="n">Class</span> <span class="n">SampleImpl</span> <span class="kd">implements</span> <span class="n">Sample</span><span class="o">{</span>
-	<span class="kd">public</span> <span class="kt">void</span> <span class="nf">sample</span><span class="o">(){</span>
-		 <span class="c1">// code
-</span><span class="c1"></span>	<span class="o">}</span>
-<span class="o">}</span>
-<span class="c1">// 複数 implements Sample,Test
-</span><span class="c1"></span><span class="kd">public</span> <span class="n">Class</span> <span class="n">SampleImpl</span> <span class="kd">implements</span> <span class="n">Sample</span><span class="o">,</span><span class="n">Test</span><span class="o">{</span>
-	<span class="kd">public</span> <span class="kt">void</span> <span class="nf">sample</span><span class="o">(){</span>
-		<span class="c1">// code
-</span><span class="c1"></span>	<span class="o">}</span>
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">test</span><span class="o">(){</span>
-		 <span class="c1">// code
-</span><span class="c1"></span>  <span class="o">}</span>
-<span class="o">}</span>
-<span class="cm">/*
-</span><span class="cm">クラスは複数のインタフェースを実現できる
-</span><span class="cm">インタフェースは複数のインタフェースを継承できる
-</span><span class="cm">クラスは複数のクラスを継承できない　
-</span><span class="cm">*/</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">// インタフェースは情報隠蔽を実現方法として使用します(公開する部分を担当)
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 情報隠蔽は、抽象化を維持する目的（非公開と公開明確に分け）
+</span></span></span><span class="line"><span class="cl"><span class="c1">// インタフェースはインスタンス化できない！
+</span></span></span><span class="line"><span class="cl"><span class="c1">//　インタフェースに定義できるのは、定数フィールドのみ
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">static</span> <span class="kd">final</span> <span class="n">value</span><span class="o">;</span><span class="c1">//定数フィールド
+</span></span></span><span class="line"><span class="cl"><span class="c1">// インタフェースの定義と実現
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">Sample</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl">   <span class="kt">void</span> <span class="nf">sample</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 実現 implements Sample
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">public</span> <span class="n">Class</span> <span class="n">SampleImpl</span> <span class="kd">implements</span> <span class="n">Sample</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">public</span> <span class="kt">void</span> <span class="nf">sample</span><span class="o">(){</span>
+</span></span><span class="line"><span class="cl">		 <span class="c1">// code
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 複数 implements Sample,Test
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">public</span> <span class="n">Class</span> <span class="n">SampleImpl</span> <span class="kd">implements</span> <span class="n">Sample</span><span class="o">,</span><span class="n">Test</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">public</span> <span class="kt">void</span> <span class="nf">sample</span><span class="o">(){</span>
+</span></span><span class="line"><span class="cl">		<span class="c1">// code
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="o">}</span>
+</span></span><span class="line"><span class="cl">  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">test</span><span class="o">(){</span>
+</span></span><span class="line"><span class="cl">		 <span class="c1">// code
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="cm">/*
+</span></span></span><span class="line"><span class="cl"><span class="cm">クラスは複数のインタフェースを実現できる
+</span></span></span><span class="line"><span class="cl"><span class="cm">インタフェースは複数のインタフェースを継承できる
+</span></span></span><span class="line"><span class="cl"><span class="cm">クラスは複数のクラスを継承できない　
+</span></span></span><span class="line"><span class="cl"><span class="cm">*/</span>
+</span></span></code></pre></div><blockquote>
 <p>抽象メソッド</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">// インタフェースに定義した抽象メソッドは、暗黙的にpublic abstract　で修飾され
-</span><span class="c1"></span><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">Sample</span><span class="o">{</span>
-	 <span class="kt">void</span> <span class="nf">test</span><span class="o">(</span><span class="n">String</span> <span class="n">t</span><span class="o">);</span><span class="c1">// 抽象メソッド
-</span><span class="c1"></span><span class="o">}</span>
-<span class="c1">// 抽象クラス 
-</span><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="kd">class</span> <span class="nc">Test</span><span class="o">{</span>
-	<span class="kd">private</span> <span class="n">String</span> <span class="n">t_name</span><span class="o">;</span>
-	<span class="kd">public</span> <span class="nf">Test</span><span class="o">(</span><span class="n">String</span> <span class="n">t_name</span><span class="o">){</span>
-	  <span class="k">this</span><span class="o">.</span><span class="na">t_name</span>  <span class="o">=</span> <span class="n">t_name</span><span class="o">;</span>	  
-  <span class="o">}</span>
-  <span class="kd">public</span> <span class="n">String</span> <span class="nf">getName</span><span class="o">(){</span>
-			<span class="k">return</span> <span class="n">t_name</span><span class="o">;</span>
-  <span class="o">}</span>
-  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">check</span><span class="o">(){</span>
-     <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">t_name</span><span class="o">);</span>  
-  <span class="o">}</span>
-<span class="o">}</span>
-<span class="cm">/*
-</span><span class="cm">抽象クラスの特徴
-</span><span class="cm">1.抽象クラスは、クラスとインタフェース両方の性質を持つクラス
-</span><span class="cm">2.抽象クラスは インスタンスできない ！
-</span><span class="cm">3.定義したメソッドは、抽象クラスを継承する具象クラスが実装する
-</span><span class="cm">4.抽象クラスに定義するメソッドは、abstractで修飾しない と コンパイルエラー！
-</span><span class="cm">*/</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">// インタフェースに定義した抽象メソッドは、暗黙的にpublic abstract　で修飾され
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">Sample</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	 <span class="kt">void</span> <span class="nf">test</span><span class="o">(</span><span class="n">String</span> <span class="n">t</span><span class="o">);</span><span class="c1">// 抽象メソッド
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// 抽象クラス 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">public</span> <span class="kd">abstract</span> <span class="kd">class</span> <span class="nc">Test</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">private</span> <span class="n">String</span> <span class="n">t_name</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">public</span> <span class="nf">Test</span><span class="o">(</span><span class="n">String</span> <span class="n">t_name</span><span class="o">){</span>
+</span></span><span class="line"><span class="cl">	  <span class="k">this</span><span class="o">.</span><span class="na">t_name</span>  <span class="o">=</span> <span class="n">t_name</span><span class="o">;</span>	  
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>
+</span></span><span class="line"><span class="cl">  <span class="kd">public</span> <span class="n">String</span> <span class="nf">getName</span><span class="o">(){</span>
+</span></span><span class="line"><span class="cl">			<span class="k">return</span> <span class="n">t_name</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>
+</span></span><span class="line"><span class="cl">  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">check</span><span class="o">(){</span>
+</span></span><span class="line"><span class="cl">     <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">t_name</span><span class="o">);</span>  
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="cm">/*
+</span></span></span><span class="line"><span class="cl"><span class="cm">抽象クラスの特徴
+</span></span></span><span class="line"><span class="cl"><span class="cm">1.抽象クラスは、クラスとインタフェース両方の性質を持つクラス
+</span></span></span><span class="line"><span class="cl"><span class="cm">2.抽象クラスは インスタンスできない ！
+</span></span></span><span class="line"><span class="cl"><span class="cm">3.定義したメソッドは、抽象クラスを継承する具象クラスが実装する
+</span></span></span><span class="line"><span class="cl"><span class="cm">4.抽象クラスに定義するメソッドは、abstractで修飾しない と コンパイルエラー！
+</span></span></span><span class="line"><span class="cl"><span class="cm">*/</span>
+</span></span></code></pre></div><blockquote>
 <p>カプセル化(封装)</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Sample</span><span class="o">{</span>
-  <span class="c1">// フィールド変数
-</span><span class="c1"></span>	<span class="kd">private</span> <span class="n">String</span> <span class="n">s_name</span><span class="o">;</span>
-  <span class="c1">// Setter 
-</span><span class="c1"></span>  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">setName</span><span class="o">(</span><span class="n">String</span> <span class="n">s_name</span><span class="o">){</span>
-	    <span class="k">this</span><span class="o">.</span><span class="na">s_name</span> <span class="o">=</span> <span class="n">s_name</span><span class="o">;</span>
-  <span class="o">}</span>
-  <span class="c1">//Getter
-</span><span class="c1"></span>  <span class="kd">public</span> <span class="n">String</span> <span class="nf">getName</span><span class="o">(){</span>
-			<span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">s_name</span><span class="o">;</span>
-  <span class="o">}</span>
-<span class="o">}</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Sample</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// フィールド変数
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="kd">private</span> <span class="n">String</span> <span class="n">s_name</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Setter 
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">setName</span><span class="o">(</span><span class="n">String</span> <span class="n">s_name</span><span class="o">){</span>
+</span></span><span class="line"><span class="cl">	    <span class="k">this</span><span class="o">.</span><span class="na">s_name</span> <span class="o">=</span> <span class="n">s_name</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">//Getter
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kd">public</span> <span class="n">String</span> <span class="nf">getName</span><span class="o">(){</span>
+</span></span><span class="line"><span class="cl">			<span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">s_name</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><blockquote>
 <p>コンストラクタ</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="cm">/*
-</span><span class="cm">	コンストラクタはメソッド関数であること
-</span><span class="cm">	コンストラクタはメソッド名はクラス名と同じであること
-</span><span class="cm">	コンストラクタは戻り値を記載不要であること　（void）も必要ありません
-</span><span class="cm">*/</span>
-<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Sample</span><span class="o">{</span>
-	 <span class="kd">private</span> <span class="n">String</span> <span class="n">name</span><span class="o">;</span>
-   <span class="kd">public</span> <span class="nf">Sample</span><span class="o">(){</span>
-      <span class="c1">// コンストラクタ
-</span><span class="c1"></span>   <span class="o">}</span>
-   <span class="kd">public</span> <span class="nf">Sample</span><span class="o">(</span><span class="kt">int</span> <span class="n">a</span><span class="o">){</span>
-     <span class="c1">// 引数がある　コンストラクタ
-</span><span class="c1"></span>   <span class="o">}</span>
-<span class="o">}</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="cm">/*
+</span></span></span><span class="line"><span class="cl"><span class="cm">	コンストラクタはメソッド関数であること
+</span></span></span><span class="line"><span class="cl"><span class="cm">	コンストラクタはメソッド名はクラス名と同じであること
+</span></span></span><span class="line"><span class="cl"><span class="cm">	コンストラクタは戻り値を記載不要であること　（void）も必要ありません
+</span></span></span><span class="line"><span class="cl"><span class="cm">*/</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Sample</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	 <span class="kd">private</span> <span class="n">String</span> <span class="n">name</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">   <span class="kd">public</span> <span class="nf">Sample</span><span class="o">(){</span>
+</span></span><span class="line"><span class="cl">      <span class="c1">// コンストラクタ
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>   <span class="o">}</span>
+</span></span><span class="line"><span class="cl">   <span class="kd">public</span> <span class="nf">Sample</span><span class="o">(</span><span class="kt">int</span> <span class="n">a</span><span class="o">){</span>
+</span></span><span class="line"><span class="cl">     <span class="c1">// 引数がある　コンストラクタ
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>   <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><blockquote>
 <p>this() 先頭行</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="k">this</span><span class="o">();</span>
-<span class="c1">// コンストラクタブロック内の先頭行でのみ利用でき、先頭行以外で利用することができな
-</span><span class="c1">// コンパイルエラーとなります
-</span><span class="c1"></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Demo</span><span class="o">{</span>
-	 <span class="n">Demo</span><span class="o">(){</span> <span class="c1">// code }
-</span><span class="c1"></span>	 <span class="n">Demo</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">){</span> 
-      <span class="k">this</span><span class="o">();</span>
-      <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">name</span><span class="o">);</span>
-  <span class="o">}</span>
-<span class="o">}</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="k">this</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// コンストラクタブロック内の先頭行でのみ利用でき、先頭行以外で利用することができな
+</span></span></span><span class="line"><span class="cl"><span class="c1">// コンパイルエラーとなります
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Demo</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	 <span class="n">Demo</span><span class="o">(){</span> <span class="c1">// code }
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	 <span class="n">Demo</span><span class="o">(</span><span class="n">String</span> <span class="n">name</span><span class="o">){</span> 
+</span></span><span class="line"><span class="cl">      <span class="k">this</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl">      <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">name</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><blockquote>
 <p>シグニチャ(signature)</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">// メソッド名、引数の数、引数の型、引数の順番 -&gt; シグニチャ
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">// メソッド名、引数の数、引数の型、引数の順番 -&gt; シグニチャ
+</span></span></span></code></pre></div><blockquote>
 <p>継承（super）</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">//  継承
-</span><span class="c1">// 引き継げないもの:コンストラクタ、privateなフィールドやメソッド
-</span><span class="c1">// 引き継くもの:finalなフィールド、publicで修飾されたメソッド（オーバーライド）
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">//  継承
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 引き継げないもの:コンストラクタ、privateなフィールドやメソッド
+</span></span></span><span class="line"><span class="cl"><span class="c1">// 引き継くもの:finalなフィールド、publicで修飾されたメソッド（オーバーライド）
+</span></span></span></code></pre></div><blockquote>
 <p>private修飾可能対象</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">// クラスのコンストラクタ
-</span><span class="c1">// クラスのフィールド
-</span><span class="c1">// クラスの具象メソッド
-</span><span class="c1"></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Demo</span><span class="o">{</span>
-	<span class="kd">private</span> <span class="n">String</span> <span class="n">name</span><span class="o">;</span> <span class="c1">// クラスのフィールド
-</span><span class="c1"></span>  <span class="kd">private</span> <span class="nf">Demo</span><span class="o">(){}</span> <span class="c1">// クラスのコンストラクタ
-</span><span class="c1"></span>  <span class="kd">private</span> <span class="n">String</span> <span class="nf">getName</span><span class="o">(){</span> <span class="c1">// クラスの具象メソッド
-</span><span class="c1"></span>		  <span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">name</span><span class="o">;</span>
-  <span class="o">}</span>
-<span class="o">}</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">// クラスのコンストラクタ
+</span></span></span><span class="line"><span class="cl"><span class="c1">// クラスのフィールド
+</span></span></span><span class="line"><span class="cl"><span class="c1">// クラスの具象メソッド
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Demo</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl">	<span class="kd">private</span> <span class="n">String</span> <span class="n">name</span><span class="o">;</span> <span class="c1">// クラスのフィールド
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kd">private</span> <span class="nf">Demo</span><span class="o">(){}</span> <span class="c1">// クラスのコンストラクタ
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="kd">private</span> <span class="n">String</span> <span class="nf">getName</span><span class="o">(){</span> <span class="c1">// クラスの具象メソッド
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>		  <span class="k">return</span> <span class="k">this</span><span class="o">.</span><span class="na">name</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></div><blockquote>
 <p>「６：２０」と表示される</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-        <span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="n">12</span><span class="o">;</span>
-        <span class="kt">int</span> <span class="n">b</span>  <span class="o">=</span> <span class="n">8</span> <span class="o">;</span>
-        <span class="k">if</span><span class="o">(</span><span class="n">a</span><span class="o">&gt;=</span><span class="n">10</span><span class="o">||</span><span class="n">b</span><span class="o">&gt;=</span><span class="n">10</span><span class="o">){</span>　<span class="c1">// a &gt;=10 --&gt; true
-</span><span class="c1"></span>            <span class="n">a</span> <span class="o">/=</span> <span class="n">2</span><span class="o">;</span> <span class="c1">// a = 6
-</span><span class="c1"></span>            <span class="n">b</span><span class="o">+=</span><span class="n">a</span><span class="o">;</span>  <span class="c1">// b = 6+8 = 14
-</span><span class="c1"></span>        <span class="o">}</span><span class="k">else</span> <span class="c1">// &lt;---{ なし
-</span><span class="c1"></span>            <span class="n">a</span> <span class="o">/=</span><span class="n">2</span><span class="o">;</span> <span class="c1">// } によって
-</span><span class="c1"></span>
-            <span class="n">b</span> <span class="o">+=</span><span class="n">a</span><span class="o">;</span> <span class="c1">// 14+6 = 20
-</span><span class="c1"></span>            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">a</span><span class="o">+</span><span class="s">&#34;:&#34;</span><span class="o">+</span><span class="n">b</span><span class="o">);</span> <span class="c1">// 6 : 20
-</span><span class="c1"></span>    <span class="o">}</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="n">12</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">b</span>  <span class="o">=</span> <span class="n">8</span> <span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span><span class="o">(</span><span class="n">a</span><span class="o">&gt;=</span><span class="n">10</span><span class="o">||</span><span class="n">b</span><span class="o">&gt;=</span><span class="n">10</span><span class="o">){</span>　<span class="c1">// a &gt;=10 --&gt; true
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="n">a</span> <span class="o">/=</span> <span class="n">2</span><span class="o">;</span> <span class="c1">// a = 6
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="n">b</span><span class="o">+=</span><span class="n">a</span><span class="o">;</span>  <span class="c1">// b = 6+8 = 14
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="o">}</span><span class="k">else</span> <span class="c1">// &lt;---{ なし
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="n">a</span> <span class="o">/=</span><span class="n">2</span><span class="o">;</span> <span class="c1">// } によって
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">            <span class="n">b</span> <span class="o">+=</span><span class="n">a</span><span class="o">;</span> <span class="c1">// 14+6 = 20
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">a</span><span class="o">+</span><span class="s">&#34;:&#34;</span><span class="o">+</span><span class="n">b</span><span class="o">);</span> <span class="c1">// 6 : 20
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="o">}</span>
+</span></span></code></pre></div><blockquote>
 <p>10:10と表示される</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-            <span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">5</span><span class="o">;</span>
-							<span class="c1">// i = 5 + 5  --&gt;i+=5
-</span><span class="c1"></span>            <span class="c1">// iを使用した後で +1; i++
-</span><span class="c1"></span>            <span class="c1">// iを+1した後で使用する; ++i
-</span><span class="c1"></span>            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">((</span><span class="n">i</span><span class="o">+=</span><span class="n">5</span><span class="o">)+</span><span class="s">&#34;:&#34;</span><span class="o">+(</span><span class="n">i</span><span class="o">--));</span>
-            <span class="c1">// 10:10
-</span><span class="c1"></span>            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">((</span><span class="n">i</span><span class="o">+=</span><span class="n">5</span><span class="o">)+</span><span class="s">&#34;:&#34;</span><span class="o">+(--</span><span class="n">i</span><span class="o">));</span>
-            <span class="c1">// 10:9
-</span><span class="c1"></span>    <span class="o">}</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">5</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">							<span class="c1">// i = 5 + 5  --&gt;i+=5
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="c1">// iを使用した後で +1; i++
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="c1">// iを+1した後で使用する; ++i
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">((</span><span class="n">i</span><span class="o">+=</span><span class="n">5</span><span class="o">)+</span><span class="s">&#34;:&#34;</span><span class="o">+(</span><span class="n">i</span><span class="o">--));</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">// 10:10
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">((</span><span class="n">i</span><span class="o">+=</span><span class="n">5</span><span class="o">)+</span><span class="s">&#34;:&#34;</span><span class="o">+(--</span><span class="n">i</span><span class="o">));</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">// 10:9
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="o">}</span>
+</span></span></code></pre></div><blockquote>
 <p>2  2.5と表示される</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">5</span><span class="o">/</span><span class="n">2</span><span class="o">);</span> <span class="c1">// 2 (int)
-</span><span class="c1"></span>        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">5</span><span class="o">/</span><span class="n">2</span><span class="o">.</span><span class="na">0</span><span class="o">);</span> <span class="c1">// 2.5 (float)
-</span><span class="c1"></span>    <span class="o">}</span>
-</code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">5</span><span class="o">/</span><span class="n">2</span><span class="o">);</span> <span class="c1">// 2 (int)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">5</span><span class="o">/</span><span class="n">2</span><span class="o">.</span><span class="na">0</span><span class="o">);</span> <span class="c1">// 2.5 (float)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="o">}</span>
+</span></span></code></pre></div><blockquote>
 <p>final宣言 &amp;&amp; static宣言</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kd">final</span> <span class="kt">int</span> <span class="n">obj</span> <span class="o">=</span><span class="n">1</span><span class="o">;</span> <span class="c1">// final
-</span><span class="c1"></span><span class="kd">final</span> <span class="kd">class</span> <span class="nf">Demo</span><span class="o">(){}</span>  <span class="c1">// final
-</span><span class="c1"></span><span class="kd">static</span> <span class="kt">int</span> <span class="n">obj</span> <span class="o">=</span> <span class="n">2</span><span class="o">;</span> <span class="c1">// static フィールド
-</span><span class="c1"></span><span class="kd">static</span> <span class="kt">void</span> <span class="nf">Demo</span><span class="o">(){}</span> <span class="c1">// static　メソッド
-</span></code></pre></div><blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">final</span> <span class="kt">int</span> <span class="n">obj</span> <span class="o">=</span><span class="n">1</span><span class="o">;</span> <span class="c1">// final
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">final</span> <span class="kd">class</span> <span class="nf">Demo</span><span class="o">(){}</span>  <span class="c1">// final
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">static</span> <span class="kt">int</span> <span class="n">obj</span> <span class="o">=</span> <span class="n">2</span><span class="o">;</span> <span class="c1">// static フィールド
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">static</span> <span class="kt">void</span> <span class="nf">Demo</span><span class="o">(){}</span> <span class="c1">// static　メソッド
+</span></span></span></code></pre></div><blockquote>
 <p>ポリモーフィズム</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">// 多态:继承,重写,父类引用指向子类
-</span></code></pre></div></article>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">// 多态:继承,重写,父类引用指向子类
+</span></span></span></code></pre></div></article>
               </div>
             </div>
           </div>
